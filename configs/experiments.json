@@ -1,0 +1,140 @@
+{
+  "defaults": {
+    "seed": 2026100321,
+    "architecture": "resnet18",
+    "base_width": 64,
+    "stage": "snn",
+    "dataset": "cifar100",
+    "method": "phase",
+    "timesteps": 2,
+    "max_count": 1,
+    "epochs": 160,
+    "batch_size": 5120,
+    "lr": 0.05,
+    "min_lr": 0.0001,
+    "warmup_epochs": 5,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "gradient_clip": 5.0,
+    "kd_weight": 0.0,
+    "temperature": 1.0,
+    "teacher_chunk": 1024,
+    "eval_epochs": [
+      80,
+      160
+    ],
+    "training_examples": 42000
+  },
+  "experiments": {
+    "c100-m3-t2": {
+      "max_count": 3,
+      "kd_weight": 0.5,
+      "batch_size": 6144
+    },
+    "c100-m3-t4": {
+      "max_count": 3,
+      "timesteps": 4,
+      "kd_weight": 0.5,
+      "batch_size": 3072
+    },
+    "c10-m3-t2": {
+      "dataset": "cifar10",
+      "max_count": 3,
+      "kd_weight": 0.5,
+      "batch_size": 6144,
+      "eval_epochs": [],
+      "training_examples": 50000
+    },
+    "c100-phase-t2": {},
+    "c100-phase-kd-t2": {
+      "kd_weight": 0.5,
+      "batch_size": 6144
+    },
+    "c100-phase-kd-t4": {
+      "timesteps": 4,
+      "kd_weight": 0.5,
+      "batch_size": 3072
+    },
+    "c100-triangular-t2": {
+      "method": "triangular"
+    },
+    "c100-triangular-kd-t4": {
+      "method": "triangular",
+      "timesteps": 4,
+      "kd_weight": 0.5,
+      "batch_size": 3072
+    },
+    "c100-diagonal-t2": {
+      "method": "diagonal"
+    },
+    "c100-resnet50-t2": {
+      "architecture": "resnet50",
+      "batch_size": 1024
+    },
+    "c10-phase-t4": {
+      "dataset": "cifar10",
+      "timesteps": 4,
+      "kd_weight": 0.5,
+      "batch_size": 3072,
+      "eval_epochs": [],
+      "training_examples": 50000
+    },
+    "c100-ann": {
+      "stage": "ann",
+      "epochs": 400,
+      "batch_size": 128,
+      "lr": 0.1,
+      "gradient_clip": null,
+      "eval_epochs": [
+        200,
+        400
+      ]
+    },
+    "c10-ann": {
+      "dataset": "cifar10",
+      "stage": "ann",
+      "epochs": 0,
+      "eval_epochs": [],
+      "training_examples": 50000
+    },
+    "c100-qat": {
+      "stage": "qat",
+      "epochs": 200,
+      "batch_size": 8192,
+      "lr": 0.1,
+      "eval_epochs": [
+        100,
+        200
+      ],
+      "require_thresholds": true
+    },
+    "c10-qat": {
+      "dataset": "cifar10",
+      "stage": "qat",
+      "epochs": 200,
+      "batch_size": 8192,
+      "lr": 0.1,
+      "eval_epochs": [],
+      "calibration_batch_size": 32,
+      "training_examples": 50000
+    },
+    "c100-resnet50-qat": {
+      "architecture": "resnet50",
+      "stage": "qat",
+      "epochs": 200,
+      "batch_size": 1536,
+      "lr": 0.1,
+      "eval_epochs": [
+        100,
+        200
+      ],
+      "calibration_batch_size": 64
+    },
+    "c100-resnet50-ann": {
+      "architecture": "resnet50",
+      "stage": "ann",
+      "epochs": 0,
+      "eval_epochs": []
+    }
+  }
+}

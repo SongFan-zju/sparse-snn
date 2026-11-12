@@ -1,0 +1,101 @@
+{
+  "note": "Paper weights are identified below. Only the upstream CIFAR10 ANN currently has a public download URL; other release assets have not been hosted.",
+  "weights": {
+    "c100-ann": {
+      "filename": "c100-ann.pt",
+      "sha256": "7bd716f9db1ed59c8dae012aaa91135b0e51a68a084d63a39865429cd96962fe",
+      "bytes": 44957182
+    },
+    "c100-qat": {
+      "filename": "c100-qat.pt",
+      "sha256": "fe85a5ee54e94d70092822c4fce0ff8b3df1861d6e35840085beb7470f0bcb06",
+      "bytes": 44980380
+    },
+    "c100-qat-thresholds": {
+      "filename": "c100-qat-thresholds.pt",
+      "sha256": "e1c82abf6c807f4726fee4ee513658b824dade7037228cb9f9602e14d6784f9c",
+      "bytes": 45155566
+    },
+    "c100-m3-t2": {
+      "filename": "c100-m3-t2.pt",
+      "sha256": "9d482eec02f1d3ab2825ba74d7b2092683f756f0f8f70ee7beea7c4e6e251bbb",
+      "bytes": 44982364
+    },
+    "c100-m3-t4": {
+      "filename": "c100-m3-t4.pt",
+      "sha256": "b93e3c45b96fef512c857a6fd328944a9c682ddb28fddd1061ca96a30cb00e36",
+      "bytes": 44983004
+    },
+    "c100-phase-t2": {
+      "filename": "c100-phase-t2.pt",
+      "sha256": "662df276949ef78a8a001db4e6975b7d1738cf4a7a55717e7bec634a2b2eacbc",
+      "bytes": 44981276
+    },
+    "c100-phase-kd-t2": {
+      "filename": "c100-phase-kd-t2.pt",
+      "sha256": "5b0cfbef5ba49234ea008154c99a3e04411a53d409ad8c792c746503e5a66a4a",
+      "bytes": 44980700
+    },
+    "c100-phase-kd-t4": {
+      "filename": "c100-phase-kd-t4.pt",
+      "sha256": "1fe3cadcdad3760f930e43691245b57c5a13844b97d3c2e5c112f77602b7bd00",
+      "bytes": 44981340
+    },
+    "c100-triangular-t2": {
+      "filename": "c100-triangular-t2.pt",
+      "sha256": "70aeed3eda22c5b51e7c247718b4e2691a6b4d392a5178d3eee80ac71ebce3c6",
+      "bytes": 44979420
+    },
+    "c100-triangular-kd-t4": {
+      "filename": "c100-triangular-kd-t4.pt",
+      "sha256": "e84dc2cd3fdc14abd078f2850910d5777f4359e2bc103b500d3da5518fbc34fc",
+      "bytes": 44981916
+    },
+    "c100-diagonal-t2": {
+      "filename": "c100-diagonal-t2.pt",
+      "sha256": "882f6e290836e107b122ccc8c3b21770ce417ee6d79287651fc1234d35f7c6ae",
+      "bytes": 44979612
+    },
+    "c10-ann": {
+      "filename": "c10-ann.pt",
+      "sha256": "f656242526b567dbd46857276acbcfcb4ee74a7f8a7ae5e56557b7e8fa5d914a",
+      "bytes": 44774261,
+      "url": "https://huggingface.co/edadaltocg/resnet18_cifar10/resolve/ccacbae365101b9bfa45e1f17f4acac30c2601b2/pytorch_model.bin"
+    },
+    "c10-qat": {
+      "filename": "c10-qat.pt",
+      "sha256": "b496a288dd971d3e4180a7b6bca3c9d87d62b3555a0fca06f0ed68f5e8cf3b89",
+      "bytes": 89556276
+    },
+    "c10-phase-t4": {
+      "filename": "c10-phase-t4.pt",
+      "sha256": "46616b926ad3d42843951f341c18844910a9771535cdadadd43735e540c35290",
+      "bytes": 89536342
+    },
+    "c10-m3-t2": {
+      "filename": "c10-m3-t2.pt",
+      "sha256": "7617595f353fd13e33ac4618f6c3079bac231cf64175731a25eb48e06d7b785f",
+      "bytes": 89535958
+    },
+    "c100-resnet50-ann": {
+      "filename": "c100-resnet50-ann.pt",
+      "sha256": "51bc52b5d5fc603315afa42615765bd710a362529dca004f999070dd8a2e4bfc",
+      "bytes": 95151754
+    },
+    "c100-resnet50-qat": {
+      "filename": "c100-resnet50-qat.pt",
+      "sha256": "701db4389fb4aad7463212455540645a2a271fe58a4172cac69695d96f35b838",
+      "bytes": 95239056
+    },
+    "c100-resnet50-qat-thresholds": {
+      "filename": "c100-resnet50-qat-thresholds.pt",
+      "sha256": "62831df50af64a664d4aa7abb5fbfea93bd5d2d1f919b47e95b9c2fb6a975d38",
+      "bytes": 113923
+    },
+    "c100-resnet50-t2": {
+      "filename": "c100-resnet50-t2.pt",
+      "sha256": "543c188f78aec4a875b05a9c749b6068fac135dec9af52ac67c1c7c6d748945a",
+      "bytes": 95241680
+    }
+  }
+}
