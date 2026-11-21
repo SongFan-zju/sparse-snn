@@ -1,0 +1,1557 @@
+{
+  "schema_version": 1,
+  "created": "2026-11-21",
+  "repository": ".",
+  "base_commit": "9ab27b821beca5946d98ac864ee391df983e52ac",
+  "policy": {
+    "training_started": false,
+    "gpu_used": false,
+    "source_edits": false,
+    "checkpoint_data_logs_bundled": false
+  },
+  "files": [
+    {
+      "path": "requirements-detection.txt",
+      "source": "requirements-detection.txt",
+      "sha256": "573f48c612d229b295900293a8aab15e85b3126de1ddeb42dd1a893ece698a92",
+      "bytes": 91,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "573f48c612d229b295900293a8aab15e85b3126de1ddeb42dd1a893ece698a92",
+      "export_bytes": 91
+    },
+    {
+      "path": "requirements.txt",
+      "source": "requirements.txt",
+      "sha256": "5efcabde589b49475e60a63d8d10252522ce08bc8a64588a8b1fb9292104605c",
+      "bytes": 39,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "b48cec38ac33950fec4307d1e1f8d9e2e1d230cb79530ba07fc5ac45ac790fa1",
+      "export_bytes": 52,
+      "export_change": "Public dependency list includes torchvision and Pillow; RUNNING index adjusted for exported layout."
+    },
+    {
+      "path": "scripts/evaluate_dimp.py",
+      "source": "scripts/evaluate_dimp.py",
+      "sha256": "49882ad0b74d654b35c4610416bb6c2701c8e45e818a25a4410bb6fcb149881d",
+      "bytes": 8529,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "49882ad0b74d654b35c4610416bb6c2701c8e45e818a25a4410bb6fcb149881d",
+      "export_bytes": 8529
+    },
+    {
+      "path": "scripts/prepare_dimp.py",
+      "source": "scripts/prepare_dimp.py",
+      "sha256": "0bb2951d70ead24583322fe2a1a91c1c9bbe556676559e27cb4724e8ad07673c",
+      "bytes": 6616,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "0bb2951d70ead24583322fe2a1a91c1c9bbe556676559e27cb4724e8ad07673c",
+      "export_bytes": 6616
+    },
+    {
+      "path": "scripts/prepare_dvs.py",
+      "source": "scripts/prepare_dvs.py",
+      "sha256": "a99f9670491b61c21d40b508bd50edeb31356d160dd0a7f8acc7c0440b88b1b7",
+      "bytes": 7880,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "a99f9670491b61c21d40b508bd50edeb31356d160dd0a7f8acc7c0440b88b1b7",
+      "export_bytes": 7880
+    },
+    {
+      "path": "scripts/prepare_dvs128.py",
+      "source": "scripts/prepare_dvs128.py",
+      "sha256": "b904c48b5b28dc2258d4fd7df9d3a5eaa2ea08fd551734d50faf4b93be4b391c",
+      "bytes": 7279,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "b904c48b5b28dc2258d4fd7df9d3a5eaa2ea08fd551734d50faf4b93be4b391c",
+      "export_bytes": 7279
+    },
+    {
+      "path": "scripts/prepare_tiny_imagenet.py",
+      "source": "scripts/prepare_tiny_imagenet.py",
+      "sha256": "f13e627bf1f8f8681ea36f09069e473ff91397e506b2479a2e78315ac04dca31",
+      "bytes": 2390,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "f13e627bf1f8f8681ea36f09069e473ff91397e506b2479a2e78315ac04dca31",
+      "export_bytes": 2390
+    },
+    {
+      "path": "scripts/train_detection.py",
+      "source": "scripts/train_detection.py",
+      "sha256": "ffe49a6eacc576d05198d955a5ecec592187d4d8baccf22adb7caa2135bc30f0",
+      "bytes": 11611,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "ffe49a6eacc576d05198d955a5ecec592187d4d8baccf22adb7caa2135bc30f0",
+      "export_bytes": 11611
+    },
+    {
+      "path": "scripts/train_dimp.py",
+      "source": "scripts/train_dimp.py",
+      "sha256": "43e5bcea91039511ef97b1fb8c6e6bcb2a66683d2485ed05f887153f5031609f",
+      "bytes": 25851,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "43e5bcea91039511ef97b1fb8c6e6bcb2a66683d2485ed05f887153f5031609f",
+      "export_bytes": 25851
+    },
+    {
+      "path": "scripts/train_dvs.py",
+      "source": "scripts/train_dvs.py",
+      "sha256": "8d8759d010f1d309356eb00d13607453de51d7410ad9e035ff082e7a44be7095",
+      "bytes": 17017,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "8d8759d010f1d309356eb00d13607453de51d7410ad9e035ff082e7a44be7095",
+      "export_bytes": 17017
+    },
+    {
+      "path": "scripts/train_fast_classification.py",
+      "source": "scripts/train_fast_classification.py",
+      "sha256": "a762653ce83501610e84c06082548508e9e86b3f261dc868f1778774f81a66ac",
+      "bytes": 16186,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "a762653ce83501610e84c06082548508e9e86b3f261dc868f1778774f81a66ac",
+      "export_bytes": 16186
+    },
+    {
+      "path": "scripts/train_tiny_imagenet.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/scripts/train_tiny_imagenet.py",
+      "sha256": "4c824e6a714e1f687238b7176ebf3b9df749a5930bbdac59b0725f1cbbb38cf9",
+      "bytes": 15404,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "4c824e6a714e1f687238b7176ebf3b9df749a5930bbdac59b0725f1cbbb38cf9",
+      "export_bytes": 15404
+    },
+    {
+      "path": "scripts/train_tiny_snn.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/scripts/train_tiny_snn.py",
+      "sha256": "dad70738d02fcc9bf20cb9310c506fbefc994443c47c67326d6197932cf8cff7",
+      "bytes": 14583,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "dad70738d02fcc9bf20cb9310c506fbefc994443c47c67326d6197932cf8cff7",
+      "export_bytes": 14583
+    },
+    {
+      "path": "scripts/train_tracking.py",
+      "source": "scripts/train_tracking.py",
+      "sha256": "963daf89fc86be05729de3099a6c88e3fb3d23d2379b5da8e2aa3c1e309fe356",
+      "bytes": 14093,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "963daf89fc86be05729de3099a6c88e3fb3d23d2379b5da8e2aa3c1e309fe356",
+      "export_bytes": 14093
+    },
+    {
+      "path": "src/__init__.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/__init__.py",
+      "sha256": "d56ed0b68a2062572d2c57a82c6adf8c0fa867eca3f7ebe46778624ca0b34afa",
+      "bytes": 65,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "d56ed0b68a2062572d2c57a82c6adf8c0fa867eca3f7ebe46778624ca0b34afa",
+      "export_bytes": 65
+    },
+    {
+      "path": "src/classification_fast_snn.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/classification_fast_snn.py",
+      "sha256": "c0d8b6d69793bf2ffd3488b64134e72623fb30ac743a3fcb53e0326267769016",
+      "bytes": 6369,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "c0d8b6d69793bf2ffd3488b64134e72623fb30ac743a3fcb53e0326267769016",
+      "export_bytes": 6369
+    },
+    {
+      "path": "src/conversion/__init__.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/__init__.py",
+      "sha256": "93ae6c92dcaa3631451868751fd6dd4024ed2c0183a99898702a696a2cac9fc4",
+      "bytes": 51,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "93ae6c92dcaa3631451868751fd6dd4024ed2c0183a99898702a696a2cac9fc4",
+      "export_bytes": 51
+    },
+    {
+      "path": "src/conversion/activation_sites.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/activation_sites.py",
+      "sha256": "56be07bce6dcebe80e10f93632b13e2cb1093598d54d204fec07ccc9aff136fd",
+      "bytes": 378,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "56be07bce6dcebe80e10f93632b13e2cb1093598d54d204fec07ccc9aff136fd",
+      "export_bytes": 378
+    },
+    {
+      "path": "src/conversion/bounded_phase.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/bounded_phase.py",
+      "sha256": "4b3d9fac08942918e50600c76e78c4fcea62acfcf33b3675ec623be0e220e5ea",
+      "bytes": 3419,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "4b3d9fac08942918e50600c76e78c4fcea62acfcf33b3675ec623be0e220e5ea",
+      "export_bytes": 3419
+    },
+    {
+      "path": "src/conversion/channel_qcfs_source.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/channel_qcfs_source.py",
+      "sha256": "a56d6c696249abeb3b875e558c65cccd0572a60747f68c947f1a1065840e9f71",
+      "bytes": 1682,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "a56d6c696249abeb3b875e558c65cccd0572a60747f68c947f1a1065840e9f71",
+      "export_bytes": 1682
+    },
+    {
+      "path": "src/conversion/ecl_triangular_surrogate.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/ecl_triangular_surrogate.py",
+      "sha256": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+      "bytes": 3250,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+      "export_bytes": 3250
+    },
+    {
+      "path": "src/conversion/general_phase_adjoint.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/general_phase_adjoint.py",
+      "sha256": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+      "bytes": 10008,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+      "export_bytes": 10008
+    },
+    {
+      "path": "src/conversion/joint_phase_adjoint.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/joint_phase_adjoint.py",
+      "sha256": "57229bf1888756d39d20d1179c043e2df4cc28baf61a1c898e5a414302a43fd6",
+      "bytes": 3380,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "57229bf1888756d39d20d1179c043e2df4cc28baf61a1c898e5a414302a43fd6",
+      "export_bytes": 3380
+    },
+    {
+      "path": "src/conversion/phase_moments.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/phase_moments.py",
+      "sha256": "aa1a18517f76a15e302c3a596012033ba29eee4a285decde76af67efb2990215",
+      "bytes": 1349,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "aa1a18517f76a15e302c3a596012033ba29eee4a285decde76af67efb2990215",
+      "export_bytes": 1349
+    },
+    {
+      "path": "src/conversion/qcfs_ecl_resnet18.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/qcfs_ecl_resnet18.py",
+      "sha256": "9c9e183eb1071584095572945a976edf5eff2dc6e1e1dcdbe46600a3511b54de",
+      "bytes": 4105,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "9c9e183eb1071584095572945a976edf5eff2dc6e1e1dcdbe46600a3511b54de",
+      "export_bytes": 4105
+    },
+    {
+      "path": "src/conversion/triangular_density_horizon.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/triangular_density_horizon.py",
+      "sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "bytes": 8912,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "export_bytes": 8912
+    },
+    {
+      "path": "src/conversion/triangular_density_phase.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/triangular_density_phase.py",
+      "sha256": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49",
+      "bytes": 4109,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49",
+      "export_bytes": 4109
+    },
+    {
+      "path": "src/conversion/triangular_density_triton.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/triangular_density_triton.py",
+      "sha256": "d7403e0cae24d2c49ccc1f1f8b42dff2492ff1497f68e7dbace2942afac1ee2a",
+      "bytes": 8920,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "d7403e0cae24d2c49ccc1f1f8b42dff2492ff1497f68e7dbace2942afac1ee2a",
+      "export_bytes": 8920
+    },
+    {
+      "path": "src/data.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/data.py",
+      "sha256": "5bc89afa8df8908487d30c7f0717b8867a552aa2c5c6f59f58fc18859a42b4d9",
+      "bytes": 4664,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "5bc89afa8df8908487d30c7f0717b8867a552aa2c5c6f59f58fc18859a42b4d9",
+      "export_bytes": 4664
+    },
+    {
+      "path": "src/detection_fast_snn.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/detection_fast_snn.py",
+      "sha256": "ee31cbde71c04e863186a9b2f677da0f4f76dcdcd47124c3e8131a0ed08b4140",
+      "bytes": 7862,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "ee31cbde71c04e863186a9b2f677da0f4f76dcdcd47124c3e8131a0ed08b4140",
+      "export_bytes": 7862
+    },
+    {
+      "path": "src/dimp_evaluation.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/dimp_evaluation.py",
+      "sha256": "0cb31910b2280f51c090facba6f418ae8498027a5f5c317c94eb21d5b374e8c3",
+      "bytes": 1227,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "0cb31910b2280f51c090facba6f418ae8498027a5f5c317c94eb21d5b374e8c3",
+      "export_bytes": 1227
+    },
+    {
+      "path": "src/dvs_classification.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/dvs_classification.py",
+      "sha256": "6c34d7f9cee3b507dd490e6b28b4419295be386af3e10742c916324e963fc09d",
+      "bytes": 6504,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "6c34d7f9cee3b507dd490e6b28b4419295be386af3e10742c916324e963fc09d",
+      "export_bytes": 6504
+    },
+    {
+      "path": "src/models/resnet18_cifar.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/models/resnet18_cifar.py",
+      "sha256": "bb9d18082e569d63f3833151f410bb3ba7719e79bb53ea43467e582ce54d0390",
+      "bytes": 3960,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "bb9d18082e569d63f3833151f410bb3ba7719e79bb53ea43467e582ce54d0390",
+      "export_bytes": 3960
+    },
+    {
+      "path": "src/models/resnet20_cifar.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/models/resnet20_cifar.py",
+      "sha256": "95ec76fca729fb645db04f5a195c8cba997a838e8455ad5d8807a357c0afe9ce",
+      "bytes": 1339,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "95ec76fca729fb645db04f5a195c8cba997a838e8455ad5d8807a357c0afe9ce",
+      "export_bytes": 1339
+    },
+    {
+      "path": "src/models/resnet34_cifar.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/models/resnet34_cifar.py",
+      "sha256": "c7f08ffca7b5412f8d3f94f996513f662627fc677a339f3e1a01950e7f13f9ff",
+      "bytes": 916,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "c7f08ffca7b5412f8d3f94f996513f662627fc677a339f3e1a01950e7f13f9ff",
+      "export_bytes": 916
+    },
+    {
+      "path": "src/models/vgg16_cifar.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/models/vgg16_cifar.py",
+      "sha256": "f9e704a072e5120fa4803353e46691db95ad5769430d96bf356b436a07fb2c1b",
+      "bytes": 2419,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "f9e704a072e5120fa4803353e46691db95ad5769430d96bf356b436a07fb2c1b",
+      "export_bytes": 2419
+    },
+    {
+      "path": "src/runtime.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/runtime.py",
+      "sha256": "b98b6973eb6ff4813fd24ea8931ccceabed6405cb32f854f2040f818c08bf4a3",
+      "bytes": 2812,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "b98b6973eb6ff4813fd24ea8931ccceabed6405cb32f854f2040f818c08bf4a3",
+      "export_bytes": 2812
+    },
+    {
+      "path": "src/third_party/qcfs_layer.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/third_party/qcfs_layer.py",
+      "sha256": "64e2ba6566f1c252432092166ad5d2d214f73ebbe7314a5ad2e188d02642030a",
+      "bytes": 2575,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "64e2ba6566f1c252432092166ad5d2d214f73ebbe7314a5ad2e188d02642030a",
+      "export_bytes": 2575
+    },
+    {
+      "path": "src/third_party/vistream_LICENSE.txt",
+      "source": "src/third_party/vistream_LICENSE.txt",
+      "sha256": "85731fd457ff7624a9385853a0b3666b31063625d39185420c1bdb1489b059d9",
+      "bytes": 1069,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "85731fd457ff7624a9385853a0b3666b31063625d39185420c1bdb1489b059d9",
+      "export_bytes": 1069
+    },
+    {
+      "path": "src/tiny_imagenet.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tiny_imagenet.py",
+      "sha256": "f21184534bfc14e31d99fd2304a70cd2b3281c609bd8b9da69f3225cca358057",
+      "bytes": 10401,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "f21184534bfc14e31d99fd2304a70cd2b3281c609bd8b9da69f3225cca358057",
+      "export_bytes": 10401
+    },
+    {
+      "path": "src/tracking_association.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tracking_association.py",
+      "sha256": "2d18c0c5e3f779d7b78597cad8340889200d31d4a1678a7d17da3813127454d0",
+      "bytes": 1555,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "2d18c0c5e3f779d7b78597cad8340889200d31d4a1678a7d17da3813127454d0",
+      "export_bytes": 1555
+    },
+    {
+      "path": "src/tracking_clip.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tracking_clip.py",
+      "sha256": "0e4dd184af3d1e72bd67e3e9845b34421ad35754bf0d19817a40ccd5206cd9de",
+      "bytes": 3448,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "0e4dd184af3d1e72bd67e3e9845b34421ad35754bf0d19817a40ccd5206cd9de",
+      "export_bytes": 3448
+    },
+    {
+      "path": "src/tracking_dimp.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tracking_dimp.py",
+      "sha256": "7ee0b165daff83ad1ea55d91d95cbe5f341a5d02f204036afe266b5021aa082c",
+      "bytes": 9685,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "7ee0b165daff83ad1ea55d91d95cbe5f341a5d02f204036afe266b5021aa082c",
+      "export_bytes": 9685
+    },
+    {
+      "path": "src/tracking_vistream.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tracking_vistream.py",
+      "sha256": "a21aeb43c50f0e98117f91c2f22ad218667795eee095a4612ec3349c61fc383f",
+      "bytes": 9091,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "a21aeb43c50f0e98117f91c2f22ad218667795eee095a4612ec3349c61fc383f",
+      "export_bytes": 9091
+    },
+    {
+      "path": "src/tracking_vistream_io.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/tracking_vistream_io.py",
+      "sha256": "dfd052e470217a9a0a81bdaf137435c276ad8b1951d6d85dfe895332fdb6f2b8",
+      "bytes": 27277,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "dfd052e470217a9a0a81bdaf137435c276ad8b1951d6d85dfe895332fdb6f2b8",
+      "export_bytes": 27277
+    },
+    {
+      "path": "src/training_dimp.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/training_dimp.py",
+      "sha256": "886a405ad6bfc88b18c7078adce1ed9dace9f6165b43a4147a8d7760c317299a",
+      "bytes": 6276,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "886a405ad6bfc88b18c7078adce1ed9dace9f6165b43a4147a8d7760c317299a",
+      "export_bytes": 6276
+    },
+    {
+      "path": "tests/test_detection_evaluator.py",
+      "source": "tests/test_detection_evaluator.py",
+      "sha256": "afb51d85fa228e8f10857aadef984a4f65c35bd25744f9ab8c0fd54e95a73183",
+      "bytes": 1803,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "afb51d85fa228e8f10857aadef984a4f65c35bd25744f9ab8c0fd54e95a73183",
+      "export_bytes": 1803
+    },
+    {
+      "path": "tests/test_dimp_evaluation.py",
+      "source": "tests/test_dimp_evaluation.py",
+      "sha256": "bba5f19da2e6f6fff76757be8115dcbe3420027ad419dd95b8a85e7d40569eb5",
+      "bytes": 813,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "bba5f19da2e6f6fff76757be8115dcbe3420027ad419dd95b8a85e7d40569eb5",
+      "export_bytes": 813
+    },
+    {
+      "path": "tests/test_dvs_classification.py",
+      "source": "tests/test_dvs_classification.py",
+      "sha256": "fbb43f37f8b6de7d38b21d629ff2644bdc283decb00717fe2a11d7e9532435d8",
+      "bytes": 5800,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "fbb43f37f8b6de7d38b21d629ff2644bdc283decb00717fe2a11d7e9532435d8",
+      "export_bytes": 5800
+    },
+    {
+      "path": "tests/test_ecl_triangular_surrogate.py",
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "sha256": "89a5221566652279bde451aac6684a9ee899d780f95863103921c5f8b9cb30d5",
+      "bytes": 6910,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "89a5221566652279bde451aac6684a9ee899d780f95863103921c5f8b9cb30d5",
+      "export_bytes": 6910
+    },
+    {
+      "path": "tests/test_fast_classification.py",
+      "source": "tests/test_fast_classification.py",
+      "sha256": "f461910499077809628a4cbcc76249008e75a16d395b0afd49fcd8d23e743633",
+      "bytes": 2715,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "f461910499077809628a4cbcc76249008e75a16d395b0afd49fcd8d23e743633",
+      "export_bytes": 2715
+    },
+    {
+      "path": "tests/test_tracking_dimp.py",
+      "source": "tests/test_tracking_dimp.py",
+      "sha256": "39abef0979d88b3090ebd7bd813d05246837299110d243a5ec2bbab048432672",
+      "bytes": 4750,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "39abef0979d88b3090ebd7bd813d05246837299110d243a5ec2bbab048432672",
+      "export_bytes": 4750
+    },
+    {
+      "path": "tests/test_triangular_density_horizon.py",
+      "source": "tests/test_triangular_density_horizon.py",
+      "sha256": "82a5453a8903c186df31009d77871a3f5195f1b05ad1db61c77d9c61b75e1648",
+      "bytes": 9658,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "82a5453a8903c186df31009d77871a3f5195f1b05ad1db61c77d9c61b75e1648",
+      "export_bytes": 9658
+    },
+    {
+      "path": "tests/test_triangular_density_phase.py",
+      "source": "tests/test_triangular_density_phase.py",
+      "sha256": "f1ca731ed6935600a73ee26246c16874bc58bd16cda9995d7429fb4a4537b803",
+      "bytes": 6547,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "f1ca731ed6935600a73ee26246c16874bc58bd16cda9995d7429fb4a4537b803",
+      "export_bytes": 6547
+    },
+    {
+      "path": "tests/test_triangular_density_triton.py",
+      "source": "tests/test_triangular_density_triton.py",
+      "sha256": "c73da2573a1ef15aecfca27d94e52e2760e9fd34f19d1bee4cbbbb91f989888b",
+      "bytes": 1798,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "c73da2573a1ef15aecfca27d94e52e2760e9fd34f19d1bee4cbbbb91f989888b",
+      "export_bytes": 1798
+    },
+    {
+      "path": "tests/test_vistream_clip_training.py",
+      "source": "tests/test_vistream_clip_training.py",
+      "sha256": "4f7856f611889310650cf866a5b4458a14cd2462e6c77d316efff5f477088618",
+      "bytes": 4842,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "4f7856f611889310650cf866a5b4458a14cd2462e6c77d316efff5f477088618",
+      "export_bytes": 4842
+    },
+    {
+      "path": "tests/test_vistream_state.py",
+      "source": "tests/test_vistream_state.py",
+      "sha256": "2873b0f93ce575e0acbc0920f65317fc0a81eaf52b6f5b10d7b3a55fb362ffe5",
+      "bytes": 2821,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "2873b0f93ce575e0acbc0920f65317fc0a81eaf52b6f5b10d7b3a55fb362ffe5",
+      "export_bytes": 2821
+    },
+    {
+      "path": "tests/triangular_density_partition_reference.py",
+      "source": "tests/triangular_density_partition_reference.py",
+      "sha256": "4be312c447d31666e0fd0dc8b493192e72ee47d345b4e1d1758760f60a94221b",
+      "bytes": 7104,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "4be312c447d31666e0fd0dc8b493192e72ee47d345b4e1d1758760f60a94221b",
+      "export_bytes": 7104
+    },
+    {
+      "path": "src/conversion/qcfs_ecl_vgg16.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/qcfs_ecl_vgg16.py",
+      "sha256": "14b30f4f053aaee349bd6d2b6aab0879f76b477997c654f241fd3cbba1c0de4c",
+      "bytes": 6075,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "14b30f4f053aaee349bd6d2b6aab0879f76b477997c654f241fd3cbba1c0de4c",
+      "export_bytes": 6075
+    },
+    {
+      "path": "src/author_augmentation.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/author_augmentation.py",
+      "sha256": "47645dbc92f48568bbd3ba2e17739f8a1201fa540bbef2ad69834e6fe8881575",
+      "bytes": 1076,
+      "group": "current_method",
+      "modified": false,
+      "export_sha256": "47645dbc92f48568bbd3ba2e17739f8a1201fa540bbef2ad69834e6fe8881575",
+      "export_bytes": 1076
+    },
+    {
+      "path": "src/conversion/recursive_phase_adjoint.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/src/conversion/recursive_phase_adjoint.py",
+      "sha256": "a24040d3cfc916b2f51257477993ab2e4e6eddc2bfde4b438d26f5948fc696c6",
+      "bytes": 6520,
+      "group": "required_vgg_compatibility",
+      "modified": false,
+      "export_sha256": "a24040d3cfc916b2f51257477993ab2e4e6eddc2bfde4b438d26f5948fc696c6",
+      "export_bytes": 6520
+    },
+    {
+      "path": "RUNNING.md",
+      "source": "generated code-bundle running guide",
+      "sha256": "3cb1655a562577ca3694fdf60163231fc8c5f47bac971accf8ae6a4fbef6525e",
+      "bytes": 10804,
+      "group": "reproducibility_documentation",
+      "modified": false,
+      "export_sha256": "f8ae5da16c7bcdd89983f7f10fd806e7234feb53fcc097f4622b7472a3b5ccab",
+      "export_bytes": 10507,
+      "export_change": "Adjust paths and describe omitted machine-specific controllers for the public layout."
+    }
+  ],
+  "total_files": 62,
+  "total_bytes": 386398,
+  "import_edges": [
+    {
+      "source": "src/author_augmentation.py",
+      "target": "src/data.py"
+    },
+    {
+      "source": "src/tracking_dimp.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "src/tracking_dimp.py",
+      "target": "src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "source": "src/tracking_dimp.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/tracking_dimp.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/models/resnet18_cifar.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/models/resnet20_cifar.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "source": "src/dvs_classification.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/detection_fast_snn.py",
+      "target": "src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "source": "src/detection_fast_snn.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/detection_fast_snn.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/detection_fast_snn.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "src/training_dimp.py",
+      "target": "src/tracking_dimp.py"
+    },
+    {
+      "source": "src/tracking_clip.py",
+      "target": "src/tracking_vistream.py"
+    },
+    {
+      "source": "src/tracking_clip.py",
+      "target": "src/runtime.py"
+    },
+    {
+      "source": "src/tiny_imagenet.py",
+      "target": "src/models/resnet34_cifar.py"
+    },
+    {
+      "source": "src/tiny_imagenet.py",
+      "target": "src/models/vgg16_cifar.py"
+    },
+    {
+      "source": "src/tiny_imagenet.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/tiny_imagenet.py",
+      "target": "src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "source": "src/tiny_imagenet.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/classification_fast_snn.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/tracking_vistream.py",
+      "target": "src/conversion/bounded_phase.py"
+    },
+    {
+      "source": "src/models/resnet20_cifar.py",
+      "target": "src/models/resnet18_cifar.py"
+    },
+    {
+      "source": "src/models/resnet34_cifar.py",
+      "target": "src/models/resnet18_cifar.py"
+    },
+    {
+      "source": "src/conversion/general_phase_adjoint.py",
+      "target": "src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "source": "src/conversion/general_phase_adjoint.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/joint_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/recursive_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_vgg16.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "src/conversion/channel_qcfs_source.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "src/conversion/channel_qcfs_source.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/ecl_triangular_surrogate.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/recursive_phase_adjoint.py",
+      "target": "src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/recursive_phase_adjoint.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_phase.py",
+      "target": "src/conversion/joint_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_phase.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/qcfs_ecl_resnet18.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_horizon.py",
+      "target": "src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_horizon.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_horizon.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "src/conversion/triangular_density_horizon.py",
+      "target": "src/conversion/triangular_density_triton.py"
+    },
+    {
+      "source": "src/conversion/joint_phase_adjoint.py",
+      "target": "src/conversion/phase_moments.py"
+    },
+    {
+      "source": "src/conversion/joint_phase_adjoint.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "scripts/prepare_tiny_imagenet.py",
+      "target": "src/tiny_imagenet.py"
+    },
+    {
+      "source": "scripts/prepare_dvs128.py",
+      "target": "scripts/prepare_dvs.py"
+    },
+    {
+      "source": "scripts/train_tiny_snn.py",
+      "target": "scripts/train_tiny_imagenet.py"
+    },
+    {
+      "source": "scripts/train_tiny_snn.py",
+      "target": "src/tiny_imagenet.py"
+    },
+    {
+      "source": "scripts/train_tiny_snn.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "scripts/train_dimp.py",
+      "target": "src/tracking_dimp.py"
+    },
+    {
+      "source": "scripts/train_dimp.py",
+      "target": "src/training_dimp.py"
+    },
+    {
+      "source": "scripts/train_dimp.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "scripts/train_fast_classification.py",
+      "target": "src/classification_fast_snn.py"
+    },
+    {
+      "source": "scripts/train_fast_classification.py",
+      "target": "src/data.py"
+    },
+    {
+      "source": "scripts/train_fast_classification.py",
+      "target": "src/runtime.py"
+    },
+    {
+      "source": "scripts/train_dvs.py",
+      "target": "src/dvs_classification.py"
+    },
+    {
+      "source": "scripts/train_dvs.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "scripts/train_dvs.py",
+      "target": "src/conversion/channel_qcfs_source.py"
+    },
+    {
+      "source": "scripts/prepare_dimp.py",
+      "target": "src/tracking_dimp.py"
+    },
+    {
+      "source": "scripts/evaluate_dimp.py",
+      "target": "src/dimp_evaluation.py"
+    },
+    {
+      "source": "scripts/evaluate_dimp.py",
+      "target": "src/tracking_dimp.py"
+    },
+    {
+      "source": "scripts/evaluate_dimp.py",
+      "target": "src/training_dimp.py"
+    },
+    {
+      "source": "scripts/evaluate_dimp.py",
+      "target": "src/tracking_dimp.py"
+    },
+    {
+      "source": "scripts/train_detection.py",
+      "target": "src/detection_fast_snn.py"
+    },
+    {
+      "source": "scripts/train_detection.py",
+      "target": "src/runtime.py"
+    },
+    {
+      "source": "scripts/train_tracking.py",
+      "target": "src/tracking_vistream.py"
+    },
+    {
+      "source": "scripts/train_tracking.py",
+      "target": "src/tracking_association.py"
+    },
+    {
+      "source": "scripts/train_tracking.py",
+      "target": "src/tracking_clip.py"
+    },
+    {
+      "source": "scripts/train_tracking.py",
+      "target": "src/tracking_vistream_io.py"
+    },
+    {
+      "source": "scripts/train_tracking.py",
+      "target": "src/tracking_vistream_io.py"
+    },
+    {
+      "source": "scripts/train_tiny_imagenet.py",
+      "target": "src/tiny_imagenet.py"
+    },
+    {
+      "source": "tests/test_detection_evaluator.py",
+      "target": "src/detection_fast_snn.py"
+    },
+    {
+      "source": "tests/test_triangular_density_triton.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "tests/test_triangular_density_triton.py",
+      "target": "src/conversion/triangular_density_triton.py"
+    },
+    {
+      "source": "tests/test_dimp_evaluation.py",
+      "target": "src/dimp_evaluation.py"
+    },
+    {
+      "source": "tests/triangular_density_partition_reference.py",
+      "target": "src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "source": "tests/triangular_density_partition_reference.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "tests/test_vistream_clip_training.py",
+      "target": "src/tracking_clip.py"
+    },
+    {
+      "source": "tests/test_vistream_clip_training.py",
+      "target": "src/tracking_vistream.py"
+    },
+    {
+      "source": "tests/test_triangular_density_phase.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "tests/test_triangular_density_phase.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "tests/test_triangular_density_phase.py",
+      "target": "src/models/resnet20_cifar.py"
+    },
+    {
+      "source": "tests/test_fast_classification.py",
+      "target": "src/classification_fast_snn.py"
+    },
+    {
+      "source": "tests/test_dvs_classification.py",
+      "target": "src/dvs_classification.py"
+    },
+    {
+      "source": "tests/test_dvs_classification.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "tests/test_dvs_classification.py",
+      "target": "scripts/train_dvs.py"
+    },
+    {
+      "source": "tests/test_dvs_classification.py",
+      "target": "scripts/prepare_dvs128.py"
+    },
+    {
+      "source": "tests/test_vistream_state.py",
+      "target": "src/conversion/bounded_phase.py"
+    },
+    {
+      "source": "tests/test_vistream_state.py",
+      "target": "src/tracking_vistream.py"
+    },
+    {
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "target": "src/conversion/activation_sites.py"
+    },
+    {
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "target": "src/conversion/channel_qcfs_source.py"
+    },
+    {
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "target": "src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "tests/test_ecl_triangular_surrogate.py",
+      "target": "src/models/resnet18_cifar.py"
+    },
+    {
+      "source": "tests/test_triangular_density_horizon.py",
+      "target": "src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "source": "tests/test_triangular_density_horizon.py",
+      "target": "src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "source": "tests/test_triangular_density_horizon.py",
+      "target": "src/conversion/triangular_density_phase.py"
+    },
+    {
+      "source": "tests/test_triangular_density_horizon.py",
+      "target": "src/models/resnet20_cifar.py"
+    },
+    {
+      "source": "tests/test_triangular_density_horizon.py",
+      "target": "tests/triangular_density_partition_reference.py"
+    },
+    {
+      "source": "tests/test_tracking_dimp.py",
+      "target": "src/tracking_dimp.py"
+    }
+  ],
+  "external_dependencies": [
+    "Fast-SNN author image classification/CIFAR10_resnet18 and object detection checkout; explicit CLI --upstream",
+    "ViStream faecff832cea4251b6504a1efe4277dc57828f35; explicit CLI --upstream",
+    "PyTracking 7eb9e74bd3d40e29dbcec444902237da13de247b, native PrROI; explicit CLI --upstream",
+    "datasets, pretrained/source/final checkpoints and fixed sample manifests are separate artifacts; preserved by experiment bundle"
+  ],
+  "compatibility_notes": [
+    "joint_phase_adjoint.py and phase_moments.py are imported by triangular_density_phase.py for hard_pair; preserve exact files.",
+    "bounded_phase.py is a ViStream compatibility dependency, not a new paper method.",
+    "Historical CIFAR factory/runner closure is indexed by local path and SHA256 only; it is not bundled because eager imports pull in retired R50, low-rank and unused surrogate branches.",
+    "Main src/scripts use Tiny 2026-11-20 frozen versions where available, avoiding concurrent sparse-work changes in qcfs_ecl_resnet18.py and model files.",
+    "Other CIFAR snapshots are not silently treated as identical: R20/VGG historical differences must be retained with experiment evidence; this runner reproduces its own pinned R34 recipes only.",
+    "Default absolute/local upstream and checkpoint paths are historical; users must supply external assets explicitly.",
+    "T=15 is permanently retired; its experiment runner/test was not selected.",
+    "Local queue controllers and monitoring daemon are omitted from the public paper payload; direct task training/evaluation runners remain."
+  ],
+  "historical_cifar_frozen_reference": {
+    "base": "results/r34_binary_phase_20261117/snn/snapshot",
+    "files": [
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/configs/cifar100_split.json",
+        "sha256": "b5d698b1f76d601f95444f3f972813957776ef3543ca9b4235573cc57ae57ba6",
+        "bytes": 288952
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/pair_config.json",
+        "sha256": "9506899101dada3d38b137c0993ab73ed5f12bda1c724a4139adf994dd98fa8f",
+        "bytes": 1365
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/scripts/train.py",
+        "sha256": "7a5dfb5f07c4301fecc34dd2d2028ee5ef80b85d8447bad635b965925dd088c6",
+        "bytes": 1348
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/__init__.py",
+        "sha256": "d56ed0b68a2062572d2c57a82c6adf8c0fa867eca3f7ebe46778624ca0b34afa",
+        "bytes": 65
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/author_augmentation.py",
+        "sha256": "47645dbc92f48568bbd3ba2e17739f8a1201fa540bbef2ad69834e6fe8881575",
+        "bytes": 1076
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/calibration.py",
+        "sha256": "fa88ff155f3545e6ea60fc6371f9434378789fb8d98f9e65fbf59a926ddd4720",
+        "bytes": 1621
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/cli.py",
+        "sha256": "988e8437acb96b46ff70fcdcad410a79532e218918d0f583267db025b63dbfe1",
+        "bytes": 1159
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/config.py",
+        "sha256": "e5b65f740ba8c7efc3616496c2991235eb86f77b3f9294000a7e028478074431",
+        "bytes": 2847
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/__init__.py",
+        "sha256": "93ae6c92dcaa3631451868751fd6dd4024ed2c0183a99898702a696a2cac9fc4",
+        "bytes": 51
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/activation_sites.py",
+        "sha256": "56be07bce6dcebe80e10f93632b13e2cb1093598d54d204fec07ccc9aff136fd",
+        "bytes": 378
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/channel_qcfs_source.py",
+        "sha256": "a56d6c696249abeb3b875e558c65cccd0572a60747f68c947f1a1065840e9f71",
+        "bytes": 1682
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/curvature_phase.py",
+        "sha256": "351111a983bc174c53a7783c4f755084bcb672c75691c0d0f404932653036ad7",
+        "bytes": 10399
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/diagonal_phase_adjoint.py",
+        "sha256": "170e41e8753281a9361753c912237779ef5b1aac4d834467f50ef6b0cde64f3e",
+        "bytes": 2699
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/ecl_triangular_surrogate.py",
+        "sha256": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+        "bytes": 3250
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/general_phase_adjoint.py",
+        "sha256": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+        "bytes": 10008
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/integer_cap_phase.py",
+        "sha256": "7dd454e22d4ef26e26a5dc99077063c738dbc46d5babbfbcc7c820dfe3e19361",
+        "bytes": 7784
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/joint_phase_adjoint.py",
+        "sha256": "57229bf1888756d39d20d1179c043e2df4cc28baf61a1c898e5a414302a43fd6",
+        "bytes": 3380
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/learned_event_threshold.py",
+        "sha256": "87cc5d65175ea946bc27f2747e203a0ab3582c9df68d43b4ed65a76a330da8bc",
+        "bytes": 6258
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/phase_moments.py",
+        "sha256": "aa1a18517f76a15e302c3a596012033ba29eee4a285decde76af67efb2990215",
+        "bytes": 1349
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/qcfs_ecl_resnet18.py",
+        "sha256": "543f01305d0a7dfae0babf1032dc7bb0dca97a132b547ad74bcf9f3e4d2826c3",
+        "bytes": 3756
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/qcfs_ecl_resnet50.py",
+        "sha256": "cb30bdb2c04e06d4ca0ba36dba7a6b6c9563eb70c6db72db719e68d6c8b3520e",
+        "bytes": 4966
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/qcfs_ecl_vgg16.py",
+        "sha256": "14b30f4f053aaee349bd6d2b6aab0879f76b477997c654f241fd3cbba1c0de4c",
+        "bytes": 6075
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/recursive_phase_adjoint.py",
+        "sha256": "a24040d3cfc916b2f51257477993ab2e4e6eddc2bfde4b438d26f5948fc696c6",
+        "bytes": 6520
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/temporal_weighted.py",
+        "sha256": "bec76ce421233e73e85d5745fa5cd6c3cdd9f7bdd7fb34747dd8b0d0912649f5",
+        "bytes": 4624
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/triangular_density_horizon.py",
+        "sha256": "e16a79b506c6fd93e2acaffeddddc1a372af6da237cc1b546f39432dea1316ad",
+        "bytes": 7896
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/conversion/triangular_density_phase.py",
+        "sha256": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49",
+        "bytes": 4109
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/data.py",
+        "sha256": "5bc89afa8df8908487d30c7f0717b8867a552aa2c5c6f59f58fc18859a42b4d9",
+        "bytes": 4664
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/evaluation.py",
+        "sha256": "b7016747a6bccee39686f613fa350c7dc36dba64ab5793ee3ced3a60bf8ba143",
+        "bytes": 2187
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/low_rank.py",
+        "sha256": "dc63f41d0aae6e62a44af0194a6fb6b46edbe5c83220b5949255c5a8760d2167",
+        "bytes": 5913
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/factory.py",
+        "sha256": "e42b2b7bb4918ecf84c9e905d3f64b6314ea7f757e413993c1b78f933aac24e2",
+        "bytes": 9021
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/resnet18_cifar.py",
+        "sha256": "bb9d18082e569d63f3833151f410bb3ba7719e79bb53ea43467e582ce54d0390",
+        "bytes": 3960
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/resnet20_cifar.py",
+        "sha256": "95ec76fca729fb645db04f5a195c8cba997a838e8455ad5d8807a357c0afe9ce",
+        "bytes": 1339
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/resnet34_cifar.py",
+        "sha256": "c7f08ffca7b5412f8d3f94f996513f662627fc677a339f3e1a01950e7f13f9ff",
+        "bytes": 916
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/resnet50_ann.py",
+        "sha256": "ae3a0c2e7fb97b2edd4849b9864af2be00d74211406f9aaa36567eb8741b391a",
+        "bytes": 3983
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/models/vgg16_cifar.py",
+        "sha256": "f9e704a072e5120fa4803353e46691db95ad5769430d96bf356b436a07fb2c1b",
+        "bytes": 2419
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/preconversion.py",
+        "sha256": "e43e88762bab9c50a4f9293b20fdeca6e202e3fbc79abf40eb92287fe84b2370",
+        "bytes": 4095
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/runtime.py",
+        "sha256": "b98b6973eb6ff4813fd24ea8931ccceabed6405cb32f854f2040f818c08bf4a3",
+        "bytes": 2812
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/sbc.py",
+        "sha256": "8f05efdcacafd722423ffb18a8db1053e6aae0251cd8df595c433c6c9b9ba046",
+        "bytes": 13411
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/sparsity.py",
+        "sha256": "16e4cf19d43f073ba0e7560e9663f4862c0aec016de37f568fc536121d420d8d",
+        "bytes": 19279
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/third_party/qcfs_layer.py",
+        "sha256": "64e2ba6566f1c252432092166ad5d2d214f73ebbe7314a5ad2e188d02642030a",
+        "bytes": 2575
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/training.py",
+        "sha256": "762a7990a6893f1e067ad552f00886590b5792e06f3ed53d1d9efea43ac7dd65",
+        "bytes": 14500
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/weight_quantization.py",
+        "sha256": "5516006e3737762bdc08dcb9d0e384569a675bc103e6f388650619e838230c29",
+        "bytes": 11235
+      },
+      {
+        "source": "results/r34_binary_phase_20261117/snn/snapshot/src/zero_rewire.py",
+        "sha256": "10dada5cd2529da793c77886253995b429000a0ba16a83027feb63444188ea8e",
+        "bytes": 2379
+      }
+    ],
+    "bundled": false,
+    "reason": "Keep writing branch focused; historical eager import closure includes unselected R50/low-rank/old-gradient dependencies.",
+    "note": "These 43 hashes identify one historical runner closure, not an assertion that all R18/R20/VGG runs used this revision; result snapshots and configs remain the authority for those runs."
+  },
+  "verification": {
+    "static_local_imports_complete": true,
+    "syntax_checked_files": 61,
+    "unit_tests": {
+      "command": "CUDA_VISIBLE_DEVICES='' OMP_NUM_THREADS=4 python -m unittest discover -s tests -p 'test_*.py'",
+      "result": "passed",
+      "tests": 42,
+      "skipped": 4,
+      "skip_reason": "Optional Fast-SNN author checkout and CUDA unavailable inside bundle; no assets/GPU required.",
+      "python": "python (recorded sparse environment; versions below)"
+    },
+    "unverified": [
+      "GPU kernels and full training are not re-executed.",
+      "External author-code integration requires separately pinned upstream checkout, public weights, data and native PrROI."
+    ],
+    "cifar_model_construction": {
+      "device": "cpu",
+      "seed": 2026100321,
+      "L": 4,
+      "T": [
+        2,
+        4
+      ],
+      "resnet_backbones": [
+        "ResNet18Cifar",
+        "ResNet20Cifar",
+        "ResNet34Cifar"
+      ],
+      "resnet_base_width": 8,
+      "vgg_backbone": "VGG16Cifar (full width)",
+      "input_shape": [
+        1,
+        3,
+        32,
+        32
+      ],
+      "output_shape": [
+        1,
+        100
+      ],
+      "result": "10 cases passed: exact equality to signed-hard forward and finite backward; VGG includes triangular and new phase-density gradients. ResNets use new phase-density gradients.",
+      "source_checkpoints_used": false
+    },
+    "runner_help_checks": [
+      {
+        "script": "scripts/train_dvs.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_detection.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_fast_classification.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_tracking.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_dimp.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/evaluate_dimp.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_tiny_imagenet.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/train_tiny_snn.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/prepare_dvs.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/prepare_dvs128.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/prepare_tiny_imagenet.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/prepare_dimp.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/control_tiny_snn.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/control_dimp_training.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      },
+      {
+        "script": "scripts/monitor_experiments.py",
+        "returncode": 0,
+        "help_available": true,
+        "output_tail": ""
+      }
+    ],
+    "running_guide_added": true
+  },
+  "package_requirements_by_task": {
+    "common": [
+      "torch",
+      "numpy",
+      "torchvision",
+      "Pillow"
+    ],
+    "dvs_preparation": [
+      "requests",
+      "spikingjelly"
+    ],
+    "detection": [
+      "opencv-python-headless",
+      "pycocotools"
+    ],
+    "vistream": [
+      "scipy",
+      "opencv-python-headless"
+    ],
+    "dimp": [
+      "PyTracking/LTR dependencies and native PreciseRoIPooling"
+    ],
+    "optional_acceleration": [
+      "triton==3.1.0 (tested historical setting; torch fallback retained)"
+    ]
+  },
+  "validation_environment_versions": {
+    "torch": "2.5.1.post303",
+    "numpy": "2.2.6",
+    "torchvision": "0.20.1a0+9f8010e",
+    "Pillow": "12.0.0",
+    "scipy": "1.15.3",
+    "requests": "2.34.2",
+    "spikingjelly": "0.0.0.0.15",
+    "opencv-python-headless": "4.10.0.84",
+    "pycocotools": "2.0.8"
+  },
+  "attribution": [
+    {
+      "path": "src/third_party/qcfs_layer.py",
+      "origin": "https://github.com/putshua/ANN_SNN_QCFS",
+      "description": "Preserved author activation source; original runtime imports are AST-filtered by AuthorQCFS loader."
+    },
+    {
+      "path": "src/third_party/vistream_LICENSE.txt",
+      "origin": "https://github.com/Intelligent-Computing-Research-Group/ViStream",
+      "commit": "faecff832cea4251b6504a1efe4277dc57828f35"
+    }
+  ],
+  "validation_scope": "CPU tests and small synthetic construction checks only; do not imply reproduction of published task accuracy or GPU integration.",
+  "selected_entrypoints": {
+    "dvs": [
+      "scripts/prepare_dvs.py",
+      "scripts/prepare_dvs128.py",
+      "scripts/train_dvs.py"
+    ],
+    "fast_snn_cifar100": [
+      "scripts/train_fast_classification.py"
+    ],
+    "voc_detection": [
+      "scripts/train_detection.py"
+    ],
+    "vistream_negative_result": [
+      "scripts/train_tracking.py"
+    ],
+    "dimp_negative_result": [
+      "scripts/prepare_dimp.py",
+      "scripts/train_dimp.py",
+      "scripts/evaluate_dimp.py"
+    ],
+    "final_tiny_sg_queue": [
+      "scripts/train_tiny_imagenet.py",
+      "scripts/train_tiny_snn.py"
+    ],
+    "cifar_core": [
+      "src/models/resnet18_cifar.py",
+      "src/models/resnet20_cifar.py",
+      "src/models/resnet34_cifar.py",
+      "src/models/vgg16_cifar.py",
+      "src/conversion/qcfs_ecl_vgg16.py"
+    ]
+  },
+  "excluded_categories": [
+    "weight sparsity and current concurrent sparse session edits",
+    "early exit",
+    "low rank",
+    "width experiments",
+    "ViT/Transformer",
+    "retired R50 experiment/model source",
+    "standalone unused gradient alternatives",
+    "T15 experiment/test jobs",
+    "datasets and model weights",
+    "venvs/caches/generated binaries",
+    "training stdout/stderr and large logs"
+  ],
+  "publication_exclusions": [
+    {
+      "path": "scripts/control_dimp_training.py",
+      "source": "scripts/control_dimp_training.py",
+      "sha256": "ca3f4c116d559d88fea042ed769b29e1077b06535e441a1065e2f52acb73edb2",
+      "bytes": 8055,
+      "group": "current_method",
+      "modified": false
+    },
+    {
+      "path": "scripts/control_tiny_snn.py",
+      "source": "results/tiny_imagenet_sg_20261120/snapshot/scripts/control_tiny_snn.py",
+      "sha256": "f49720e3ac3408c221a5605e140c996bf548399fd7c238ed467feb04c8aecbf7",
+      "bytes": 9346,
+      "group": "current_method",
+      "modified": false
+    },
+    {
+      "path": "scripts/monitor_experiments.py",
+      "source": "scripts/monitor_experiments.py",
+      "sha256": "486f53dbb12622543bf5b93ef112c5cdbb1b066e19f9e1aa646118c77792dff3",
+      "bytes": 18146,
+      "group": "current_method",
+      "modified": false
+    }
+  ]
+}

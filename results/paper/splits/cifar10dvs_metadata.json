@@ -1,0 +1,83 @@
+{
+  "dataset": "CIFAR10-DVS",
+  "T": 4,
+  "split_by": "number",
+  "resolution": [
+    128,
+    128
+  ],
+  "parser_path": "${EXTERNAL_ROOT}/cifar10_dvs.py",
+  "parser_sha256": "0bb3b58005430b0e675af1f34c25928f253c0a861cf02bb5d21814579dfaa760",
+  "resources": [
+    [
+      "airplane.zip",
+      "https://ndownloader.figshare.com/files/7712788",
+      "0afd5c4bf9ae06af762a77b180354fdd"
+    ],
+    [
+      "automobile.zip",
+      "https://ndownloader.figshare.com/files/7712791",
+      "8438dfeba3bc970c94962d995b1b9bdd"
+    ],
+    [
+      "bird.zip",
+      "https://ndownloader.figshare.com/files/7712794",
+      "a9c207c91c55b9dc2002dc21c684d785"
+    ],
+    [
+      "cat.zip",
+      "https://ndownloader.figshare.com/files/7712812",
+      "52c63c677c2b15fa5146a8daf4d56687"
+    ],
+    [
+      "deer.zip",
+      "https://ndownloader.figshare.com/files/7712815",
+      "b6bf21f6c04d21ba4e23fc3e36c8a4a3"
+    ],
+    [
+      "dog.zip",
+      "https://ndownloader.figshare.com/files/7712818",
+      "f379ebdf6703d16e0a690782e62639c3"
+    ],
+    [
+      "frog.zip",
+      "https://ndownloader.figshare.com/files/7712842",
+      "cad6ed91214b1c7388a5f6ee56d08803"
+    ],
+    [
+      "horse.zip",
+      "https://ndownloader.figshare.com/files/7712851",
+      "e7cbbf77bec584ffbf913f00e682782a"
+    ],
+    [
+      "ship.zip",
+      "https://ndownloader.figshare.com/files/7712836",
+      "41c7bd7d6b251be82557c6cce9a7d5c9"
+    ],
+    [
+      "truck.zip",
+      "https://ndownloader.figshare.com/files/7712839",
+      "89f3922fd147d9aeff89e76a2b0b70a7"
+    ]
+  ],
+  "split": "natural numeric filename order; first 900/class train, last 100/class test",
+  "official_split": false,
+  "seed": 2026100321,
+  "status": "complete",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "train_count": 9000,
+  "test_count": 1000,
+  "original_manifest_sha256": "bb45e8fda17e5c89dd3074217f1ccbcaab02372caaa828e935d91a48ec09ad16",
+  "original_manifest_path": "data/cifar10_dvs/frames_number_4/manifest.json"
+}

@@ -1,0 +1,12 @@
+{
+  "ready_for_final_paper_push": true,
+  "pending_rows": [],
+  "expected_update_sources": [
+    "results/tiny_imagenet_sg_20261120/cases/resnet34_L4_T4/triangular/summary.json",
+    "results/tiny_imagenet_sg_20261120/cases/resnet34_L4_T4/triangular/epochs.jsonl",
+    "results/tiny_imagenet_sg_20261120/cases/resnet34_L4_T4/final_assessment.json",
+    "results/tiny_imagenet_sg_20261120/comparison.json"
+  ],
+  "completion_gate": "Require actual final80-epoch triangular summary, final official10000validation evaluation and paired final_assessment; refresh export, then verify pending_rows empty. Do not restart training.",
+  "update_procedure": "After the actual final experiment assessment is complete, regenerate this handoff from the refreshed authoritative result export. Preserve endpoint policy and all raw source hashes."
+}

@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "seed": 2026100321,
+  "device": "cpu",
+  "threads": 2,
+  "cuda_initialized": false,
+  "classification_real_code_cases": [
+    {
+      "theta": 1.4024491672068138,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 8.881784197001252e-16,
+      "code_mean_vs_exact_cells": 6.661338147750939e-16,
+      "code_vjp_vs_unified_autograd": 1.3322676295501878e-15,
+      "code_vjp_vs_exact_cells_fd": 6.294564869335773e-10
+    },
+    {
+      "theta": 1.59346664356079,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 1.1102230246251565e-16,
+      "code_mean_vs_exact_cells": 3.3306690738754696e-16,
+      "code_vjp_vs_unified_autograd": 5.551115123125783e-17,
+      "code_vjp_vs_exact_cells_fd": 4.541012010861323e-10
+    },
+    {
+      "theta": 0.8695855462614307,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 2.220446049250313e-16,
+      "code_mean_vs_exact_cells": 0.0,
+      "code_vjp_vs_unified_autograd": 6.106226635438361e-16,
+      "code_vjp_vs_exact_cells_fd": 3.806222004243409e-11
+    },
+    {
+      "theta": 0.41583660694056157,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 1.1102230246251565e-16,
+      "code_mean_vs_exact_cells": 5.551115123125783e-17,
+      "code_vjp_vs_unified_autograd": 2.220446049250313e-16,
+      "code_vjp_vs_exact_cells_fd": 9.21490661554003e-12
+    },
+    {
+      "theta": 0.7061442578152537,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 7.806255641895632e-17,
+      "code_mean_vs_exact_cells": 7.806255641895632e-17,
+      "code_vjp_vs_unified_autograd": 1.1102230246251565e-16,
+      "code_vjp_vs_exact_cells_fd": 1.275266559019883e-10
+    },
+    {
+      "theta": 1.1364619104492526,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 1.1102230246251565e-16,
+      "code_mean_vs_exact_cells": 1.1102230246251565e-16,
+      "code_vjp_vs_unified_autograd": 6.661338147750939e-16,
+      "code_vjp_vs_exact_cells_fd": 1.2676260041644127e-10
+    },
+    {
+      "theta": 1.403837741496266,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 1.1102230246251565e-16,
+      "code_mean_vs_exact_cells": 2.220446049250313e-16,
+      "code_vjp_vs_unified_autograd": 1.1102230246251565e-16,
+      "code_vjp_vs_exact_cells_fd": 1.4310375107129403e-10
+    },
+    {
+      "theta": 1.60509647279,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 1.734723475976807e-16,
+      "code_mean_vs_exact_cells": 6.938893903907228e-18,
+      "code_vjp_vs_unified_autograd": 5.551115123125783e-16,
+      "code_vjp_vs_exact_cells_fd": 6.90604240460857e-11
+    },
+    {
+      "theta": 1.2915904366792197,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 4.440892098500626e-16,
+      "code_mean_vs_exact_cells": 6.661338147750939e-16,
+      "code_vjp_vs_unified_autograd": 2.220446049250313e-16,
+      "code_vjp_vs_exact_cells_fd": 2.341637439506883e-10
+    },
+    {
+      "theta": 1.672738248423065,
+      "T": 4,
+      "epsilon": 0.001,
+      "code_mean_vs_unified": 0.0,
+      "code_mean_vs_exact_cells": 0.0,
+      "code_vjp_vs_unified_autograd": 2.6020852139652106e-17,
+      "code_vjp_vs_exact_cells_fd": 5.247413614739571e-11
+    }
+  ],
+  "finite_cap_cases": [
+    {
+      "q0": 0.5,
+      "c0": 0,
+      "cap": 7,
+      "epsilon": 0.0,
+      "unified_vs_exact_cells": 1.1102230246251565e-16,
+      "three_term_vs_reduced_two_term": 0.0
+    },
+    {
+      "q0": -0.2,
+      "c0": 3,
+      "cap": 7,
+      "epsilon": 0.0,
+      "unified_vs_exact_cells": 2.220446049250313e-16,
+      "three_term_vs_reduced_two_term": 0.0
+    },
+    {
+      "q0": 1.2,
+      "c0": 7,
+      "cap": 7,
+      "epsilon": 0.0,
+      "unified_vs_exact_cells": 4.996003610813204e-16,
+      "three_term_vs_reduced_two_term": 0.0
+    },
+    {
+      "q0": 0.3,
+      "c0": 2,
+      "cap": 3,
+      "epsilon": 0.001,
+      "unified_vs_exact_cells": 1.1102230246251565e-16
+    }
+  ],
+  "positive_classification_example": {
+    "T": 2,
+    "epsilon": 0.001,
+    "currents": [
+      0.4,
+      -0.6
+    ],
+    "mean": [
+      0.405,
+      -0.35969950000000006
+    ],
+    "actual_classification_jacobian": [
+      [
+        0.9,
+        0.0
+      ],
+      [
+        -0.5990000000000001,
+        0.30099999999999993
+      ]
+    ],
+    "sum_readout_gradient": [
+      0.30099999999999993,
+      0.30099999999999993
+    ],
+    "linear_readout": [
+      0.3,
+      1.0
+    ],
+    "before": -0.23819950000000006,
+    "after_density_step": -0.23839837949234993,
+    "after_triangle_step": -0.23819095149999997
+  },
+  "scope": "Ten fixed-seed T4 checks and a few local states; no dataset/model/GPU/training/production-code changes."
+}

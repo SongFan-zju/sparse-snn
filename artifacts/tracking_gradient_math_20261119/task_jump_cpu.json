@@ -1,0 +1,95 @@
+{
+  "scope": "One synthetic scalar decoded feature in either template or search; exact phase-cell integration; native DiMP 2-step optimizer + LBHinge. Not full tracker or whole-network phase gradient.",
+  "seed": 2026100321,
+  "T": 4,
+  "currents": [
+    0.18,
+    0.42,
+    -0.15,
+    0.37
+  ],
+  "cuda_initialized_before": false,
+  "branches": {
+    "template": {
+      "hard_feature": 0.25,
+      "hard_loss": 0.08597807742451768,
+      "hard_adjoint": 0.006806580290673027,
+      "sg_first_current": 0.0017016450726682563,
+      "boundary_linearized_first_current": 0.0017016450726682563,
+      "exact_conditional_expected_loss_first_current": 0.0018261111927853307,
+      "finite_difference_of_integrated_loss": 0.001826111191427504,
+      "exact_minus_surrogate": 0.00012446612011707443,
+      "phase_cells": 13,
+      "nonzero_feature_jumps": [
+        {
+          "phase_boundary": 0.18000000000000005,
+          "left_feature": 0.0,
+          "right_feature": 0.25,
+          "loss_jump": 0.0020669671270588247,
+          "hard_adjoint_linear_jump": 0.0017016450726682567
+        },
+        {
+          "phase_boundary": 1.1800000000000002,
+          "left_feature": 0.25,
+          "right_feature": 0.5,
+          "loss_jump": 0.0013142923324541561,
+          "hard_adjoint_linear_jump": 0.0017016450726682567
+        }
+      ],
+      "linear_identity_abs_error": 0.0,
+      "quadrature_fd_abs_error": 1.3578268284047956e-12
+    },
+    "search": {
+      "hard_feature": 0.25,
+      "hard_loss": 0.09024566765119406,
+      "hard_adjoint": -0.016264052198330086,
+      "sg_first_current": -0.004066013049582521,
+      "boundary_linearized_first_current": -0.004066013049582521,
+      "exact_conditional_expected_loss_first_current": -0.004150666910872073,
+      "finite_difference_of_integrated_loss": -0.004150666909480405,
+      "exact_minus_surrogate": -8.465386128955234e-05,
+      "phase_cells": 13,
+      "nonzero_feature_jumps": [
+        {
+          "phase_boundary": 0.18000000000000005,
+          "left_feature": 0.0,
+          "right_feature": 0.25,
+          "loss_jump": -0.004301162664275715,
+          "hard_adjoint_linear_jump": -0.0040660130495825215
+        },
+        {
+          "phase_boundary": 1.1800000000000002,
+          "left_feature": 0.25,
+          "right_feature": 0.5,
+          "loss_jump": -0.0038308634348893367,
+          "hard_adjoint_linear_jump": -0.0040660130495825215
+        }
+      ],
+      "linear_identity_abs_error": 0.0,
+      "quadrature_fd_abs_error": 1.3916680308145857e-12
+    }
+  },
+  "margin_counterexample": {
+    "label": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "response_before": [
+      0.8,
+      0.79,
+      0.7
+    ],
+    "response_after": [
+      0.79,
+      0.791,
+      0.6
+    ],
+    "LBHinge_before": 0.38470000000000004,
+    "LBHinge_after": 0.34326033333333333,
+    "target_margin_before": 0.010000000000000009,
+    "target_margin_after": -0.0010000000000000009,
+    "meaning": "A possible response-space change, not an observed network update or evidence SG caused it."
+  },
+  "cuda_initialized_after": false
+}

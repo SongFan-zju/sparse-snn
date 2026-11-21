@@ -1,0 +1,314 @@
+{
+  "schema_version": 2,
+  "purpose": "Small research handoff overlay for clean source branch; merge preserving repository-relative paths. No ICML manuscript authored.",
+  "date": "2026-11-21",
+  "checksum_semantics": {
+    "original_source_sha256": "Original source file before export transformations; null for newly authored handoff metadata.",
+    "export_sha256": "Actual bytes present in this bundle.",
+    "source_requirements": "local_source_sha256 and exported_code_sha256 are separately labeled, see compatibility note.",
+    "paper_index": "Paper-entry sha256 identifies original cached PDF, not JSON index."
+  },
+  "files_count_excluding_manifest": 29,
+  "bytes_excluding_manifest": 644911,
+  "excluded": [
+    "reports/phase_gradient_math_20261119/study/",
+    "reports/phase_gradient_math_20261119/earlier_scope/",
+    "nested zip archives",
+    "paper PDFs/full texts",
+    "weights/datasets",
+    "real_trace_check/cache.pt",
+    "weight sparsity/early-exit/lowrank studies"
+  ],
+  "files": [
+    {
+      "path": "MATH_BUNDLE_VERIFICATION.json",
+      "bytes": 2224,
+      "export_sha256": "c4923b58c206c01d84f3ce74108f539913ad56a5227e4463445fea0454626c02",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "MATH_CODE_COMPATIBILITY_ZH.md",
+      "bytes": 2150,
+      "export_sha256": "8aefac3eccb15064d93ae1eee783c2a038727433cf6864df8859a3be23e9999a",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "MATH_PORTABILITY_ZH.md",
+      "bytes": 1955,
+      "export_sha256": "66bf56ef7bb5f6ce319aad85be202236b326296cc4ca98544fa5842bf607721a",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "MATH_REFERENCES_ZH.md",
+      "bytes": 2814,
+      "export_sha256": "f705908f279e9d790f462fe070044264ba1f79f5b32fe013bbeb40eaae8d728a",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "MATH_RESEARCH_INDEX_ZH.md",
+      "bytes": 8864,
+      "export_sha256": "2165a76c822bbb44ca5be471cd84481a487c1885a18c065f8485c3abf93f260a",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "MATH_SOURCE_REQUIREMENTS.json",
+      "bytes": 5392,
+      "export_sha256": "19b0b031b53e31e09178eaa5a94cfe49199c006f12bf05d47781095379b125c5",
+      "original_source_path": null,
+      "original_source_sha256": null,
+      "original_source_bytes": null,
+      "transformation": "new_handoff_metadata_or_index",
+      "copy_byte_identical_to_original": null
+    },
+    {
+      "path": "artifacts/papers/index.json",
+      "bytes": 2059,
+      "export_sha256": "a6eac2b7babadf0db469b58905b7de1f407e0a29371daee29aca92d74fb3ff9b",
+      "original_source_path": "artifacts/papers/index.json",
+      "original_source_sha256": "b992a01bb8f630426aa52fe0960c85c70177b507cc80fa4e3f693d30d8784a38",
+      "original_source_bytes": 1803,
+      "transformation": "absolute_machine_paths_normalized_with_provenance_metadata",
+      "copy_byte_identical_to_original": false
+    },
+    {
+      "path": "artifacts/papers/phase_triangle_analysis_20261116/index_phase_triangle.json",
+      "bytes": 2273,
+      "export_sha256": "162f1cfa3055345894ecde8f8d91dce5458b05dc59f68e3c7d586bc20529eceb",
+      "original_source_path": "artifacts/papers/phase_triangle_analysis_20261116/index_phase_triangle.json",
+      "original_source_sha256": "162f1cfa3055345894ecde8f8d91dce5458b05dc59f68e3c7d586bc20529eceb",
+      "original_source_bytes": 2273,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/boundary_background.md",
+      "bytes": 1412,
+      "export_sha256": "21c5751040e5f569f3fd1ea45fc796df577a132eb73d79eb8f72ba29432cee5a",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/boundary_background.md",
+      "original_source_sha256": "21c5751040e5f569f3fd1ea45fc796df577a132eb73d79eb8f72ba29432cee5a",
+      "original_source_bytes": 1412,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/check_foundations_cpu.py",
+      "bytes": 8942,
+      "export_sha256": "ed206e3a3a59b99aeeac7b41503d1ad2077760ee5d8dcbbd83838beb38832e29",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/check_foundations_cpu.py",
+      "original_source_sha256": "ed206e3a3a59b99aeeac7b41503d1ad2077760ee5d8dcbbd83838beb38832e29",
+      "original_source_bytes": 8942,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/check_positive_mechanism.py",
+      "bytes": 3942,
+      "export_sha256": "3075b0f660497e357fdc42d611c220c25c7202fa9830467a402a402a167dcc79",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/check_positive_mechanism.py",
+      "original_source_sha256": "3075b0f660497e357fdc42d611c220c25c7202fa9830467a402a402a167dcc79",
+      "original_source_bytes": 3942,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/check_unified_count_boundary_cpu.py",
+      "bytes": 6397,
+      "export_sha256": "892dce6d0debc5478e5af68e6a548fec90a99dd374e74102785abf903b1da308",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/check_unified_count_boundary_cpu.py",
+      "original_source_sha256": "892dce6d0debc5478e5af68e6a548fec90a99dd374e74102785abf903b1da308",
+      "original_source_bytes": 6397,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/credit_cpu.json",
+      "bytes": 5618,
+      "export_sha256": "a8c0d2fce3b0ee34d96fd2ccbdf8d57c22c3c6ef08b7acaf2cda3292688b07b1",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/credit_cpu.json",
+      "original_source_sha256": "a8c0d2fce3b0ee34d96fd2ccbdf8d57c22c3c6ef08b7acaf2cda3292688b07b1",
+      "original_source_bytes": 5618,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/foundations.md",
+      "bytes": 13830,
+      "export_sha256": "618c2dec52ab4916f5d140860555cb559e4242f90aba23081e6606f61e84fa0b",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/foundations.md",
+      "original_source_sha256": "618c2dec52ab4916f5d140860555cb559e4242f90aba23081e6606f61e84fa0b",
+      "original_source_bytes": 13830,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/foundations_cpu_checks.json",
+      "bytes": 4534,
+      "export_sha256": "71034440075d32805c9f985f78e047b0a0551f2c54733ec6ce6e6345ffa07647",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/foundations_cpu_checks.json",
+      "original_source_sha256": "71034440075d32805c9f985f78e047b0a0551f2c54733ec6ce6e6345ffa07647",
+      "original_source_bytes": 4534,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/mechanism_checks.json",
+      "bytes": 2049,
+      "export_sha256": "6e92bb1e1a480fdb2cee3c3ce08a8a763da02d99e3ef51da78e9e0a8698378d3",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/mechanism_checks.json",
+      "original_source_sha256": "6e92bb1e1a480fdb2cee3c3ce08a8a763da02d99e3ef51da78e9e0a8698378d3",
+      "original_source_bytes": 2049,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/motivation_zh.md",
+      "bytes": 11170,
+      "export_sha256": "3fdbcd1958b216bf35179d36d9f9c4b9aea279c29f4ee348bb6708e17984a448",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/motivation_zh.md",
+      "original_source_sha256": "3fdbcd1958b216bf35179d36d9f9c4b9aea279c29f4ee348bb6708e17984a448",
+      "original_source_bytes": 11170,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/real_trace_check/report.md",
+      "bytes": 7784,
+      "export_sha256": "222ad528bd0491e16691c1ee09a714f79ec251ac4a833a0f7d4870d9e987cee7",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/real_trace_check/report.md",
+      "original_source_sha256": "222ad528bd0491e16691c1ee09a714f79ec251ac4a833a0f7d4870d9e987cee7",
+      "original_source_bytes": 7784,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/real_trace_check/results.json",
+      "bytes": 135303,
+      "export_sha256": "e91608be6d6319b12f46289dbcf92e4c5bd8d7e71a6d8997db2193446c56128a",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/real_trace_check/results.json",
+      "original_source_sha256": "e91608be6d6319b12f46289dbcf92e4c5bd8d7e71a6d8997db2193446c56128a",
+      "original_source_bytes": 135303,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/real_trace_check/selection.json",
+      "bytes": 1059,
+      "export_sha256": "864d6140f62ebf6e2a949e97c274d50c1b2f44504e4a60743e00af70521ddfe4",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/real_trace_check/selection.json",
+      "original_source_sha256": "864d6140f62ebf6e2a949e97c274d50c1b2f44504e4a60743e00af70521ddfe4",
+      "original_source_bytes": 1059,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/task_alignment.md",
+      "bytes": 10433,
+      "export_sha256": "38bab15035a4c7901aed1b045d67242cc4b8df60cbded2e6acc8df33770e2bce",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/task_alignment.md",
+      "original_source_sha256": "38bab15035a4c7901aed1b045d67242cc4b8df60cbded2e6acc8df33770e2bce",
+      "original_source_bytes": 10433,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/task_jump_cpu.json",
+      "bytes": 3091,
+      "export_sha256": "2b4183bb34a300c61779cdfc486c192aa6e80a3da3adc2e523f205114e12e09f",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/task_jump_cpu.json",
+      "original_source_sha256": "2b4183bb34a300c61779cdfc486c192aa6e80a3da3adc2e523f205114e12e09f",
+      "original_source_bytes": 3091,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/tracking_objective.md",
+      "bytes": 12438,
+      "export_sha256": "42e72269867d63edcf63eeb40ba8d8f3ec1f472c7125a986c7c6decbb2204bd7",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/tracking_objective.md",
+      "original_source_sha256": "42e72269867d63edcf63eeb40ba8d8f3ec1f472c7125a986c7c6decbb2204bd7",
+      "original_source_bytes": 12438,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/unified_count_boundary.md",
+      "bytes": 9353,
+      "export_sha256": "28f2a4a3a7dae5532b20e1327a986fdb63968bcc52f6a6c458e99faf8d258b4a",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/unified_count_boundary.md",
+      "original_source_sha256": "28f2a4a3a7dae5532b20e1327a986fdb63968bcc52f6a6c458e99faf8d258b4a",
+      "original_source_bytes": 9353,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "artifacts/tracking_gradient_math_20261119/unified_count_boundary_checks.json",
+      "bytes": 4707,
+      "export_sha256": "5ee78594d51aa6374e525e261cf72e8a3728f8c281e5131e0728e4f51cb57fce",
+      "original_source_path": "artifacts/tracking_gradient_math_20261119/unified_count_boundary_checks.json",
+      "original_source_sha256": "5ee78594d51aa6374e525e261cf72e8a3728f8c281e5131e0728e4f51cb57fce",
+      "original_source_bytes": 4707,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "reports/phase_gradient_math_20261119/report_source.json",
+      "bytes": 29696,
+      "export_sha256": "27cec3003f2d5187aa546b0075224aeda3f9d25c7d156d0a663531669a6989f9",
+      "original_source_path": "reports/phase_gradient_math_20261119/report_source.json",
+      "original_source_sha256": "27cec3003f2d5187aa546b0075224aeda3f9d25c7d156d0a663531669a6989f9",
+      "original_source_bytes": 29696,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "reports/phase_gradient_math_20261119/report_source.portable.json",
+      "bytes": 30064,
+      "export_sha256": "94c825e694c7d2b8ca9f84916622cb5883e61820c52aa3344b7aaa8f7fab33c6",
+      "original_source_path": "reports/phase_gradient_math_20261119/report_source.json",
+      "original_source_sha256": "27cec3003f2d5187aa546b0075224aeda3f9d25c7d156d0a663531669a6989f9",
+      "original_source_bytes": 29696,
+      "transformation": "absolute_machine_paths_normalized_with_provenance_metadata",
+      "copy_byte_identical_to_original": false
+    },
+    {
+      "path": "reports/phase_gradient_math_20261119/数学猜想与证明交接报告.pdf",
+      "bytes": 288483,
+      "export_sha256": "b27ae38c8f8df35cd44bab7767cd30f4c71f357515b3248d68a55d91f62bcdae",
+      "original_source_path": "reports/phase_gradient_math_20261119/数学猜想与证明交接报告.pdf",
+      "original_source_sha256": "b27ae38c8f8df35cd44bab7767cd30f4c71f357515b3248d68a55d91f62bcdae",
+      "original_source_bytes": 288483,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    },
+    {
+      "path": "reports/phase_gradient_math_20261119/数学猜想与证明交接报告.txt",
+      "bytes": 26875,
+      "export_sha256": "63121b118c6ad81895e6c3330b4b1edcf436b96d9edf42976406dcd0e7ad1c63",
+      "original_source_path": "reports/phase_gradient_math_20261119/数学猜想与证明交接报告.txt",
+      "original_source_sha256": "63121b118c6ad81895e6c3330b4b1edcf436b96d9edf42976406dcd0e7ad1c63",
+      "original_source_bytes": 26875,
+      "transformation": "verbatim_copy",
+      "copy_byte_identical_to_original": true
+    }
+  ]
+}

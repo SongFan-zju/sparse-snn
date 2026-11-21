@@ -1,0 +1,1465 @@
+path,target,label,split,raw_trial,csv_row,interval_start_usec,interval_end_usec
+train/0/user01_fluorescent_interval0.npz,0,hand_clapping,train,user01_fluorescent.aedat,0,80048239,85092709
+train/1/user01_fluorescent_interval1.npz,1,right_hand_wave,train,user01_fluorescent.aedat,1,89431170,95231007
+train/2/user01_fluorescent_interval2.npz,2,left_hand_wave,train,user01_fluorescent.aedat,2,95938861,103200075
+train/3/user01_fluorescent_interval3.npz,3,right_hand_clockwise,train,user01_fluorescent.aedat,3,114845417,123499505
+train/4/user01_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user01_fluorescent.aedat,4,124344363,131742581
+train/5/user01_fluorescent_interval5.npz,5,left_hand_clockwise,train,user01_fluorescent.aedat,5,133660637,141880879
+train/6/user01_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user01_fluorescent.aedat,6,142360393,149138239
+train/7/user01_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_fluorescent.aedat,7,150717639,157362334
+train/7/user01_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_fluorescent.aedat,8,157773346,164029864
+train/8/user01_fluorescent_interval9.npz,8,drums,train,user01_fluorescent.aedat,9,165057394,171518239
+train/9/user01_fluorescent_interval10.npz,9,guitar,train,user01_fluorescent.aedat,10,172843790,179442817
+train/10/user01_fluorescent_interval11.npz,10,random_other_gestures,train,user01_fluorescent.aedat,11,180675853,187389051
+train/0/user01_fluorescent_led_interval0.npz,0,hand_clapping,train,user01_fluorescent_led.aedat,0,72406439,77491059
+train/1/user01_fluorescent_led_interval1.npz,1,right_hand_wave,train,user01_fluorescent_led.aedat,1,78810182,84974084
+train/2/user01_fluorescent_led_interval2.npz,2,left_hand_wave,train,user01_fluorescent_led.aedat,2,86245239,92553046
+train/3/user01_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user01_fluorescent_led.aedat,3,95646989,107591049
+train/4/user01_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user01_fluorescent_led.aedat,4,108814236,115721644
+train/5/user01_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user01_fluorescent_led.aedat,5,118479810,126034788
+train/6/user01_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user01_fluorescent_led.aedat,6,126754309,133277973
+train/7/user01_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_fluorescent_led.aedat,7,134477175,142607770
+train/7/user01_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_fluorescent_led.aedat,8,142871595,149755019
+train/8/user01_fluorescent_led_interval9.npz,8,drums,train,user01_fluorescent_led.aedat,9,150522509,156854299
+train/9/user01_fluorescent_led_interval10.npz,9,guitar,train,user01_fluorescent_led.aedat,10,158293343,165992225
+train/10/user01_fluorescent_led_interval11.npz,10,random_other_gestures,train,user01_fluorescent_led.aedat,11,166903619,174842341
+train/0/user01_lab_interval0.npz,0,hand_clapping,train,user01_lab.aedat,0,40196815,45166606
+train/1/user01_lab_interval1.npz,1,right_hand_wave,train,user01_lab.aedat,1,50451644,54902202
+train/2/user01_lab_interval2.npz,2,left_hand_wave,train,user01_lab.aedat,2,55662506,61188616
+train/3/user01_lab_interval3.npz,3,right_hand_clockwise,train,user01_lab.aedat,3,65231207,77396066
+train/4/user01_lab_interval4.npz,4,right_hand_counter_clockwise,train,user01_lab.aedat,4,77989474,84183168
+train/5/user01_lab_interval5.npz,5,left_hand_clockwise,train,user01_lab.aedat,5,85277263,92008733
+train/6/user01_lab_interval6.npz,6,left_hand_counter_clockwise,train,user01_lab.aedat,6,92175629,98777291
+train/7/user01_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_lab.aedat,7,99426330,106083624
+train/7/user01_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_lab.aedat,8,106120712,111442838
+train/8/user01_lab_interval9.npz,8,drums,train,user01_lab.aedat,9,112555478,119138595
+train/9/user01_lab_interval10.npz,9,guitar,train,user01_lab.aedat,10,119954531,125387921
+train/10/user01_lab_interval11.npz,10,random_other_gestures,train,user01_lab.aedat,11,127316496,130153727
+train/0/user01_led_interval0.npz,0,hand_clapping,train,user01_led.aedat,0,48486443,53269496
+train/1/user01_led_interval1.npz,1,right_hand_wave,train,user01_led.aedat,1,54965479,61654131
+train/2/user01_led_interval2.npz,2,left_hand_wave,train,user01_led.aedat,2,62416370,67828271
+train/3/user01_led_interval3.npz,3,right_hand_clockwise,train,user01_led.aedat,3,70801005,78747352
+train/4/user01_led_interval4.npz,4,right_hand_counter_clockwise,train,user01_led.aedat,4,79566760,86941427
+train/5/user01_led_interval5.npz,5,left_hand_clockwise,train,user01_led.aedat,5,89799825,98108236
+train/6/user01_led_interval6.npz,6,left_hand_counter_clockwise,train,user01_led.aedat,6,98279740,104168041
+train/7/user01_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_led.aedat,7,104911224,112419283
+train/7/user01_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_led.aedat,8,112667011,118745871
+train/8/user01_led_interval9.npz,8,drums,train,user01_led.aedat,9,119774895,126635051
+train/9/user01_led_interval10.npz,9,guitar,train,user01_led.aedat,10,128045194,134905349
+train/10/user01_led_interval11.npz,10,random_other_gestures,train,user01_led.aedat,11,135858149,142337185
+train/0/user01_natural_interval0.npz,0,hand_clapping,train,user01_natural.aedat,0,53036986,59508469
+train/1/user01_natural_interval1.npz,1,right_hand_wave,train,user01_natural.aedat,1,64889467,73697045
+train/2/user01_natural_interval2.npz,2,left_hand_wave,train,user01_natural.aedat,2,74839238,81768543
+train/4/user01_natural_interval3.npz,4,right_hand_counter_clockwise,train,user01_natural.aedat,3,87200306,97835393
+train/3/user01_natural_interval4.npz,3,right_hand_clockwise,train,user01_natural.aedat,4,98139978,106541442
+train/5/user01_natural_interval5.npz,5,left_hand_clockwise,train,user01_natural.aedat,5,111008687,120907694
+train/6/user01_natural_interval6.npz,6,left_hand_counter_clockwise,train,user01_natural.aedat,6,122456000,129994474
+train/7/user01_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_natural.aedat,7,132355007,141594080
+train/7/user01_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user01_natural.aedat,8,142355542,148751823
+train/8/user01_natural_interval9.npz,8,drums,train,user01_natural.aedat,9,149970163,156671029
+train/9/user01_natural_interval10.npz,9,guitar,train,user01_natural.aedat,10,161214419,168625983
+train/10/user01_natural_interval11.npz,10,random_other_gestures,train,user01_natural.aedat,11,171367247,177991967
+train/0/user02_fluorescent_interval0.npz,0,hand_clapping,train,user02_fluorescent.aedat,0,47076407,52791277
+train/1/user02_fluorescent_interval1.npz,1,right_hand_wave,train,user02_fluorescent.aedat,1,58527551,65269813
+train/2/user02_fluorescent_interval2.npz,2,left_hand_wave,train,user02_fluorescent.aedat,2,69422191,74751789
+train/3/user02_fluorescent_interval3.npz,3,right_hand_clockwise,train,user02_fluorescent.aedat,3,78454682,85453793
+train/4/user02_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user02_fluorescent.aedat,4,87401557,94807344
+train/5/user02_fluorescent_interval5.npz,5,left_hand_clockwise,train,user02_fluorescent.aedat,5,96284220,103475967
+train/6/user02_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user02_fluorescent.aedat,6,109105221,114691667
+train/7/user02_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_fluorescent.aedat,7,117110320,122996422
+train/7/user02_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_fluorescent.aedat,8,124772955,130380805
+train/8/user02_fluorescent_interval9.npz,8,drums,train,user02_fluorescent.aedat,9,133013498,138514327
+train/9/user02_fluorescent_interval10.npz,9,guitar,train,user02_fluorescent.aedat,10,140440688,145342206
+train/10/user02_fluorescent_interval11.npz,10,random_other_gestures,train,user02_fluorescent.aedat,11,147332779,152170084
+train/0/user02_fluorescent_led_interval0.npz,0,hand_clapping,train,user02_fluorescent_led.aedat,0,41338207,45921981
+train/1/user02_fluorescent_led_interval1.npz,1,right_hand_wave,train,user02_fluorescent_led.aedat,1,50981549,56515452
+train/2/user02_fluorescent_led_interval2.npz,2,left_hand_wave,train,user02_fluorescent_led.aedat,2,59124292,64757015
+train/3/user02_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user02_fluorescent_led.aedat,3,68690039,75686473
+train/4/user02_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user02_fluorescent_led.aedat,4,77801214,83275826
+train/5/user02_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user02_fluorescent_led.aedat,5,85430095,91062818
+train/6/user02_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user02_fluorescent_led.aedat,6,92821808,98355711
+train/7/user02_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_fluorescent_led.aedat,7,99976354,106537982
+train/7/user02_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_fluorescent_led.aedat,8,107723818,113514652
+train/8/user02_fluorescent_led_interval9.npz,8,drums,train,user02_fluorescent_led.aedat,9,116360659,122151494
+train/9/user02_fluorescent_led_interval10.npz,9,guitar,train,user02_fluorescent_led.aedat,10,124957973,130195417
+train/10/user02_fluorescent_led_interval11.npz,10,random_other_gestures,train,user02_fluorescent_led.aedat,11,132567089,139069425
+train/1/user02_lab_interval0.npz,1,right_hand_wave,train,user02_lab.aedat,0,158826387,164495109
+train/2/user02_lab_interval1.npz,2,left_hand_wave,train,user02_lab.aedat,1,166608869,172431319
+train/3/user02_lab_interval2.npz,3,right_hand_clockwise,train,user02_lab.aedat,2,176409032,184191514
+train/4/user02_lab_interval3.npz,4,right_hand_counter_clockwise,train,user02_lab.aedat,3,186343707,192973229
+train/5/user02_lab_interval4.npz,5,left_hand_clockwise,train,user02_lab.aedat,4,195375229,202600447
+train/6/user02_lab_interval5.npz,6,left_hand_counter_clockwise,train,user02_lab.aedat,5,204579696,211305298
+train/7/user02_lab_interval6.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_lab.aedat,6,213380626,220471332
+train/7/user02_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_lab.aedat,7,222277637,229695015
+train/8/user02_lab_interval8.npz,8,drums,train,user02_lab.aedat,8,231597399,238611241
+train/9/user02_lab_interval9.npz,9,guitar,train,user02_lab.aedat,9,240424388,246316860
+train/10/user02_lab_interval10.npz,10,random_other_gestures,train,user02_lab.aedat,10,248526700,254695038
+train/0/user02_led_interval0.npz,0,hand_clapping,train,user02_led.aedat,0,48851178,53290847
+train/1/user02_led_interval1.npz,1,right_hand_wave,train,user02_led.aedat,1,56103640,61860490
+train/2/user02_led_interval2.npz,2,left_hand_wave,train,user02_led.aedat,2,64035716,70861427
+train/3/user02_led_interval3.npz,3,right_hand_clockwise,train,user02_led.aedat,3,74743082,80912474
+train/4/user02_led_interval4.npz,4,right_hand_counter_clockwise,train,user02_led.aedat,4,82693910,88582023
+train/5/user02_led_interval5.npz,5,left_hand_clockwise,train,user02_led.aedat,5,90663490,97226674
+train/6/user02_led_interval6.npz,6,left_hand_counter_clockwise,train,user02_led.aedat,6,98951853,104783711
+train/7/user02_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_led.aedat,7,106602650,112865803
+train/7/user02_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_led.aedat,8,115022278,120704119
+train/8/user02_led_interval9.npz,8,drums,train,user02_led.aedat,9,123291889,129361178
+train/9/user02_led_interval10.npz,9,guitar,train,user02_led.aedat,10,131711516,136571178
+train/10/user02_led_interval11.npz,10,random_other_gestures,train,user02_led.aedat,11,138499723,142606401
+train/0/user02_natural_interval0.npz,0,hand_clapping,train,user02_natural.aedat,0,42391371,49034295
+train/1/user02_natural_interval1.npz,1,right_hand_wave,train,user02_natural.aedat,1,55057365,62479985
+train/2/user02_natural_interval2.npz,2,left_hand_wave,train,user02_natural.aedat,2,65778928,72201869
+train/3/user02_natural_interval3.npz,3,right_hand_clockwise,train,user02_natural.aedat,3,81099018,90595974
+train/4/user02_natural_interval4.npz,4,right_hand_counter_clockwise,train,user02_natural.aedat,4,96719011,104141632
+train/5/user02_natural_interval5.npz,5,left_hand_clockwise,train,user02_natural.aedat,5,107990398,115088123
+train/6/user02_natural_interval6.npz,6,left_hand_counter_clockwise,train,user02_natural.aedat,6,118187130,125284855
+train/7/user02_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_natural.aedat,7,127884022,134781811
+train/7/user02_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user02_natural.aedat,8,135281651,142104464
+train/8/user02_natural_interval9.npz,8,drums,train,user02_natural.aedat,9,143354063,149951948
+train/9/user02_natural_interval10.npz,9,guitar,train,user02_natural.aedat,10,152201227,157849417
+train/10/user02_natural_interval11.npz,10,random_other_gestures,train,user02_natural.aedat,11,161023400,167346373
+train/0/user03_fluorescent_interval0.npz,0,hand_clapping,train,user03_fluorescent.aedat,0,47736391,53289311
+train/1/user03_fluorescent_interval1.npz,1,right_hand_wave,train,user03_fluorescent.aedat,1,55663663,62193130
+train/2/user03_fluorescent_interval2.npz,2,left_hand_wave,train,user03_fluorescent.aedat,2,63131382,70101254
+train/3/user03_fluorescent_interval3.npz,3,right_hand_clockwise,train,user03_fluorescent.aedat,3,82279381,89191809
+train/4/user03_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user03_fluorescent.aedat,4,90072617,96506344
+train/5/user03_fluorescent_interval5.npz,5,left_hand_clockwise,train,user03_fluorescent.aedat,5,97885000,103820880
+train/6/user03_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user03_fluorescent.aedat,6,104127248,109625532
+train/7/user03_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_fluorescent.aedat,7,110982232,117052147
+train/7/user03_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_fluorescent.aedat,8,117664883,124117759
+train/8/user03_fluorescent_interval9.npz,8,drums,train,user03_fluorescent.aedat,9,124826235,130608931
+train/9/user03_fluorescent_interval10.npz,9,guitar,train,user03_fluorescent.aedat,10,131355703,137406470
+train/10/user03_fluorescent_interval11.npz,10,random_other_gestures,train,user03_fluorescent.aedat,11,138248982,141733918
+train/0/user03_fluorescent_led_interval0.npz,0,hand_clapping,train,user03_fluorescent_led.aedat,0,42148585,48082899
+train/1/user03_fluorescent_led_interval1.npz,1,right_hand_wave,train,user03_fluorescent_led.aedat,1,48613803,55081191
+train/2/user03_fluorescent_led_interval2.npz,2,left_hand_wave,train,user03_fluorescent_led.aedat,2,55708624,62594300
+train/3/user03_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user03_fluorescent_led.aedat,3,63720462,71458804
+train/4/user03_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user03_fluorescent_led.aedat,4,71684037,78368585
+train/5/user03_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user03_fluorescent_led.aedat,5,79197146,85214069
+train/6/user03_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user03_fluorescent_led.aedat,6,85535829,91504488
+train/7/user03_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_fluorescent_led.aedat,7,92067569,98148844
+train/7/user03_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_fluorescent_led.aedat,8,98486692,104598585
+train/8/user03_fluorescent_led_interval9.npz,8,drums,train,user03_fluorescent_led.aedat,9,105163224,110318585
+train/9/user03_fluorescent_led_interval10.npz,9,guitar,train,user03_fluorescent_led.aedat,10,111180147,117518830
+train/10/user03_fluorescent_led_interval11.npz,10,random_other_gestures,train,user03_fluorescent_led.aedat,11,117937119,121338585
+train/0/user03_led_interval0.npz,0,hand_clapping,train,user03_led.aedat,0,50347669,54967669
+train/1/user03_led_interval1.npz,1,right_hand_wave,train,user03_led.aedat,1,55744922,61767669
+train/2/user03_led_interval2.npz,2,left_hand_wave,train,user03_led.aedat,2,62393092,69324518
+train/3/user03_led_interval3.npz,3,right_hand_clockwise,train,user03_led.aedat,3,70507526,78117669
+train/4/user03_led_interval4.npz,4,right_hand_counter_clockwise,train,user03_led.aedat,4,78322042,84620308
+train/5/user03_led_interval5.npz,5,left_hand_clockwise,train,user03_led.aedat,5,85603371,91701693
+train/6/user03_led_interval6.npz,6,left_hand_counter_clockwise,train,user03_led.aedat,6,91968286,99547669
+train/7/user03_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_led.aedat,7,100399299,106927669
+train/7/user03_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_led.aedat,8,107763938,114147669
+train/8/user03_led_interval9.npz,8,drums,train,user03_led.aedat,9,114978619,121457669
+train/9/user03_led_interval10.npz,9,guitar,train,user03_led.aedat,10,121926707,128207669
+train/10/user03_led_interval11.npz,10,random_other_gestures,train,user03_led.aedat,11,129174712,131307459
+train/0/user03_natural_interval0.npz,0,hand_clapping,train,user03_natural.aedat,0,36358825,40852522
+train/1/user03_natural_interval1.npz,1,right_hand_wave,train,user03_natural.aedat,1,42603418,48850443
+train/2/user03_natural_interval2.npz,2,left_hand_wave,train,user03_natural.aedat,2,49671851,55313627
+train/3/user03_natural_interval3.npz,3,right_hand_clockwise,train,user03_natural.aedat,3,70574524,78908825
+train/4/user03_natural_interval4.npz,4,right_hand_counter_clockwise,train,user03_natural.aedat,4,80496268,87088825
+train/5/user03_natural_interval5.npz,5,left_hand_clockwise,train,user03_natural.aedat,5,90396397,98368825
+train/6/user03_natural_interval6.npz,6,left_hand_counter_clockwise,train,user03_natural.aedat,6,99280573,106457085
+train/7/user03_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_natural.aedat,7,107602733,114488825
+train/7/user03_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user03_natural.aedat,8,115492574,121717982
+train/8/user03_natural_interval9.npz,8,drums,train,user03_natural.aedat,9,122928478,129078825
+train/9/user03_natural_interval10.npz,9,guitar,train,user03_natural.aedat,10,131099326,137086959
+train/10/user03_natural_interval11.npz,10,random_other_gestures,train,user03_natural.aedat,11,138751391,141777631
+train/0/user04_fluorescent_interval0.npz,0,hand_clapping,train,user04_fluorescent.aedat,0,63159210,68369210
+train/1/user04_fluorescent_interval1.npz,1,right_hand_wave,train,user04_fluorescent.aedat,1,70286908,76599210
+train/2/user04_fluorescent_interval2.npz,2,left_hand_wave,train,user04_fluorescent.aedat,2,78387799,84749210
+train/3/user04_fluorescent_interval3.npz,3,right_hand_clockwise,train,user04_fluorescent.aedat,3,90075024,99589352
+train/4/user04_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user04_fluorescent.aedat,4,100623060,107729210
+train/5/user04_fluorescent_interval5.npz,5,left_hand_clockwise,train,user04_fluorescent.aedat,5,109673275,117120189
+train/6/user04_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user04_fluorescent.aedat,6,119249210,124579210
+train/7/user04_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_fluorescent.aedat,7,127626033,134250200
+train/7/user04_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_fluorescent.aedat,8,135853501,143321511
+train/8/user04_fluorescent_interval9.npz,8,drums,train,user04_fluorescent.aedat,9,144059873,151380211
+train/9/user04_fluorescent_interval10.npz,9,guitar,train,user04_fluorescent.aedat,10,152519399,158899210
+train/10/user04_fluorescent_interval11.npz,10,random_other_gestures,train,user04_fluorescent.aedat,11,160831251,164459210
+train/0/user04_fluorescent_led_interval0.npz,0,hand_clapping,train,user04_fluorescent_led.aedat,0,41032230,45942226
+train/1/user04_fluorescent_led_interval1.npz,1,right_hand_wave,train,user04_fluorescent_led.aedat,1,46862836,53411324
+train/2/user04_fluorescent_led_interval2.npz,2,left_hand_wave,train,user04_fluorescent_led.aedat,2,54661964,60302230
+train/3/user04_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user04_fluorescent_led.aedat,3,62860602,69312230
+train/4/user04_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user04_fluorescent_led.aedat,4,70381811,76096539
+train/5/user04_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user04_fluorescent_led.aedat,5,77642469,83895668
+train/6/user04_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user04_fluorescent_led.aedat,6,85215787,91502230
+train/7/user04_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_fluorescent_led.aedat,7,92858586,98521204
+train/7/user04_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_fluorescent_led.aedat,8,99876064,106632993
+train/8/user04_fluorescent_led_interval9.npz,8,drums,train,user04_fluorescent_led.aedat,9,107223573,113912230
+train/9/user04_fluorescent_led_interval10.npz,9,guitar,train,user04_fluorescent_led.aedat,10,115491691,121492230
+train/10/user04_fluorescent_led_interval11.npz,10,random_other_gestures,train,user04_fluorescent_led.aedat,11,123985619,126682230
+train/0/user04_led_interval0.npz,0,hand_clapping,train,user04_led.aedat,0,94641359,99761359
+train/1/user04_led_interval1.npz,1,right_hand_wave,train,user04_led.aedat,1,101414268,108001359
+train/2/user04_led_interval2.npz,2,left_hand_wave,train,user04_led.aedat,2,109154194,115871359
+train/3/user04_led_interval3.npz,3,right_hand_clockwise,train,user04_led.aedat,3,117958871,125473561
+train/4/user04_led_interval4.npz,4,right_hand_counter_clockwise,train,user04_led.aedat,4,126702120,133418246
+train/5/user04_led_interval5.npz,5,left_hand_clockwise,train,user04_led.aedat,5,135834414,142980535
+train/6/user04_led_interval6.npz,6,left_hand_counter_clockwise,train,user04_led.aedat,6,144413855,151355217
+train/7/user04_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_led.aedat,7,152870440,160221322
+train/7/user04_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_led.aedat,8,161408930,170500271
+train/8/user04_led_interval9.npz,8,drums,train,user04_led.aedat,9,171831211,178551359
+train/9/user04_led_interval10.npz,9,guitar,train,user04_led.aedat,10,180103512,187011359
+train/10/user04_led_interval11.npz,10,random_other_gestures,train,user04_led.aedat,11,190581359,194051359
+train/0/user04_natural_interval0.npz,0,hand_clapping,train,user04_natural.aedat,0,164388409,170544274
+train/1/user04_natural_interval1.npz,1,right_hand_wave,train,user04_natural.aedat,1,173272763,180156566
+train/2/user04_natural_interval2.npz,2,left_hand_wave,train,user04_natural.aedat,2,182058999,188518409
+train/3/user04_natural_interval3.npz,3,right_hand_clockwise,train,user04_natural.aedat,3,195576285,204058409
+train/4/user04_natural_interval4.npz,4,right_hand_counter_clockwise,train,user04_natural.aedat,4,205088449,212288409
+train/5/user04_natural_interval5.npz,5,left_hand_clockwise,train,user04_natural.aedat,5,215126285,222828409
+train/6/user04_natural_interval6.npz,6,left_hand_counter_clockwise,train,user04_natural.aedat,6,224513289,231547285
+train/7/user04_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_natural.aedat,7,237905415,246728409
+train/7/user04_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user04_natural.aedat,8,248644148,256604328
+train/8/user04_natural_interval9.npz,8,drums,train,user04_natural.aedat,9,258581856,265991332
+train/9/user04_natural_interval10.npz,9,guitar,train,user04_natural.aedat,10,267818668,274151767
+train/10/user04_natural_interval11.npz,10,random_other_gestures,train,user04_natural.aedat,11,278588409,283758409
+train/0/user05_fluorescent_interval0.npz,0,hand_clapping,train,user05_fluorescent.aedat,0,44297589,48317589
+train/1/user05_fluorescent_interval1.npz,1,right_hand_wave,train,user05_fluorescent.aedat,1,49922459,55873024
+train/2/user05_fluorescent_interval2.npz,2,left_hand_wave,train,user05_fluorescent.aedat,2,56936913,62021941
+train/3/user05_fluorescent_interval3.npz,3,right_hand_clockwise,train,user05_fluorescent.aedat,3,65646376,72717589
+train/4/user05_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user05_fluorescent.aedat,4,73598495,81244070
+train/5/user05_fluorescent_interval5.npz,5,left_hand_clockwise,train,user05_fluorescent.aedat,5,82686631,90224014
+train/6/user05_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user05_fluorescent.aedat,6,91125615,98057589
+train/7/user05_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_fluorescent.aedat,7,99762950,106380700
+train/7/user05_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_fluorescent.aedat,8,106921660,114459043
+train/8/user05_fluorescent_interval9.npz,8,drums,train,user05_fluorescent.aedat,9,114945907,121148920
+train/9/user05_fluorescent_interval10.npz,9,guitar,train,user05_fluorescent.aedat,10,121743977,127257589
+train/10/user05_fluorescent_interval11.npz,10,random_other_gestures,train,user05_fluorescent.aedat,11,127892894,133843459
+train/0/user05_fluorescent_led_interval0.npz,0,hand_clapping,train,user05_fluorescent_led.aedat,0,36326739,41507722
+train/1/user05_fluorescent_led_interval1.npz,1,right_hand_wave,train,user05_fluorescent_led.aedat,1,43310628,51660929
+train/2/user05_fluorescent_led_interval2.npz,2,left_hand_wave,train,user05_fluorescent_led.aedat,2,52420048,62876903
+train/3/user05_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user05_fluorescent_led.aedat,3,63692955,71663698
+train/4/user05_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user05_fluorescent_led.aedat,4,72176102,78362917
+train/5/user05_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user05_fluorescent_led.aedat,5,79406705,85574541
+train/6/user05_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user05_fluorescent_led.aedat,6,86447527,93488350
+train/7/user05_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_fluorescent_led.aedat,7,95310234,102009453
+train/7/user05_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_fluorescent_led.aedat,8,102464924,110150997
+train/8/user05_fluorescent_led_interval9.npz,8,drums,train,user05_fluorescent_led.aedat,9,110606468,117077952
+train/9/user05_fluorescent_led_interval10.npz,9,guitar,train,user05_fluorescent_led.aedat,10,117533423,124023885
+train/10/user05_fluorescent_led_interval11.npz,10,random_other_gestures,train,user05_fluorescent_led.aedat,11,124460378,130058876
+train/0/user05_lab_interval0.npz,0,hand_clapping,train,user05_lab.aedat,0,173486526,179339865
+train/1/user05_lab_interval1.npz,1,right_hand_wave,train,user05_lab.aedat,1,180845009,186772676
+train/2/user05_lab_interval2.npz,2,left_hand_wave,train,user05_lab.aedat,2,187924761,193504112
+train/3/user05_lab_interval3.npz,3,right_hand_clockwise,train,user05_lab.aedat,3,195208916,204184112
+train/4/user05_lab_interval4.npz,4,right_hand_counter_clockwise,train,user05_lab.aedat,4,204797242,212094112
+train/5/user05_lab_interval5.npz,5,left_hand_clockwise,train,user05_lab.aedat,5,213270647,220474112
+train/6/user05_lab_interval6.npz,6,left_hand_counter_clockwise,train,user05_lab.aedat,6,221075098,228024776
+train/7/user05_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_lab.aedat,7,228656565,235144112
+train/7/user05_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_lab.aedat,8,235810646,242134112
+train/8/user05_lab_interval9.npz,8,drums,train,user05_lab.aedat,9,243150547,250034112
+train/9/user05_lab_interval10.npz,9,guitar,train,user05_lab.aedat,10,252404396,258555047
+train/10/user05_lab_interval11.npz,10,random_other_gestures,train,user05_lab.aedat,11,260264594,266396663
+train/0/user05_led_interval0.npz,0,hand_clapping,train,user05_led.aedat,0,38100404,42370404
+train/1/user05_led_interval1.npz,1,right_hand_wave,train,user05_led.aedat,1,43683451,49970404
+train/2/user05_led_interval2.npz,2,left_hand_wave,train,user05_led.aedat,2,50759112,57230404
+train/3/user05_led_interval3.npz,3,right_hand_clockwise,train,user05_led.aedat,3,59516119,66620404
+train/4/user05_led_interval4.npz,4,right_hand_counter_clockwise,train,user05_led.aedat,4,67134714,73910404
+train/5/user05_led_interval5.npz,5,left_hand_clockwise,train,user05_led.aedat,5,74683254,81210404
+train/6/user05_led_interval6.npz,6,left_hand_counter_clockwise,train,user05_led.aedat,6,81583775,88040404
+train/7/user05_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_led.aedat,7,88764520,95750404
+train/7/user05_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_led.aedat,8,96313060,103060404
+train/8/user05_led_interval9.npz,8,drums,train,user05_led.aedat,9,103581375,110359298
+train/9/user05_led_interval10.npz,9,guitar,train,user05_led.aedat,10,111147428,117780404
+train/10/user05_led_interval11.npz,10,random_other_gestures,train,user05_led.aedat,11,118625912,125666545
+train/0/user05_natural_interval0.npz,0,hand_clapping,train,user05_natural.aedat,0,41636581,45785167
+train/1/user05_natural_interval1.npz,1,right_hand_wave,train,user05_natural.aedat,1,48643125,53785167
+train/2/user05_natural_interval2.npz,2,left_hand_wave,train,user05_natural.aedat,2,56820625,61985167
+train/3/user05_natural_interval3.npz,3,right_hand_clockwise,train,user05_natural.aedat,3,68530190,77665167
+train/4/user05_natural_interval4.npz,4,right_hand_counter_clockwise,train,user05_natural.aedat,4,79030408,86152127
+train/5/user05_natural_interval5.npz,5,left_hand_clockwise,train,user05_natural.aedat,5,88090924,94345167
+train/6/user05_natural_interval6.npz,6,left_hand_counter_clockwise,train,user05_natural.aedat,6,95423800,103390144
+train/7/user05_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_natural.aedat,7,105136981,111356488
+train/7/user05_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user05_natural.aedat,8,112066740,118228659
+train/8/user05_natural_interval9.npz,8,drums,train,user05_natural.aedat,9,119591576,125273595
+train/9/user05_natural_interval10.npz,9,guitar,train,user05_natural.aedat,10,125811083,130667674
+train/10/user05_natural_interval11.npz,10,random_other_gestures,train,user05_natural.aedat,11,131281946,135140344
+train/0/user06_fluorescent_interval0.npz,0,hand_clapping,train,user06_fluorescent.aedat,0,46056478,54020765
+train/1/user06_fluorescent_interval1.npz,1,right_hand_wave,train,user06_fluorescent.aedat,1,55375882,62436757
+train/2/user06_fluorescent_interval2.npz,2,left_hand_wave,train,user06_fluorescent.aedat,2,63601682,70020660
+train/3/user06_fluorescent_interval3.npz,3,right_hand_clockwise,train,user06_fluorescent.aedat,3,81479723,90347421
+train/4/user06_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user06_fluorescent.aedat,4,91108189,98977379
+train/5/user06_fluorescent_interval5.npz,5,left_hand_clockwise,train,user06_fluorescent.aedat,5,104326527,111885947
+train/6/user06_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user06_fluorescent.aedat,6,113622157,121135947
+train/7/user06_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_fluorescent.aedat,7,122418533,130810752
+train/7/user06_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_fluorescent.aedat,8,131310005,139773546
+train/8/user06_fluorescent_interval9.npz,8,drums,train,user06_fluorescent.aedat,9,140890923,148332182
+train/9/user06_fluorescent_interval10.npz,9,guitar,train,user06_fluorescent.aedat,10,150305423,158388580
+train/10/user06_fluorescent_interval11.npz,10,random_other_gestures,train,user06_fluorescent.aedat,11,159505957,164926427
+train/0/user06_fluorescent_led_interval0.npz,0,hand_clapping,train,user06_fluorescent_led.aedat,0,37576550,44257418
+train/1/user06_fluorescent_led_interval1.npz,1,right_hand_wave,train,user06_fluorescent_led.aedat,1,45737357,54236436
+train/2/user06_fluorescent_led_interval2.npz,2,left_hand_wave,train,user06_fluorescent_led.aedat,2,55356962,63306349
+train/3/user06_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user06_fluorescent_led.aedat,3,66118234,75822406
+train/4/user06_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user06_fluorescent_led.aedat,4,76498950,83518089
+train/5/user06_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user06_fluorescent_led.aedat,5,86012844,92845518
+train/6/user06_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user06_fluorescent_led.aedat,6,93898805,100791094
+train/7/user06_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_fluorescent_led.aedat,7,102947576,109839864
+train/7/user06_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_fluorescent_led.aedat,8,110368414,118402369
+train/8/user06_fluorescent_led_interval9.npz,8,drums,train,user06_fluorescent_led.aedat,9,118888635,126563177
+train/9/user06_fluorescent_led_interval10.npz,9,guitar,train,user06_fluorescent_led.aedat,10,127789412,134998830
+train/10/user06_fluorescent_led_interval11.npz,10,random_other_gestures,train,user06_fluorescent_led.aedat,11,135929077,143286489
+train/0/user06_lab_interval0.npz,0,hand_clapping,train,user06_lab.aedat,0,190688028,196917471
+train/1/user06_lab_interval1.npz,1,right_hand_wave,train,user06_lab.aedat,1,198383582,205095624
+train/2/user06_lab_interval2.npz,2,left_hand_wave,train,user06_lab.aedat,2,207157343,214396269
+train/3/user06_lab_interval3.npz,3,right_hand_clockwise,train,user06_lab.aedat,3,218932051,226583320
+train/4/user06_lab_interval4.npz,4,right_hand_counter_clockwise,train,user06_lab.aedat,4,228897027,235357081
+train/5/user06_lab_interval5.npz,5,left_hand_clockwise,train,user06_lab.aedat,5,238976544,246650721
+train/6/user06_lab_interval6.npz,6,left_hand_counter_clockwise,train,user06_lab.aedat,6,249308048,256569881
+train/7/user06_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_lab.aedat,7,259387564,266618028
+train/7/user06_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_lab.aedat,8,267726073,274117403
+train/8/user06_lab_interval9.npz,8,drums,train,user06_lab.aedat,9,276980902,283807484
+train/9/user06_lab_interval10.npz,9,guitar,train,user06_lab.aedat,10,286396087,295834179
+train/10/user06_lab_interval11.npz,10,random_other_gestures,train,user06_lab.aedat,11,298193703,305226456
+train/0/user06_led_interval0.npz,0,hand_clapping,train,user06_led.aedat,0,67696391,72392541
+train/1/user06_led_interval1.npz,1,right_hand_wave,train,user06_led.aedat,1,74362139,81502470
+train/2/user06_led_interval2.npz,2,left_hand_wave,train,user06_led.aedat,2,82710502,89872541
+train/3/user06_led_interval3.npz,3,right_hand_clockwise,train,user06_led.aedat,3,91749170,100202541
+train/4/user06_led_interval4.npz,4,right_hand_counter_clockwise,train,user06_led.aedat,4,100938841,108922541
+train/5/user06_led_interval5.npz,5,left_hand_clockwise,train,user06_led.aedat,5,111422833,120812541
+train/6/user06_led_interval6.npz,6,left_hand_counter_clockwise,train,user06_led.aedat,6,122165688,132131951
+train/7/user06_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_led.aedat,7,133577275,140545031
+train/7/user06_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_led.aedat,8,141213763,148602541
+train/8/user06_led_interval9.npz,8,drums,train,user06_led.aedat,9,149605270,157082541
+train/9/user06_led_interval10.npz,9,guitar,train,user06_led.aedat,10,160197122,166841297
+train/10/user06_led_interval11.npz,10,random_other_gestures,train,user06_led.aedat,11,167100161,173916913
+train/0/user06_natural_interval0.npz,0,hand_clapping,train,user06_natural.aedat,0,33652891,39022835
+train/1/user06_natural_interval1.npz,1,right_hand_wave,train,user06_natural.aedat,1,42044047,47342835
+train/2/user06_natural_interval2.npz,2,left_hand_wave,train,user06_natural.aedat,2,49312835,54723502
+train/3/user06_natural_interval3.npz,3,right_hand_clockwise,train,user06_natural.aedat,3,59011800,67750656
+train/4/user06_natural_interval4.npz,4,right_hand_counter_clockwise,train,user06_natural.aedat,4,68872835,77718051
+train/5/user06_natural_interval5.npz,5,left_hand_clockwise,train,user06_natural.aedat,5,87082767,95589823
+train/6/user06_natural_interval6.npz,6,left_hand_counter_clockwise,train,user06_natural.aedat,6,96725643,104004159
+train/7/user06_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_natural.aedat,7,109196477,117935333
+train/7/user06_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user06_natural.aedat,8,118882835,125607910
+train/8/user06_natural_interval9.npz,8,drums,train,user06_natural.aedat,9,126022835,131750607
+train/9/user06_natural_interval10.npz,9,guitar,train,user06_natural.aedat,10,133792835,142181602
+train/10/user06_natural_interval11.npz,10,random_other_gestures,train,user06_natural.aedat,11,143052835,149552839
+train/0/user07_fluorescent_interval0.npz,0,hand_clapping,train,user07_fluorescent.aedat,0,56856455,62317743
+train/1/user07_fluorescent_interval1.npz,1,right_hand_wave,train,user07_fluorescent.aedat,1,62833263,69196710
+train/2/user07_fluorescent_interval2.npz,2,left_hand_wave,train,user07_fluorescent.aedat,2,70050540,75979018
+train/3/user07_fluorescent_interval3.npz,3,right_hand_clockwise,train,user07_fluorescent.aedat,3,77396697,83913460
+train/4/user07_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user07_fluorescent.aedat,4,85193934,91553460
+train/5/user07_fluorescent_interval5.npz,5,left_hand_clockwise,train,user07_fluorescent.aedat,5,92797851,98953460
+train/6/user07_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user07_fluorescent.aedat,6,99451279,106093460
+train/7/user07_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_fluorescent.aedat,7,106588006,112213460
+train/7/user07_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_fluorescent.aedat,8,112951453,119379341
+train/8/user07_fluorescent_interval9.npz,8,drums,train,user07_fluorescent.aedat,9,119959301,125581689
+train/9/user07_fluorescent_interval10.npz,9,guitar,train,user07_fluorescent.aedat,10,126209978,131848476
+train/10/user07_fluorescent_interval11.npz,10,random_other_gestures,train,user07_fluorescent.aedat,11,132557316,136283460
+train/0/user07_fluorescent_led_interval0.npz,0,hand_clapping,train,user07_fluorescent_led.aedat,0,35066419,40588485
+train/1/user07_fluorescent_led_interval1.npz,1,right_hand_wave,train,user07_fluorescent_led.aedat,1,41604038,47300652
+train/2/user07_fluorescent_led_interval2.npz,2,left_hand_wave,train,user07_fluorescent_led.aedat,2,48268601,53838271
+train/3/user07_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user07_fluorescent_led.aedat,3,55282260,61312824
+train/4/user07_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user07_fluorescent_led.aedat,4,62121371,67976665
+train/5/user07_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user07_fluorescent_led.aedat,5,68881141,75561572
+train/6/user07_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user07_fluorescent_led.aedat,6,76053481,82130927
+train/7/user07_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_fluorescent_led.aedat,7,82924328,89287398
+train/7/user07_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_fluorescent_led.aedat,8,89795174,95999565
+train/8/user07_fluorescent_led_interval9.npz,8,drums,train,user07_fluorescent_led.aedat,9,96570813,102092880
+train/9/user07_fluorescent_led_interval10.npz,9,guitar,train,user07_fluorescent_led.aedat,10,102537184,107932306
+train/10/user07_fluorescent_led_interval11.npz,10,random_other_gestures,train,user07_fluorescent_led.aedat,11,109154143,111994516
+train/0/user07_lab_interval0.npz,0,hand_clapping,train,user07_lab.aedat,0,25556443,29851342
+train/1/user07_lab_interval1.npz,1,right_hand_wave,train,user07_lab.aedat,1,33291939,39171342
+train/2/user07_lab_interval2.npz,2,left_hand_wave,train,user07_lab.aedat,2,40435336,46509133
+train/3/user07_lab_interval3.npz,3,right_hand_clockwise,train,user07_lab.aedat,3,49565131,60031926
+train/4/user07_lab_interval4.npz,4,right_hand_counter_clockwise,train,user07_lab.aedat,4,60643126,68251342
+train/5/user07_lab_interval5.npz,5,left_hand_clockwise,train,user07_lab.aedat,5,69868422,77985918
+train/6/user07_lab_interval6.npz,6,left_hand_counter_clockwise,train,user07_lab.aedat,6,78883617,85451342
+train/7/user07_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_lab.aedat,7,86256214,92731111
+train/7/user07_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_lab.aedat,8,93132210,99607107
+train/8/user07_lab_interval9.npz,8,drums,train,user07_lab.aedat,9,100332907,106349404
+train/9/user07_lab_interval10.npz,9,guitar,train,user07_lab.aedat,10,107094304,112701342
+train/10/user07_lab_interval11.npz,10,random_other_gestures,train,user07_lab.aedat,11,113492801,116871342
+train/0/user07_led_interval0.npz,0,hand_clapping,train,user07_led.aedat,0,36856751,41798887
+train/1/user07_led_interval1.npz,1,right_hand_wave,train,user07_led.aedat,1,42268844,48711813
+train/2/user07_led_interval2.npz,2,left_hand_wave,train,user07_led.aedat,2,49621408,55245741
+train/3/user07_led_interval3.npz,3,right_hand_clockwise,train,user07_led.aedat,3,57201371,63657728
+train/4/user07_led_interval4.npz,4,right_hand_counter_clockwise,train,user07_led.aedat,4,64478135,70102467
+train/5/user07_led_interval5.npz,5,left_hand_clockwise,train,user07_led.aedat,5,71178822,75867728
+train/6/user07_led_interval6.npz,6,left_hand_counter_clockwise,train,user07_led.aedat,6,76560596,82277728
+train/7/user07_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_led.aedat,7,82867125,87767728
+train/7/user07_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user07_led.aedat,8,88445977,94343188
+train/8/user07_led_interval9.npz,8,drums,train,user07_led.aedat,9,95146664,100952916
+train/9/user07_led_interval10.npz,9,guitar,train,user07_led.aedat,10,101498673,106850127
+train/10/user07_led_interval11.npz,10,random_other_gestures,train,user07_led.aedat,11,108257728,110777728
+train/0/user08_fluorescent_interval0.npz,0,hand_clapping,train,user08_fluorescent.aedat,0,63536407,69045120
+train/1/user08_fluorescent_interval1.npz,1,right_hand_wave,train,user08_fluorescent.aedat,1,73908668,82618389
+train/2/user08_fluorescent_interval2.npz,2,left_hand_wave,train,user08_fluorescent.aedat,2,83809462,91923647
+train/3/user08_fluorescent_interval3.npz,3,right_hand_clockwise,train,user08_fluorescent.aedat,3,96737567,107134642
+train/4/user08_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user08_fluorescent.aedat,4,108424971,116092504
+train/5/user08_fluorescent_interval5.npz,5,left_hand_clockwise,train,user08_fluorescent.aedat,5,118201696,127804722
+train/6/user08_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user08_fluorescent.aedat,6,128623585,135075230
+train/7/user08_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_fluorescent.aedat,7,137407748,145596375
+train/7/user08_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_fluorescent.aedat,8,147358171,154281283
+train/8/user08_fluorescent_interval9.npz,8,drums,train,user08_fluorescent.aedat,9,156067892,163735425
+train/9/user08_fluorescent_interval10.npz,9,guitar,train,user08_fluorescent.aedat,10,165298708,172668472
+train/10/user08_fluorescent_interval11.npz,10,random_other_gestures,train,user08_fluorescent.aedat,11,174585482,178772721
+train/0/user08_fluorescent_led_interval0.npz,0,hand_clapping,train,user08_fluorescent_led.aedat,0,70656443,76094398
+train/1/user08_fluorescent_led_interval1.npz,1,right_hand_wave,train,user08_fluorescent_led.aedat,1,79578631,88500820
+train/2/user08_fluorescent_led_interval2.npz,2,left_hand_wave,train,user08_fluorescent_led.aedat,2,89826132,96405358
+train/3/user08_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user08_fluorescent_led.aedat,3,99363644,108475162
+train/4/user08_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user08_fluorescent_led.aedat,4,110202801,117302686
+train/5/user08_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user08_fluorescent_led.aedat,5,119219654,127218858
+train/6/user08_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user08_fluorescent_led.aedat,6,128804499,136732703
+train/7/user08_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_fluorescent_led.aedat,7,138602340,146080885
+train/7/user08_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_fluorescent_led.aedat,8,146601543,152849442
+train/8/user08_fluorescent_led_interval9.npz,8,drums,train,user08_fluorescent_led.aedat,9,154198420,161842629
+train/9/user08_fluorescent_led_interval10.npz,9,guitar,train,user08_fluorescent_led.aedat,10,162599950,169344841
+train/10/user08_fluorescent_led_interval11.npz,10,random_other_gestures,train,user08_fluorescent_led.aedat,11,171853467,174480424
+train/0/user08_lab_interval0.npz,0,hand_clapping,train,user08_lab.aedat,0,300096574,305383910
+train/1/user08_lab_interval1.npz,1,right_hand_wave,train,user08_lab.aedat,1,308162002,313426934
+train/2/user08_lab_interval2.npz,2,left_hand_wave,train,user08_lab.aedat,2,315846562,321464873
+train/3/user08_lab_interval3.npz,3,right_hand_clockwise,train,user08_lab.aedat,3,325995559,334397046
+train/4/user08_lab_interval4.npz,4,right_hand_counter_clockwise,train,user08_lab.aedat,4,336682251,343918732
+train/5/user08_lab_interval5.npz,5,left_hand_clockwise,train,user08_lab.aedat,5,346652016,353395610
+train/6/user08_lab_interval6.npz,6,left_hand_counter_clockwise,train,user08_lab.aedat,6,356128893,363970282
+train/7/user08_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_lab.aedat,7,364933652,372354873
+train/7/user08_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_lab.aedat,8,374634570,381647011
+train/8/user08_lab_interval9.npz,8,drums,train,user08_lab.aedat,9,384111447,391370332
+train/9/user08_lab_interval10.npz,9,guitar,train,user08_lab.aedat,10,392804186,399928647
+train/10/user08_lab_interval11.npz,10,random_other_gestures,train,user08_lab.aedat,11,402796355,406264873
+train/0/user08_led_interval0.npz,0,hand_clapping,train,user08_led.aedat,0,44666549,49672162
+train/1/user08_led_interval1.npz,1,right_hand_wave,train,user08_led.aedat,1,51480913,58926237
+train/2/user08_led_interval2.npz,2,left_hand_wave,train,user08_led.aedat,2,60104028,66686440
+train/3/user08_led_interval3.npz,3,right_hand_clockwise,train,user08_led.aedat,3,68390631,76926440
+train/4/user08_led_interval4.npz,4,right_hand_counter_clockwise,train,user08_led.aedat,4,79032817,81910656
+train/5/user08_led_interval5.npz,5,left_hand_clockwise,train,user08_led.aedat,5,86545104,95434817
+train/6/user08_led_interval6.npz,6,left_hand_counter_clockwise,train,user08_led.aedat,6,98889587,105799127
+train/7/user08_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_led.aedat,7,107884629,116310897
+train/7/user08_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user08_led.aedat,8,117785494,123515357
+train/8/user08_led_interval9.npz,8,drums,train,user08_led.aedat,9,126232829,132405070
+train/9/user08_led_interval10.npz,9,guitar,train,user08_led.aedat,10,134343112,139904449
+train/10/user08_led_interval11.npz,10,random_other_gestures,train,user08_led.aedat,11,142642987,147719813
+train/0/user09_fluorescent_interval0.npz,0,hand_clapping,train,user09_fluorescent.aedat,0,51450372,56520372
+train/1/user09_fluorescent_interval1.npz,1,right_hand_wave,train,user09_fluorescent.aedat,1,60005428,65280372
+train/2/user09_fluorescent_interval2.npz,2,left_hand_wave,train,user09_fluorescent.aedat,2,66802910,71631609
+train/3/user09_fluorescent_interval3.npz,3,right_hand_clockwise,train,user09_fluorescent.aedat,3,77185650,83010372
+train/4/user09_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user09_fluorescent.aedat,4,85450372,89557896
+train/5/user09_fluorescent_interval5.npz,5,left_hand_clockwise,train,user09_fluorescent.aedat,5,93350394,99919912
+train/6/user09_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user09_fluorescent.aedat,6,102013039,107160372
+train/7/user09_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_fluorescent.aedat,7,110261203,115050372
+train/7/user09_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_fluorescent.aedat,8,117150372,121700372
+train/8/user09_fluorescent_interval9.npz,8,drums,train,user09_fluorescent.aedat,9,123275894,127720372
+train/9/user09_fluorescent_interval10.npz,9,guitar,train,user09_fluorescent.aedat,10,129348036,135140372
+train/10/user09_fluorescent_interval11.npz,10,random_other_gestures,train,user09_fluorescent.aedat,11,150403651,152745467
+train/0/user09_fluorescent_led_interval0.npz,0,hand_clapping,train,user09_fluorescent_led.aedat,0,44016400,48630857
+train/1/user09_fluorescent_led_interval1.npz,1,right_hand_wave,train,user09_fluorescent_led.aedat,1,52387254,57478411
+train/2/user09_fluorescent_led_interval2.npz,2,left_hand_wave,train,user09_fluorescent_led.aedat,2,60147932,65563245
+train/3/user09_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user09_fluorescent_led.aedat,3,71035763,77783898
+train/4/user09_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user09_fluorescent_led.aedat,4,79845181,85133898
+train/5/user09_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user09_fluorescent_led.aedat,5,88864347,94443898
+train/6/user09_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user09_fluorescent_led.aedat,6,96281801,101703898
+train/7/user09_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_fluorescent_led.aedat,7,106082755,111293898
+train/7/user09_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_fluorescent_led.aedat,8,113283898,117823898
+train/8/user09_fluorescent_led_interval9.npz,8,drums,train,user09_fluorescent_led.aedat,9,119849854,125493984
+train/9/user09_fluorescent_led_interval10.npz,9,guitar,train,user09_fluorescent_led.aedat,10,126743898,132453805
+train/10/user09_fluorescent_led_interval11.npz,10,random_other_gestures,train,user09_fluorescent_led.aedat,11,134313898,137013898
+train/0/user09_lab_interval0.npz,0,hand_clapping,train,user09_lab.aedat,0,146139821,150099226
+train/1/user09_lab_interval1.npz,1,right_hand_wave,train,user09_lab.aedat,1,152512240,160536002
+train/2/user09_lab_interval2.npz,2,left_hand_wave,train,user09_lab.aedat,2,162301622,168343966
+train/3/user09_lab_interval3.npz,3,right_hand_clockwise,train,user09_lab.aedat,3,171934060,181134902
+train/4/user09_lab_interval4.npz,4,right_hand_counter_clockwise,train,user09_lab.aedat,4,183449826,189433316
+train/5/user09_lab_interval5.npz,5,left_hand_clockwise,train,user09_lab.aedat,5,193062646,199459821
+train/6/user09_lab_interval6.npz,6,left_hand_counter_clockwise,train,user09_lab.aedat,6,202199821,206520594
+train/7/user09_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_lab.aedat,7,207952708,214053906
+train/7/user09_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_lab.aedat,8,214936716,220410138
+train/8/user09_lab_interval9.npz,8,drums,train,user09_lab.aedat,9,221861870,227472618
+train/9/user09_lab_interval10.npz,9,guitar,train,user09_lab.aedat,10,229591362,234123120
+train/10/user09_lab_interval11.npz,10,random_other_gestures,train,user09_lab.aedat,11,239930048,242362680
+train/0/user09_led_interval0.npz,0,hand_clapping,train,user09_led.aedat,0,55496407,60152878
+train/1/user09_led_interval1.npz,1,right_hand_wave,train,user09_led.aedat,1,62904857,68102878
+train/2/user09_led_interval2.npz,2,left_hand_wave,train,user09_led.aedat,2,70665106,78611600
+train/3/user09_led_interval3.npz,3,right_hand_clockwise,train,user09_led.aedat,3,86164909,97298279
+train/4/user09_led_interval4.npz,4,right_hand_counter_clockwise,train,user09_led.aedat,4,98592878,104302878
+train/5/user09_led_interval5.npz,5,left_hand_clockwise,train,user09_led.aedat,5,111577136,116962878
+train/6/user09_led_interval6.npz,6,left_hand_counter_clockwise,train,user09_led.aedat,6,119109750,124159085
+train/7/user09_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_led.aedat,7,128132332,132692878
+train/7/user09_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_led.aedat,8,135112878,139012878
+train/8/user09_led_interval9.npz,8,drums,train,user09_led.aedat,9,140465954,145422878
+train/9/user09_led_interval10.npz,9,guitar,train,user09_led.aedat,10,147522878,151692878
+train/10/user09_led_interval11.npz,10,random_other_gestures,train,user09_led.aedat,11,153822878,156132878
+train/0/user09_natural_interval0.npz,0,hand_clapping,train,user09_natural.aedat,0,25536445,30581090
+train/1/user09_natural_interval1.npz,1,right_hand_wave,train,user09_natural.aedat,1,35307796,41030713
+train/2/user09_natural_interval2.npz,2,left_hand_wave,train,user09_natural.aedat,2,43564278,48746053
+train/3/user09_natural_interval3.npz,3,right_hand_clockwise,train,user09_natural.aedat,3,57160861,65194140
+train/4/user09_natural_interval4.npz,4,right_hand_counter_clockwise,train,user09_natural.aedat,4,66054278,71531741
+train/5/user09_natural_interval5.npz,5,left_hand_clockwise,train,user09_natural.aedat,5,77487814,84334118
+train/6/user09_natural_interval6.npz,6,left_hand_counter_clockwise,train,user09_natural.aedat,6,85424278,90514278
+train/7/user09_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_natural.aedat,7,92876102,99724278
+train/7/user09_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user09_natural.aedat,8,101864278,106114278
+train/8/user09_natural_interval9.npz,8,drums,train,user09_natural.aedat,9,108942662,114044278
+train/9/user09_natural_interval10.npz,9,guitar,train,user09_natural.aedat,10,116658002,122932014
+train/10/user09_natural_interval11.npz,10,random_other_gestures,train,user09_natural.aedat,11,126047825,128803303
+train/0/user10_fluorescent_interval0.npz,0,hand_clapping,train,user10_fluorescent.aedat,0,36117944,41138822
+train/1/user10_fluorescent_interval1.npz,1,right_hand_wave,train,user10_fluorescent.aedat,1,41718301,47877944
+train/2/user10_fluorescent_interval2.npz,2,left_hand_wave,train,user10_fluorescent.aedat,2,48826568,54637944
+train/3/user10_fluorescent_interval3.npz,3,right_hand_clockwise,train,user10_fluorescent.aedat,3,56572261,65418963
+train/4/user10_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user10_fluorescent.aedat,4,66133653,72256807
+train/5/user10_fluorescent_interval5.npz,5,left_hand_clockwise,train,user10_fluorescent.aedat,5,72797653,82436309
+train/6/user10_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user10_fluorescent.aedat,6,82938523,90355846
+train/7/user10_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_fluorescent.aedat,7,91012588,98314014
+train/7/user10_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_fluorescent.aedat,8,98603753,106368762
+train/8/user10_fluorescent_interval9.npz,8,drums,train,user10_fluorescent.aedat,9,106986873,115196148
+train/9/user10_fluorescent_interval10.npz,9,guitar,train,user10_fluorescent.aedat,10,115717679,123753111
+train/10/user10_fluorescent_interval11.npz,10,random_other_gestures,train,user10_fluorescent.aedat,11,124448485,132696393
+train/0/user10_fluorescent_led_interval0.npz,0,hand_clapping,train,user10_fluorescent_led.aedat,0,44286538,49119281
+train/1/user10_fluorescent_led_interval1.npz,1,right_hand_wave,train,user10_fluorescent_led.aedat,1,49832024,55499198
+train/2/user10_fluorescent_led_interval2.npz,2,left_hand_wave,train,user10_fluorescent_led.aedat,2,56090253,62244178
+train/3/user10_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user10_fluorescent_led.aedat,3,63600128,70988315
+train/4/user10_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user10_fluorescent_led.aedat,4,71527218,78463421
+train/5/user10_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user10_fluorescent_led.aedat,5,79419540,86914625
+train/6/user10_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user10_fluorescent_led.aedat,6,87346630,94839120
+train/7/user10_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_fluorescent_led.aedat,7,95117264,101514625
+train/7/user10_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_fluorescent_led.aedat,8,103564625,108464625
+train/8/user10_fluorescent_led_interval9.npz,8,drums,train,user10_fluorescent_led.aedat,9,109337351,116725538
+train/9/user10_fluorescent_led_interval10.npz,9,guitar,train,user10_fluorescent_led.aedat,10,117177521,122444864
+train/10/user10_fluorescent_led_interval11.npz,10,random_other_gestures,train,user10_fluorescent_led.aedat,11,123713893,131206384
+train/0/user10_lab_interval0.npz,0,hand_clapping,train,user10_lab.aedat,0,179371062,186023327
+train/1/user10_lab_interval1.npz,1,right_hand_wave,train,user10_lab.aedat,1,186784093,193868732
+train/2/user10_lab_interval2.npz,2,left_hand_wave,train,user10_lab.aedat,2,195057430,202118295
+train/3/user10_lab_interval3.npz,3,right_hand_clockwise,train,user10_lab.aedat,3,206730443,215907190
+train/4/user10_lab_interval4.npz,4,right_hand_counter_clockwise,train,user10_lab.aedat,4,218926482,225773382
+train/5/user10_lab_interval5.npz,5,left_hand_clockwise,train,user10_lab.aedat,5,230837234,238539996
+train/6/user10_lab_interval6.npz,6,left_hand_counter_clockwise,train,user10_lab.aedat,6,239110571,246171436
+train/7/user10_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_lab.aedat,7,252970787,259532399
+train/7/user10_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_lab.aedat,8,261672055,268043476
+train/8/user10_lab_interval9.npz,8,drums,train,user10_lab.aedat,9,270349549,281642179
+train/9/user10_lab_interval10.npz,9,guitar,train,user10_lab.aedat,10,284352410,289654002
+train/10/user10_lab_interval11.npz,10,random_other_gestures,train,user10_lab.aedat,11,293241062,297431062
+train/0/user10_led_interval0.npz,0,hand_clapping,train,user10_led.aedat,0,43686485,49476698
+train/1/user10_led_interval1.npz,1,right_hand_wave,train,user10_led.aedat,1,49957731,56816906
+train/2/user10_led_interval2.npz,2,left_hand_wave,train,user10_led.aedat,2,57369203,63284128
+train/3/user10_led_interval3.npz,3,right_hand_clockwise,train,user10_led.aedat,3,64549067,72886973
+train/4/user10_led_interval4.npz,4,right_hand_counter_clockwise,train,user10_led.aedat,4,73599614,79995572
+train/5/user10_led_interval5.npz,5,left_hand_clockwise,train,user10_led.aedat,5,80922007,87264516
+train/6/user10_led_interval6.npz,6,left_hand_counter_clockwise,train,user10_led.aedat,6,87585205,94390932
+train/7/user10_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_led.aedat,7,95442078,102996079
+train/7/user10_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user10_led.aedat,8,103584008,110567895
+train/8/user10_led_interval9.npz,8,drums,train,user10_led.aedat,9,110977664,118442585
+train/9/user10_led_interval10.npz,9,guitar,train,user10_led.aedat,10,118745457,125675896
+train/10/user10_led_interval11.npz,10,random_other_gestures,train,user10_led.aedat,11,126228194,132766680
+train/0/user11_fluorescent_interval0.npz,0,hand_clapping,train,user11_fluorescent.aedat,0,46731023,50827537
+train/1/user11_fluorescent_interval1.npz,1,right_hand_wave,train,user11_fluorescent.aedat,1,54687380,61755718
+train/2/user11_fluorescent_interval2.npz,2,left_hand_wave,train,user11_fluorescent.aedat,2,62986043,69210041
+train/3/user11_fluorescent_interval3.npz,3,right_hand_clockwise,train,user11_fluorescent.aedat,3,72225543,79052641
+train/4/user11_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user11_fluorescent.aedat,4,80307091,86441023
+train/5/user11_fluorescent_interval5.npz,5,left_hand_clockwise,train,user11_fluorescent.aedat,5,88581630,95915332
+train/6/user11_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user11_fluorescent.aedat,6,97266277,104211023
+train/7/user11_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_fluorescent.aedat,7,106722894,115461023
+train/7/user11_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_fluorescent.aedat,8,118921023,123121023
+train/8/user11_fluorescent_interval9.npz,8,drums,train,user11_fluorescent.aedat,9,125008902,130301023
+train/9/user11_fluorescent_interval10.npz,9,guitar,train,user11_fluorescent.aedat,10,133761023,138035873
+train/10/user11_fluorescent_interval11.npz,10,random_other_gestures,train,user11_fluorescent.aedat,11,140641268,144887095
+train/0/user11_fluorescent_led_interval0.npz,0,hand_clapping,train,user11_fluorescent_led.aedat,0,72488972,75632100
+train/1/user11_fluorescent_led_interval1.npz,1,right_hand_wave,train,user11_fluorescent_led.aedat,1,79444906,86598972
+train/2/user11_fluorescent_led_interval2.npz,2,left_hand_wave,train,user11_fluorescent_led.aedat,2,87928399,94052718
+train/3/user11_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user11_fluorescent_led.aedat,3,97484243,104323464
+train/4/user11_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user11_fluorescent_led.aedat,4,105824756,116047842
+train/5/user11_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user11_fluorescent_led.aedat,5,118955106,129011381
+train/6/user11_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user11_fluorescent_led.aedat,6,131227575,138233605
+train/7/user11_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_fluorescent_led.aedat,7,140306819,148388972
+train/7/user11_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_fluorescent_led.aedat,8,150758972,156378972
+train/8/user11_fluorescent_led_interval9.npz,8,drums,train,user11_fluorescent_led.aedat,9,157631255,164827926
+train/9/user11_fluorescent_led_interval10.npz,9,guitar,train,user11_fluorescent_led.aedat,10,168521582,172906308
+train/10/user11_fluorescent_led_interval11.npz,10,random_other_gestures,train,user11_fluorescent_led.aedat,11,174479091,180579580
+train/0/user11_natural_interval0.npz,0,hand_clapping,train,user11_natural.aedat,0,154943291,158061848
+train/1/user11_natural_interval1.npz,1,right_hand_wave,train,user11_natural.aedat,1,166559914,172277268
+train/2/user11_natural_interval2.npz,2,left_hand_wave,train,user11_natural.aedat,2,174070438,180125635
+train/3/user11_natural_interval3.npz,3,right_hand_clockwise,train,user11_natural.aedat,3,187870050,197277696
+train/4/user11_natural_interval4.npz,4,right_hand_counter_clockwise,train,user11_natural.aedat,4,198869087,204229087
+train/5/user11_natural_interval5.npz,5,left_hand_clockwise,train,user11_natural.aedat,5,208192644,216196939
+train/6/user11_natural_interval6.npz,6,left_hand_counter_clockwise,train,user11_natural.aedat,6,217600289,223395607
+train/7/user11_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_natural.aedat,7,230802178,239159087
+train/7/user11_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user11_natural.aedat,8,241119087,247668372
+train/8/user11_natural_interval9.npz,8,drums,train,user11_natural.aedat,9,249305614,255386799
+train/9/user11_natural_interval10.npz,9,guitar,train,user11_natural.aedat,10,258569087,263858877
+train/10/user11_natural_interval11.npz,10,random_other_gestures,train,user11_natural.aedat,11,268770604,273292511
+train/0/user12_fluorescent_led_interval0.npz,0,hand_clapping,train,user12_fluorescent_led.aedat,0,56176507,61566388
+train/1/user12_fluorescent_led_interval1.npz,1,right_hand_wave,train,user12_fluorescent_led.aedat,1,64237539,70526388
+train/2/user12_fluorescent_led_interval2.npz,2,left_hand_wave,train,user12_fluorescent_led.aedat,2,72226811,80048643
+train/3/user12_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user12_fluorescent_led.aedat,3,84904398,93036388
+train/4/user12_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user12_fluorescent_led.aedat,4,95333507,101386388
+train/6/user12_fluorescent_led_interval5.npz,6,left_hand_counter_clockwise,train,user12_fluorescent_led.aedat,5,104686218,107604455
+train/5/user12_fluorescent_led_interval6.npz,5,left_hand_clockwise,train,user12_fluorescent_led.aedat,6,110642291,120536388
+train/6/user12_fluorescent_led_interval7.npz,6,left_hand_counter_clockwise,train,user12_fluorescent_led.aedat,7,122171720,129506388
+train/7/user12_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user12_fluorescent_led.aedat,8,132744349,140116388
+train/7/user12_fluorescent_led_interval9.npz,7,forearm_roll_forward / forearm_roll_backward,train,user12_fluorescent_led.aedat,9,141164180,147766388
+train/8/user12_fluorescent_led_interval10.npz,8,drums,train,user12_fluorescent_led.aedat,10,149512252,155676388
+train/9/user12_fluorescent_led_interval11.npz,9,guitar,train,user12_fluorescent_led.aedat,11,157381924,163686388
+train/10/user12_fluorescent_led_interval12.npz,10,random_other_gestures,train,user12_fluorescent_led.aedat,12,166486388,171853509
+train/0/user12_led_interval0.npz,0,hand_clapping,train,user12_led.aedat,0,85006421,89673471
+train/1/user12_led_interval1.npz,1,right_hand_wave,train,user12_led.aedat,1,92223077,97213471
+train/2/user12_led_interval2.npz,2,left_hand_wave,train,user12_led.aedat,2,99483737,104523471
+train/3/user12_led_interval3.npz,3,right_hand_clockwise,train,user12_led.aedat,3,112178891,124433471
+train/4/user12_led_interval4.npz,4,right_hand_counter_clockwise,train,user12_led.aedat,4,127250261,134233471
+train/5/user12_led_interval5.npz,5,left_hand_clockwise,train,user12_led.aedat,5,137525195,145173471
+train/6/user12_led_interval6.npz,6,left_hand_counter_clockwise,train,user12_led.aedat,6,147163471,153713471
+train/7/user12_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user12_led.aedat,7,155720848,163053471
+train/7/user12_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user12_led.aedat,8,164499646,170343471
+train/8/user12_led_interval9.npz,8,drums,train,user12_led.aedat,9,174686572,180583471
+train/9/user12_led_interval10.npz,9,guitar,train,user12_led.aedat,10,182255260,187673471
+train/10/user12_led_interval11.npz,10,random_other_gestures,train,user12_led.aedat,11,190433471,192993471
+train/0/user13_fluorescent_interval0.npz,0,hand_clapping,train,user13_fluorescent.aedat,0,45396457,49863896
+train/1/user13_fluorescent_interval1.npz,1,right_hand_wave,train,user13_fluorescent.aedat,1,51825812,57118579
+train/2/user13_fluorescent_interval2.npz,2,left_hand_wave,train,user13_fluorescent.aedat,2,58221239,64183896
+train/3/user13_fluorescent_interval3.npz,3,right_hand_clockwise,train,user13_fluorescent.aedat,3,67059482,72929025
+train/4/user13_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user13_fluorescent.aedat,4,75270057,80693896
+train/5/user13_fluorescent_interval5.npz,5,left_hand_clockwise,train,user13_fluorescent.aedat,5,83124388,88688579
+train/6/user13_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user13_fluorescent.aedat,6,90249267,96073896
+train/7/user13_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_fluorescent.aedat,7,97458966,103093896
+train/7/user13_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_fluorescent.aedat,8,103956177,109563896
+train/8/user13_fluorescent_interval9.npz,8,drums,train,user13_fluorescent.aedat,9,110741776,117001491
+train/9/user13_fluorescent_interval10.npz,9,guitar,train,user13_fluorescent.aedat,10,118307719,123733896
+train/10/user13_fluorescent_interval11.npz,10,random_other_gestures,train,user13_fluorescent.aedat,11,125513896,127263896
+train/0/user13_fluorescent_led_interval0.npz,0,hand_clapping,train,user13_fluorescent_led.aedat,0,80456506,86252905
+train/1/user13_fluorescent_led_interval1.npz,1,right_hand_wave,train,user13_fluorescent_led.aedat,1,88351305,94268103
+train/2/user13_fluorescent_led_interval2.npz,2,left_hand_wave,train,user13_fluorescent_led.aedat,2,95300103,101526502
+train/3/user13_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user13_fluorescent_led.aedat,3,103779702,110590900
+train/4/user13_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user13_fluorescent_led.aedat,4,111571300,117832099
+train/5/user13_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user13_fluorescent_led.aedat,5,119242499,124724706
+train/6/user13_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user13_fluorescent_led.aedat,6,126088098,132417696
+train/7/user13_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_fluorescent_led.aedat,7,134017296,140037295
+train/7/user13_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_fluorescent_led.aedat,8,140966095,147314706
+train/8/user13_fluorescent_led_interval9.npz,8,drums,train,user13_fluorescent_led.aedat,9,149480093,154691692
+train/9/user13_fluorescent_led_interval10.npz,9,guitar,train,user13_fluorescent_led.aedat,10,155775292,161158891
+train/10/user13_fluorescent_led_interval11.npz,10,random_other_gestures,train,user13_fluorescent_led.aedat,11,162704706,164864706
+train/0/user13_lab_interval0.npz,0,hand_clapping,train,user13_lab.aedat,0,216256834,220165136
+train/1/user13_lab_interval1.npz,1,right_hand_wave,train,user13_lab.aedat,1,222419925,227865304
+train/2/user13_lab_interval2.npz,2,left_hand_wave,train,user13_lab.aedat,2,229747990,235175304
+train/3/user13_lab_interval3.npz,3,right_hand_clockwise,train,user13_lab.aedat,3,238541669,246865304
+train/4/user13_lab_interval4.npz,4,right_hand_counter_clockwise,train,user13_lab.aedat,4,248124523,254805304
+train/5/user13_lab_interval5.npz,5,left_hand_clockwise,train,user13_lab.aedat,5,257726168,265768250
+train/6/user13_lab_interval6.npz,6,left_hand_counter_clockwise,train,user13_lab.aedat,6,266275578,273509693
+train/7/user13_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_lab.aedat,7,275106836,281115304
+train/7/user13_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_lab.aedat,8,281965153,288365304
+train/8/user13_lab_interval9.npz,8,drums,train,user13_lab.aedat,9,289368378,295185304
+train/9/user13_lab_interval10.npz,9,guitar,train,user13_lab.aedat,10,295982427,302239468
+train/10/user13_lab_interval11.npz,10,random_other_gestures,train,user13_lab.aedat,11,303329283,308945304
+train/0/user13_led_interval0.npz,0,hand_clapping,train,user13_led.aedat,0,43066534,48655564
+train/1/user13_led_interval1.npz,1,right_hand_wave,train,user13_led.aedat,1,50106500,56163328
+train/2/user13_led_interval2.npz,2,left_hand_wave,train,user13_led.aedat,2,57269358,64325564
+train/3/user13_led_interval3.npz,3,right_hand_clockwise,train,user13_led.aedat,3,65678693,72367538
+train/4/user13_led_interval4.npz,4,right_hand_counter_clockwise,train,user13_led.aedat,4,73736908,80337973
+train/5/user13_led_interval5.npz,5,left_hand_clockwise,train,user13_led.aedat,5,81953128,88815564
+train/6/user13_led_interval6.npz,6,left_hand_counter_clockwise,train,user13_led.aedat,6,89712890,95945564
+train/7/user13_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_led.aedat,7,97367317,103459257
+train/7/user13_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_led.aedat,8,104495063,111145564
+train/8/user13_led_interval9.npz,8,drums,train,user13_led.aedat,9,111973929,118735564
+train/9/user13_led_interval10.npz,9,guitar,train,user13_led.aedat,10,119400127,125695564
+train/10/user13_led_interval11.npz,10,random_other_gestures,train,user13_led.aedat,11,126598097,129905564
+train/0/user13_natural_interval0.npz,0,hand_clapping,train,user13_natural.aedat,0,257216704,261583977
+train/1/user13_natural_interval1.npz,1,right_hand_wave,train,user13_natural.aedat,1,265024538,271243977
+train/2/user13_natural_interval2.npz,2,left_hand_wave,train,user13_natural.aedat,2,273310403,279423977
+train/3/user13_natural_interval3.npz,3,right_hand_clockwise,train,user13_natural.aedat,3,283647816,291303977
+train/4/user13_natural_interval4.npz,4,right_hand_counter_clockwise,train,user13_natural.aedat,4,292730398,299283977
+train/5/user13_natural_interval5.npz,5,left_hand_clockwise,train,user13_natural.aedat,5,302012160,308943977
+train/6/user13_natural_interval6.npz,6,left_hand_counter_clockwise,train,user13_natural.aedat,6,310477286,316523977
+train/7/user13_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_natural.aedat,7,319181428,325643977
+train/7/user13_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user13_natural.aedat,8,326770164,332763977
+train/8/user13_natural_interval9.npz,8,drums,train,user13_natural.aedat,9,335832829,341793977
+train/9/user13_natural_interval10.npz,9,guitar,train,user13_natural.aedat,10,342983371,348963977
+train/10/user13_natural_interval11.npz,10,random_other_gestures,train,user13_natural.aedat,11,350963977,353003977
+train/0/user14_fluorescent_interval0.npz,0,hand_clapping,train,user14_fluorescent.aedat,0,51809247,57460811
+train/1/user14_fluorescent_interval1.npz,1,right_hand_wave,train,user14_fluorescent.aedat,1,60450440,67122945
+train/2/user14_fluorescent_interval2.npz,2,left_hand_wave,train,user14_fluorescent.aedat,2,68184480,73210523
+train/3/user14_fluorescent_interval3.npz,3,right_hand_clockwise,train,user14_fluorescent.aedat,3,79276438,87920365
+train/4/user14_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user14_fluorescent.aedat,4,90000107,95351110
+train/5/user14_fluorescent_interval5.npz,5,left_hand_clockwise,train,user14_fluorescent.aedat,5,98947331,107807898
+train/6/user14_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user14_fluorescent.aedat,6,110769247,116776786
+train/7/user14_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_fluorescent.aedat,7,118748208,125659017
+train/7/user14_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_fluorescent.aedat,8,126872200,133479714
+train/8/user14_fluorescent_interval9.npz,8,drums,train,user14_fluorescent.aedat,9,135386144,141235418
+train/9/user14_fluorescent_interval10.npz,9,guitar,train,user14_fluorescent.aedat,10,142795225,150160978
+train/10/user14_fluorescent_interval11.npz,10,random_other_gestures,train,user14_fluorescent.aedat,11,152673999,156833483
+train/0/user14_fluorescent_led_interval0.npz,0,hand_clapping,train,user14_fluorescent_led.aedat,0,69720987,74610454
+train/1/user14_fluorescent_led_interval1.npz,1,right_hand_wave,train,user14_fluorescent_led.aedat,1,76656255,84184806
+train/2/user14_fluorescent_led_interval2.npz,2,left_hand_wave,train,user14_fluorescent_led.aedat,2,85596410,92204350
+train/3/user14_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user14_fluorescent_led.aedat,3,96664198,105092901
+train/4/user14_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user14_fluorescent_led.aedat,4,106934123,113173819
+train/5/user14_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user14_fluorescent_led.aedat,5,115240079,121643438
+train/6/user14_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user14_fluorescent_led.aedat,6,123177790,128537791
+train/7/user14_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_fluorescent_led.aedat,7,130951837,138828174
+train/7/user14_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_fluorescent_led.aedat,8,139135044,145702068
+train/8/user14_fluorescent_led_interval9.npz,8,drums,train,user14_fluorescent_led.aedat,9,147236420,153844360
+train/9/user14_fluorescent_led_interval10.npz,9,guitar,train,user14_fluorescent_led.aedat,10,155440085,161966193
+train/10/user14_fluorescent_led_interval11.npz,10,random_other_gestures,train,user14_fluorescent_led.aedat,11,164359781,167162530
+train/0/user14_led_interval0.npz,0,hand_clapping,train,user14_led.aedat,0,58249249,63111318
+train/1/user14_led_interval1.npz,1,right_hand_wave,train,user14_led.aedat,1,64814956,70825545
+train/2/user14_led_interval2.npz,2,left_hand_wave,train,user14_led.aedat,2,71744361,77697524
+train/3/user14_led_interval3.npz,3,right_hand_clockwise,train,user14_led.aedat,3,82253321,90541808
+train/4/user14_led_interval4.npz,4,right_hand_counter_clockwise,train,user14_led.aedat,4,91364914,97509497
+train/5/user14_led_interval5.npz,5,left_hand_clockwise,train,user14_led.aedat,5,99749111,107195350
+train/6/user14_led_interval6.npz,6,left_hand_counter_clockwise,train,user14_led.aedat,6,108056740,114048187
+train/7/user14_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_led.aedat,7,116555790,124671999
+train/7/user14_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_led.aedat,8,124805993,131084570
+train/8/user14_led_interval9.npz,8,drums,train,user14_led.aedat,9,132807350,137803413
+train/9/user14_led_interval10.npz,9,guitar,train,user14_led.aedat,10,139564477,145709060
+train/10/user14_led_interval11.npz,10,random_other_gestures,train,user14_led.aedat,11,146895864,150981006
+train/0/user14_natural_interval0.npz,0,hand_clapping,train,user14_natural.aedat,0,107716838,113992905
+train/1/user14_natural_interval1.npz,1,right_hand_wave,train,user14_natural.aedat,1,119835143,132647575
+train/2/user14_natural_interval2.npz,2,left_hand_wave,train,user14_natural.aedat,2,133920142,140658960
+train/3/user14_natural_interval3.npz,3,right_hand_clockwise,train,user14_natural.aedat,3,148410048,159111177
+train/4/user14_natural_interval4.npz,4,right_hand_counter_clockwise,train,user14_natural.aedat,4,166428435,174815806
+train/5/user14_natural_interval5.npz,5,left_hand_clockwise,train,user14_natural.aedat,5,179327633,190693967
+train/6/user14_natural_interval6.npz,6,left_hand_counter_clockwise,train,user14_natural.aedat,6,192313597,198821040
+train/7/user14_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_natural.aedat,7,203506399,209493247
+train/7/user14_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user14_natural.aedat,8,210910423,218690433
+train/8/user14_natural_interval9.npz,8,drums,train,user14_natural.aedat,9,222074303,227569477
+train/9/user14_natural_interval10.npz,9,guitar,train,user14_natural.aedat,10,233093573,238559825
+train/10/user14_natural_interval11.npz,10,random_other_gestures,train,user14_natural.aedat,11,241596632,245934928
+train/0/user15_fluorescent_interval0.npz,0,hand_clapping,train,user15_fluorescent.aedat,0,55971584,62319456
+train/1/user15_fluorescent_interval1.npz,1,right_hand_wave,train,user15_fluorescent.aedat,1,62759408,69421531
+train/2/user15_fluorescent_interval2.npz,2,left_hand_wave,train,user15_fluorescent.aedat,2,69966233,76712157
+train/3/user15_fluorescent_interval3.npz,3,right_hand_clockwise,train,user15_fluorescent.aedat,3,80504120,92257111
+train/4/user15_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user15_fluorescent.aedat,4,92529462,99799138
+train/5/user15_fluorescent_interval5.npz,5,left_hand_clockwise,train,user15_fluorescent.aedat,5,100385740,107781116
+train/6/user15_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user15_fluorescent.aedat,6,108116317,115867844
+train/7/user15_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_fluorescent.aedat,7,116286846,127076134
+train/7/user15_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_fluorescent.aedat,8,127893186,139834728
+train/8/user15_fluorescent_interval9.npz,8,drums,train,user15_fluorescent.aedat,9,140065179,146664452
+train/9/user15_fluorescent_interval10.npz,9,guitar,train,user15_fluorescent.aedat,10,147041554,153033275
+train/10/user15_fluorescent_interval11.npz,10,random_other_gestures,train,user15_fluorescent.aedat,11,153389426,157579441
+train/0/user15_fluorescent_led_interval0.npz,0,hand_clapping,train,user15_fluorescent_led.aedat,0,104009353,110396624
+train/1/user15_fluorescent_led_interval1.npz,1,right_hand_wave,train,user15_fluorescent_led.aedat,1,119169754,125438743
+train/2/user15_fluorescent_led_interval2.npz,2,left_hand_wave,train,user15_fluorescent_led.aedat,2,125956842,132070401
+train/3/user15_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user15_fluorescent_led.aedat,3,133693776,140411783
+train/4/user15_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user15_fluorescent_led.aedat,4,140567213,146076324
+train/5/user15_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user15_fluorescent_led.aedat,5,146611692,152863411
+train/6/user15_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user15_fluorescent_led.aedat,6,153191540,159356910
+train/7/user15_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_fluorescent_led.aedat,7,159926818,166023107
+train/7/user15_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_fluorescent_led.aedat,8,166437586,171894888
+train/8/user15_fluorescent_led_interval9.npz,8,drums,train,user15_fluorescent_led.aedat,9,172758385,178198417
+train/9/user15_fluorescent_led_interval10.npz,9,guitar,train,user15_fluorescent_led.aedat,10,178768325,185417253
+train/10/user15_fluorescent_led_interval11.npz,10,random_other_gestures,train,user15_fluorescent_led.aedat,11,186108050,189458419
+train/0/user15_lab_interval0.npz,0,hand_clapping,train,user15_lab.aedat,0,190798046,196873012
+train/1/user15_lab_interval1.npz,1,right_hand_wave,train,user15_lab.aedat,1,197624532,204731760
+train/2/user15_lab_interval2.npz,2,left_hand_wave,train,user15_lab.aedat,2,206406576,213384972
+train/3/user15_lab_interval3.npz,3,right_hand_clockwise,train,user15_lab.aedat,3,216734603,225709894
+train/4/user15_lab_interval4.npz,4,right_hand_counter_clockwise,train,user15_lab.aedat,4,227857093,234513410
+train/5/user15_lab_interval5.npz,5,left_hand_clockwise,train,user15_lab.aedat,5,235608482,243718046
+train/6/user15_lab_interval6.npz,6,left_hand_counter_clockwise,train,user15_lab.aedat,6,245077629,253258457
+train/7/user15_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_lab.aedat,7,254009977,263479124
+train/7/user15_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_lab.aedat,8,263822676,271251985
+train/8/user15_lab_interval9.npz,8,drums,train,user15_lab.aedat,9,273055632,280270220
+train/9/user15_lab_interval10.npz,9,guitar,train,user15_lab.aedat,10,281601484,289696424
+train/10/user15_lab_interval11.npz,10,random_other_gestures,train,user15_lab.aedat,11,293389606,295966245
+train/0/user15_led_interval0.npz,0,hand_clapping,train,user15_led.aedat,0,49129296,53906527
+train/1/user15_led_interval1.npz,1,right_hand_wave,train,user15_led.aedat,1,54523819,60063617
+train/2/user15_led_interval2.npz,2,left_hand_wave,train,user15_led.aedat,2,60886673,67661055
+train/3/user15_led_interval3.npz,3,right_hand_clockwise,train,user15_led.aedat,3,68594907,75305977
+train/4/user15_led_interval4.npz,4,right_hand_counter_clockwise,train,user15_led.aedat,4,75543397,82729307
+train/5/user15_led_interval5.npz,5,left_hand_clockwise,train,user15_led.aedat,5,83077523,89788593
+train/6/user15_led_interval6.npz,6,left_hand_counter_clockwise,train,user15_led.aedat,6,90168465,98446507
+train/7/user15_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_led.aedat,7,98683927,103891337
+train/7/user15_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_led.aedat,8,104287037,109937632
+train/8/user15_led_interval9.npz,8,drums,train,user15_led.aedat,9,110190880,115762334
+train/9/user15_led_interval10.npz,9,guitar,train,user15_led.aedat,10,115983926,122647512
+train/10/user15_led_interval11.npz,10,random_other_gestures,train,user15_led.aedat,11,123280632,127348427
+train/0/user15_natural_interval0.npz,0,hand_clapping,train,user15_natural.aedat,0,62824356,68865847
+train/1/user15_natural_interval1.npz,1,right_hand_wave,train,user15_natural.aedat,1,69861697,75903187
+train/2/user15_natural_interval2.npz,2,left_hand_wave,train,user15_natural.aedat,2,76677737,82343017
+train/3/user15_natural_interval3.npz,3,right_hand_clockwise,train,user15_natural.aedat,3,85419087,94979248
+train/4/user15_natural_interval4.npz,4,right_hand_counter_clockwise,train,user15_natural.aedat,4,95753798,102348538
+train/5/user15_natural_interval5.npz,5,left_hand_clockwise,train,user15_natural.aedat,5,117153509,124544930
+train/6/user15_natural_interval6.npz,6,left_hand_counter_clockwise,train,user15_natural.aedat,6,125031790,131427360
+train/7/user15_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_natural.aedat,7,132489600,134946030
+train/7/user15_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user15_natural.aedat,8,135260699,146165941
+train/8/user15_natural_interval9.npz,8,drums,train,user15_natural.aedat,9,146719191,153446711
+train/9/user15_natural_interval10.npz,9,guitar,train,user15_natural.aedat,10,154066351,161103692
+train/10/user15_natural_interval11.npz,10,random_other_gestures,train,user15_natural.aedat,11,162586402,166923882
+train/0/user16_fluorescent_interval0.npz,0,hand_clapping,train,user16_fluorescent.aedat,0,99986410,106371905
+train/1/user16_fluorescent_interval1.npz,1,right_hand_wave,train,user16_fluorescent.aedat,1,107154234,114258626
+train/2/user16_fluorescent_interval2.npz,2,left_hand_wave,train,user16_fluorescent.aedat,2,115019810,122673947
+train/3/user16_fluorescent_interval3.npz,3,right_hand_clockwise,train,user16_fluorescent.aedat,3,124492333,133964855
+train/4/user16_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user16_fluorescent.aedat,4,134345448,142147592
+train/5/user16_fluorescent_interval5.npz,5,left_hand_clockwise,train,user16_fluorescent.aedat,5,143141361,150161177
+train/6/user16_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user16_fluorescent.aedat,6,150457193,158322770
+train/7/user16_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_fluorescent.aedat,7,159295395,165976906
+train/7/user16_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_fluorescent.aedat,8,166463219,173800195
+train/8/user16_fluorescent_interval9.npz,8,drums,train,user16_fluorescent.aedat,9,174709388,182596109
+train/9/user16_fluorescent_interval10.npz,9,guitar,train,user16_fluorescent.aedat,10,183103565,190609693
+train/10/user16_fluorescent_interval11.npz,10,random_other_gestures,train,user16_fluorescent.aedat,11,196593452,204353309
+train/0/user16_lab_interval0.npz,0,hand_clapping,train,user16_lab.aedat,0,63916417,68987073
+train/1/user16_lab_interval1.npz,1,right_hand_wave,train,user16_lab.aedat,1,70371553,76549793
+train/2/user16_lab_interval2.npz,2,left_hand_wave,train,user16_lab.aedat,2,77293951,83835617
+train/3/user16_lab_interval3.npz,3,right_hand_clockwise,train,user16_lab.aedat,3,86673800,95274879
+train/4/user16_lab_interval4.npz,4,right_hand_counter_clockwise,train,user16_lab.aedat,4,95655611,102647233
+train/5/user16_lab_interval5.npz,5,left_hand_clockwise,train,user16_lab.aedat,5,103668287,110902192
+train/6/user16_lab_interval6.npz,6,left_hand_counter_clockwise,train,user16_lab.aedat,6,111144476,117374634
+train/7/user16_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_lab.aedat,7,118032262,123760546
+train/7/user16_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_lab.aedat,8,124487398,130682944
+train/8/user16_lab_interval9.npz,8,drums,train,user16_lab.aedat,9,131790528,137726484
+train/9/user16_lab_interval10.npz,9,guitar,train,user16_lab.aedat,10,138176440,143195178
+train/10/user16_lab_interval11.npz,10,random_other_gestures,train,user16_lab.aedat,11,144025866,150446390
+train/0/user16_led_interval0.npz,0,hand_clapping,train,user16_led.aedat,0,53856544,59749698
+train/1/user16_led_interval1.npz,1,right_hand_wave,train,user16_led.aedat,1,60483989,68203456
+train/2/user16_led_interval2.npz,2,left_hand_wave,train,user16_led.aedat,2,69013058,76318310
+train/3/user16_led_interval3.npz,3,right_hand_clockwise,train,user16_led.aedat,3,77278536,85299251
+train/4/user16_led_interval4.npz,4,right_hand_counter_clockwise,train,user16_led.aedat,4,85675810,92736298
+train/5/user16_led_interval5.npz,5,left_hand_clockwise,train,user16_led.aedat,5,93677697,100512249
+train/6/user16_led_interval6.npz,6,left_hand_counter_clockwise,train,user16_led.aedat,6,100719357,108947179
+train/7/user16_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_led.aedat,7,110265137,116195947
+train/7/user16_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_led.aedat,8,116854926,124819156
+train/8/user16_led_interval9.npz,8,drums,train,user16_led.aedat,9,125892350,132971666
+train/9/user16_led_interval10.npz,9,guitar,train,user16_led.aedat,10,133894237,140276918
+train/10/user16_led_interval11.npz,10,random_other_gestures,train,user16_led.aedat,11,140709961,147996385
+train/0/user16_natural_interval0.npz,0,hand_clapping,train,user16_natural.aedat,0,86466542,92302933
+train/1/user16_natural_interval1.npz,1,right_hand_wave,train,user16_natural.aedat,1,107052642,114036776
+train/2/user16_natural_interval2.npz,2,left_hand_wave,train,user16_natural.aedat,2,115135678,122534952
+train/3/user16_natural_interval3.npz,3,right_hand_clockwise,train,user16_natural.aedat,3,124586236,136478799
+train/4/user16_natural_interval4.npz,4,right_hand_counter_clockwise,train,user16_natural.aedat,4,143975754,153841453
+train/5/user16_natural_interval5.npz,5,left_hand_clockwise,train,user16_natural.aedat,5,154793835,161802388
+train/6/user16_natural_interval6.npz,6,left_hand_counter_clockwise,train,user16_natural.aedat,6,162608250,168640002
+train/7/user16_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_natural.aedat,7,169861004,176942818
+train/7/user16_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user16_natural.aedat,8,177455639,185196794
+train/8/user16_natural_interval9.npz,8,drums,train,user16_natural.aedat,9,186222436,192767008
+train/9/user16_natural_interval10.npz,9,guitar,train,user16_natural.aedat,10,193499610,200117443
+train/10/user16_natural_interval11.npz,10,random_other_gestures,train,user16_natural.aedat,11,200581424,206564335
+train/0/user17_fluorescent_interval0.npz,0,hand_clapping,train,user17_fluorescent.aedat,0,47206415,53260307
+train/1/user17_fluorescent_interval1.npz,1,right_hand_wave,train,user17_fluorescent.aedat,1,54172538,59281028
+train/2/user17_fluorescent_interval2.npz,2,left_hand_wave,train,user17_fluorescent.aedat,2,60160086,66081290
+train/3/user17_fluorescent_interval3.npz,3,right_hand_clockwise,train,user17_fluorescent.aedat,3,68071611,74656256
+train/4/user17_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user17_fluorescent.aedat,4,75502142,82003856
+train/5/user17_fluorescent_interval5.npz,5,left_hand_clockwise,train,user17_fluorescent.aedat,5,82932673,89169011
+train/6/user17_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user17_fluorescent.aedat,6,90462720,96765402
+train/7/user17_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_fluorescent.aedat,7,97544944,103847627
+train/7/user17_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_fluorescent.aedat,8,104975475,111095712
+train/8/user17_fluorescent_interval9.npz,8,drums,train,user17_fluorescent.aedat,9,111444018,114180709
+train/9/user17_fluorescent_interval10.npz,9,guitar,train,user17_fluorescent.aedat,10,117829630,123833765
+train/10/user17_fluorescent_interval11.npz,10,random_other_gestures,train,user17_fluorescent.aedat,11,124762581,128394916
+train/0/user17_fluorescent_led_interval0.npz,0,hand_clapping,train,user17_fluorescent_led.aedat,0,63716524,68515821
+train/1/user17_fluorescent_led_interval1.npz,1,right_hand_wave,train,user17_fluorescent_led.aedat,1,69243512,76000645
+train/2/user17_fluorescent_led_interval2.npz,2,left_hand_wave,train,user17_fluorescent_led.aedat,2,76832292,83676055
+train/3/user17_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user17_fluorescent_led.aedat,3,84663636,91611354
+train/4/user17_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user17_fluorescent_led.aedat,4,92737543,98351161
+train/5/user17_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user17_fluorescent_led.aedat,5,99512002,106147853
+train/6/user17_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user17_fluorescent_led.aedat,6,107100782,114672236
+train/7/user17_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_fluorescent_led.aedat,7,115607839,121481347
+train/7/user17_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_fluorescent_led.aedat,8,122486254,128931519
+train/8/user17_fluorescent_led_interval9.npz,8,drums,train,user17_fluorescent_led.aedat,9,129260712,135965867
+train/9/user17_fluorescent_led_interval10.npz,9,guitar,train,user17_fluorescent_led.aedat,10,136970774,143208128
+train/10/user17_fluorescent_led_interval11.npz,10,random_other_gestures,train,user17_fluorescent_led.aedat,11,144161057,148544530
+train/0/user17_lab_interval0.npz,0,hand_clapping,train,user17_lab.aedat,0,131016454,136505071
+train/1/user17_lab_interval1.npz,1,right_hand_wave,train,user17_lab.aedat,1,141197301,147094874
+train/2/user17_lab_interval2.npz,2,left_hand_wave,train,user17_lab.aedat,2,149591657,155080274
+train/3/user17_lab_interval3.npz,3,right_hand_clockwise,train,user17_lab.aedat,3,159234404,166961516
+train/4/user17_lab_interval4.npz,4,right_hand_counter_clockwise,train,user17_lab.aedat,4,170448402,176754931
+train/5/user17_lab_interval5.npz,5,left_hand_clockwise,train,user17_lab.aedat,5,180650773,186247010
+train/6/user17_lab_interval6.npz,6,left_hand_counter_clockwise,train,user17_lab.aedat,6,189131224,195200989
+train/7/user17_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_lab.aedat,7,197288816,204305637
+train/7/user17_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_lab.aedat,8,204757640,213022852
+train/8/user17_lab_interval9.npz,8,drums,train,user17_lab.aedat,9,215218299,222816267
+train/9/user17_lab_interval10.npz,9,guitar,train,user17_lab.aedat,10,223720275,229467180
+train/10/user17_lab_interval11.npz,10,random_other_gestures,train,user17_lab.aedat,11,233987217,238636399
+train/0/user17_led_interval0.npz,0,hand_clapping,train,user17_led.aedat,0,45656416,51241526
+train/1/user17_led_interval1.npz,1,right_hand_wave,train,user17_led.aedat,1,52099370,57812244
+train/2/user17_led_interval2.npz,2,left_hand_wave,train,user17_led.aedat,2,58578828,66244665
+train/3/user17_led_interval3.npz,3,right_hand_clockwise,train,user17_led.aedat,3,67358037,74330299
+train/4/user17_led_interval4.npz,4,right_hand_counter_clockwise,train,user17_led.aedat,4,75407166,81138292
+train/5/user17_led_interval5.npz,5,left_hand_clockwise,train,user17_led.aedat,5,82160404,89059658
+train/6/user17_led_interval6.npz,6,left_hand_counter_clockwise,train,user17_led.aedat,6,90081769,97583339
+train/7/user17_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_led.aedat,7,98459435,105614216
+train/7/user17_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_led.aedat,8,106088768,113663346
+train/8/user17_led_interval9.npz,8,drums,train,user17_led.aedat,9,114010134,122771091
+train/9/user17_led_interval10.npz,9,guitar,train,user17_led.aedat,10,123464666,130966236
+train/10/user17_led_interval11.npz,10,random_other_gestures,train,user17_led.aedat,11,131367780,135565738
+train/0/user17_natural_interval0.npz,0,hand_clapping,train,user17_natural.aedat,0,45156395,51597402
+train/1/user17_natural_interval1.npz,1,right_hand_wave,train,user17_natural.aedat,1,53212403,59900411
+train/2/user17_natural_interval2.npz,2,left_hand_wave,train,user17_natural.aedat,2,60622411,67253418
+train/3/user17_natural_interval3.npz,3,right_hand_clockwise,train,user17_natural.aedat,3,69096420,77209429
+train/4/user17_natural_interval4.npz,4,right_hand_counter_clockwise,train,user17_natural.aedat,4,78159430,85341437
+train/5/user17_natural_interval5.npz,5,left_hand_clockwise,train,user17_natural.aedat,5,86937439,93777446
+train/6/user17_natural_interval6.npz,6,left_hand_counter_clockwise,train,user17_natural.aedat,6,94993447,101985455
+train/7/user17_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_natural.aedat,7,103543456,109908463
+train/7/user17_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user17_natural.aedat,8,111010464,118268472
+train/8/user17_natural_interval9.npz,8,drums,train,user17_natural.aedat,9,118648472,126229480
+train/9/user17_natural_interval10.npz,9,guitar,train,user17_natural.aedat,10,127122481,134000489
+train/10/user17_natural_interval11.npz,10,random_other_gestures,train,user17_natural.aedat,11,134475489,138180493
+train/0/user18_fluorescent_interval0.npz,0,hand_clapping,train,user18_fluorescent.aedat,0,110930944,115050944
+train/1/user18_fluorescent_interval1.npz,1,right_hand_wave,train,user18_fluorescent.aedat,1,118040944,122000944
+train/2/user18_fluorescent_interval2.npz,2,left_hand_wave,train,user18_fluorescent.aedat,2,124120944,128250944
+train/3/user18_fluorescent_interval3.npz,3,right_hand_clockwise,train,user18_fluorescent.aedat,3,133650944,138030944
+train/4/user18_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user18_fluorescent.aedat,4,140520944,145690944
+train/5/user18_fluorescent_interval5.npz,5,left_hand_clockwise,train,user18_fluorescent.aedat,5,149750944,154100944
+train/6/user18_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user18_fluorescent.aedat,6,155930944,160670944
+train/7/user18_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_fluorescent.aedat,7,163070944,167450944
+train/7/user18_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_fluorescent.aedat,8,169510944,173980944
+train/8/user18_fluorescent_interval9.npz,8,drums,train,user18_fluorescent.aedat,9,176480944,180450944
+train/9/user18_fluorescent_interval10.npz,9,guitar,train,user18_fluorescent.aedat,10,182420944,187240944
+train/10/user18_fluorescent_interval11.npz,10,random_other_gestures,train,user18_fluorescent.aedat,11,188350944,193740944
+train/0/user18_fluorescent_led_interval0.npz,0,hand_clapping,train,user18_fluorescent_led.aedat,0,83878414,87878414
+train/1/user18_fluorescent_led_interval1.npz,1,right_hand_wave,train,user18_fluorescent_led.aedat,1,90148414,94208414
+train/2/user18_fluorescent_led_interval2.npz,2,left_hand_wave,train,user18_fluorescent_led.aedat,2,96678414,100728414
+train/3/user18_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user18_fluorescent_led.aedat,3,105478414,109548414
+train/4/user18_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user18_fluorescent_led.aedat,4,111728414,116118414
+train/5/user18_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user18_fluorescent_led.aedat,5,118358414,122888414
+train/6/user18_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user18_fluorescent_led.aedat,6,125008414,130048414
+train/7/user18_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_fluorescent_led.aedat,7,132028414,136798414
+train/7/user18_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_fluorescent_led.aedat,8,138838414,143198414
+train/8/user18_fluorescent_led_interval9.npz,8,drums,train,user18_fluorescent_led.aedat,9,145438414,149608414
+train/9/user18_fluorescent_led_interval10.npz,9,guitar,train,user18_fluorescent_led.aedat,10,151478414,155788414
+train/10/user18_fluorescent_led_interval11.npz,10,random_other_gestures,train,user18_fluorescent_led.aedat,11,157468414,160858414
+train/0/user18_lab_interval0.npz,0,hand_clapping,train,user18_lab.aedat,0,154459678,158049678
+train/1/user18_lab_interval1.npz,1,right_hand_wave,train,user18_lab.aedat,1,162939678,167629678
+train/2/user18_lab_interval2.npz,2,left_hand_wave,train,user18_lab.aedat,2,171389678,176009678
+train/3/user18_lab_interval3.npz,3,right_hand_clockwise,train,user18_lab.aedat,3,181129678,186739678
+train/4/user18_lab_interval4.npz,4,right_hand_counter_clockwise,train,user18_lab.aedat,4,191029678,196309678
+train/5/user18_lab_interval5.npz,5,left_hand_clockwise,train,user18_lab.aedat,5,201179678,206469678
+train/6/user18_lab_interval6.npz,6,left_hand_counter_clockwise,train,user18_lab.aedat,6,210009678,215049678
+train/7/user18_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_lab.aedat,7,219799678,226049678
+train/7/user18_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_lab.aedat,8,229569678,234199678
+train/8/user18_lab_interval9.npz,8,drums,train,user18_lab.aedat,9,236729678,241529678
+train/9/user18_lab_interval10.npz,9,guitar,train,user18_lab.aedat,10,245039678,249739678
+train/10/user18_lab_interval11.npz,10,random_other_gestures,train,user18_lab.aedat,11,252189678,254499678
+train/0/user18_led_interval0.npz,0,hand_clapping,train,user18_led.aedat,0,52376455,56235719
+train/1/user18_led_interval1.npz,1,right_hand_wave,train,user18_led.aedat,1,58825719,63105719
+train/2/user18_led_interval2.npz,2,left_hand_wave,train,user18_led.aedat,2,65455719,69525719
+train/3/user18_led_interval3.npz,3,right_hand_clockwise,train,user18_led.aedat,3,73025719,77125719
+train/4/user18_led_interval4.npz,4,right_hand_counter_clockwise,train,user18_led.aedat,4,79145719,83545719
+train/5/user18_led_interval5.npz,5,left_hand_clockwise,train,user18_led.aedat,5,86205719,90775719
+train/6/user18_led_interval6.npz,6,left_hand_counter_clockwise,train,user18_led.aedat,6,92795719,97565719
+train/7/user18_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_led.aedat,7,99595719,103795719
+train/7/user18_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user18_led.aedat,8,106445719,110425719
+train/8/user18_led_interval9.npz,8,drums,train,user18_led.aedat,9,112285719,116565719
+train/9/user18_led_interval10.npz,9,guitar,train,user18_led.aedat,10,118385719,122935719
+train/10/user18_led_interval11.npz,10,random_other_gestures,train,user18_led.aedat,11,124805719,126865719
+train/0/user19_fluorescent_interval0.npz,0,hand_clapping,train,user19_fluorescent.aedat,0,60228737,66398737
+train/1/user19_fluorescent_interval1.npz,1,right_hand_wave,train,user19_fluorescent.aedat,1,69997600,75608749
+train/2/user19_fluorescent_interval2.npz,2,left_hand_wave,train,user19_fluorescent.aedat,2,79623622,87629183
+train/3/user19_fluorescent_interval3.npz,3,right_hand_clockwise,train,user19_fluorescent.aedat,3,94909165,102600308
+train/4/user19_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user19_fluorescent.aedat,4,105647742,111718424
+train/5/user19_fluorescent_interval5.npz,5,left_hand_clockwise,train,user19_fluorescent.aedat,5,115346322,121271889
+train/6/user19_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user19_fluorescent.aedat,6,121634678,128758737
+train/7/user19_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_fluorescent.aedat,7,129325822,135278737
+train/7/user19_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_fluorescent.aedat,8,137137895,145893222
+train/8/user19_fluorescent_interval9.npz,8,drums,train,user19_fluorescent.aedat,9,146860661,154575990
+train/9/user19_fluorescent_interval10.npz,9,guitar,train,user19_fluorescent.aedat,10,157212263,164951778
+train/10/user19_fluorescent_interval11.npz,10,random_other_gestures,train,user19_fluorescent.aedat,11,170949902,179898717
+train/0/user19_fluorescent_led_interval0.npz,0,hand_clapping,train,user19_fluorescent_led.aedat,0,39421440,44135039
+train/1/user19_fluorescent_led_interval1.npz,1,right_hand_wave,train,user19_fluorescent_led.aedat,1,46005616,49932143
+train/2/user19_fluorescent_led_interval2.npz,2,left_hand_wave,train,user19_fluorescent_led.aedat,2,51212898,55847210
+train/3/user19_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user19_fluorescent_led.aedat,3,57920012,63911440
+train/4/user19_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user19_fluorescent_led.aedat,4,66143809,71064606
+train/5/user19_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user19_fluorescent_led.aedat,5,71974617,77316715
+train/6/user19_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user19_fluorescent_led.aedat,6,78041353,82928446
+train/7/user19_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_fluorescent_led.aedat,7,84242905,89517595
+train/7/user19_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_fluorescent_led.aedat,8,90326493,95719147
+train/8/user19_fluorescent_led_interval9.npz,8,drums,train,user19_fluorescent_led.aedat,9,96460637,102308297
+train/9/user19_fluorescent_led_interval10.npz,9,guitar,train,user19_fluorescent_led.aedat,10,103403680,109504120
+train/10/user19_fluorescent_led_interval11.npz,10,random_other_gestures,train,user19_fluorescent_led.aedat,11,110380426,121367959
+train/0/user19_lab_interval0.npz,0,hand_clapping,train,user19_lab.aedat,0,202566482,208890963
+train/1/user19_lab_interval1.npz,1,right_hand_wave,train,user19_lab.aedat,1,212076627,218544427
+train/2/user19_lab_interval2.npz,2,left_hand_wave,train,user19_lab.aedat,2,224561621,230675286
+train/3/user19_lab_interval3.npz,3,right_hand_clockwise,train,user19_lab.aedat,3,233837526,240068311
+train/4/user19_lab_interval4.npz,4,right_hand_counter_clockwise,train,user19_lab.aedat,4,245596376,250491993
+train/5/user19_lab_interval5.npz,5,left_hand_clockwise,train,user19_lab.aedat,5,253326297,259252570
+train/6/user19_lab_interval6.npz,6,left_hand_counter_clockwise,train,user19_lab.aedat,6,262714427,268184427
+train/7/user19_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_lab.aedat,7,271714139,277944924
+train/7/user19_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_lab.aedat,8,280123357,288555998
+train/8/user19_lab_interval9.npz,8,drums,train,user19_lab.aedat,9,291202910,297527391
+train/9/user19_lab_interval10.npz,9,guitar,train,user19_lab.aedat,10,300033759,305866336
+train/10/user19_lab_interval11.npz,10,random_other_gestures,train,user19_lab.aedat,11,309731297,319686498
+train/0/user19_led_interval0.npz,0,hand_clapping,train,user19_led.aedat,0,61656406,65859766
+train/1/user19_led_interval1.npz,1,right_hand_wave,train,user19_led.aedat,1,68578605,73649325
+train/2/user19_led_interval2.npz,2,left_hand_wave,train,user19_led.aedat,2,75352527,79570724
+train/3/user19_led_interval3.npz,3,right_hand_clockwise,train,user19_led.aedat,3,81038564,86943283
+train/4/user19_led_interval4.npz,4,right_hand_counter_clockwise,train,user19_led.aedat,4,87844003,93164923
+train/5/user19_led_interval5.npz,5,left_hand_clockwise,train,user19_led.aedat,5,94142527,98502522
+train/6/user19_led_interval6.npz,6,left_hand_counter_clockwise,train,user19_led.aedat,6,99419922,103773401
+train/7/user19_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_led.aedat,7,106108601,111796481
+train/7/user19_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_led.aedat,8,112463681,118952200
+train/8/user19_led_interval9.npz,8,drums,train,user19_led.aedat,9,120620200,125312527
+train/9/user19_led_interval10.npz,9,guitar,train,user19_led.aedat,10,127609119,133662527
+train/10/user19_led_interval11.npz,10,random_other_gestures,train,user19_led.aedat,11,135999158,145056397
+train/0/user19_natural_interval0.npz,0,hand_clapping,train,user19_natural.aedat,0,42657920,47092395
+train/1/user19_natural_interval1.npz,1,right_hand_wave,train,user19_natural.aedat,1,50938173,56737361
+train/2/user19_natural_interval2.npz,2,left_hand_wave,train,user19_natural.aedat,2,59158777,64835878
+train/3/user19_natural_interval3.npz,3,right_hand_clockwise,train,user19_natural.aedat,3,67257293,75217920
+train/4/user19_natural_interval4.npz,4,right_hand_counter_clockwise,train,user19_natural.aedat,4,75844162,82477620
+train/5/user19_natural_interval5.npz,5,left_hand_clockwise,train,user19_natural.aedat,5,85448433,92366763
+train/6/user19_natural_interval6.npz,6,left_hand_counter_clockwise,train,user19_natural.aedat,6,92977204,98328736
+train/7/user19_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_natural.aedat,7,99427530,105226719
+train/7/user19_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user19_natural.aedat,8,106122032,113617920
+train/8/user19_natural_interval9.npz,8,drums,train,user19_natural.aedat,9,114627509,121098183
+train/9/user19_natural_interval10.npz,9,guitar,train,user19_natural.aedat,10,122909157,130417581
+train/10/user19_natural_interval11.npz,10,random_other_gestures,train,user19_natural.aedat,11,132126815,139007920
+train/0/user20_fluorescent_interval0.npz,0,hand_clapping,train,user20_fluorescent.aedat,0,49101756,53391756
+train/1/user20_fluorescent_interval1.npz,1,right_hand_wave,train,user20_fluorescent.aedat,1,56835889,62813674
+train/2/user20_fluorescent_interval2.npz,2,left_hand_wave,train,user20_fluorescent.aedat,2,66139065,70891756
+train/3/user20_fluorescent_interval3.npz,3,right_hand_clockwise,train,user20_fluorescent.aedat,3,75679768,82409725
+train/4/user20_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user20_fluorescent.aedat,4,85873673,92207750
+train/5/user20_fluorescent_interval5.npz,5,left_hand_clockwise,train,user20_fluorescent.aedat,5,94147561,101273397
+train/6/user20_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user20_fluorescent.aedat,6,103708058,110259869
+train/7/user20_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_fluorescent.aedat,7,113327937,118791078
+train/7/user20_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_fluorescent.aedat,8,121166357,127183730
+train/8/user20_fluorescent_interval9.npz,8,drums,train,user20_fluorescent.aedat,9,129994477,134691756
+train/9/user20_fluorescent_interval10.npz,9,guitar,train,user20_fluorescent.aedat,10,137060931,142306339
+train/10/user20_fluorescent_interval11.npz,10,random_other_gestures,train,user20_fluorescent.aedat,11,143909652,148066390
+train/0/user20_fluorescent_led_interval0.npz,0,hand_clapping,train,user20_fluorescent_led.aedat,0,43387099,47694150
+train/1/user20_fluorescent_led_interval1.npz,1,right_hand_wave,train,user20_fluorescent_led.aedat,1,51506348,56784777
+train/2/user20_fluorescent_led_interval2.npz,2,left_hand_wave,train,user20_fluorescent_led.aedat,2,61788287,67213338
+train/3/user20_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user20_fluorescent_led.aedat,3,69779241,76010719
+train/4/user20_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user20_fluorescent_led.aedat,4,77531933,83396853
+train/5/user20_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user20_fluorescent_led.aedat,5,85467903,91369479
+train/6/user20_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user20_fluorescent_led.aedat,6,92615775,99094683
+train/7/user20_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_fluorescent_led.aedat,7,100515090,106894683
+train/7/user20_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_fluorescent_led.aedat,8,107772929,115264683
+train/8/user20_fluorescent_led_interval9.npz,8,drums,train,user20_fluorescent_led.aedat,9,116551982,122453558
+train/9/user20_fluorescent_led_interval10.npz,9,guitar,train,user20_fluorescent_led.aedat,10,124799526,130164683
+train/10/user20_fluorescent_led_interval11.npz,10,random_other_gestures,train,user20_fluorescent_led.aedat,11,131507529,135026481
+train/0/user20_led_interval0.npz,0,hand_clapping,train,user20_led.aedat,0,40966430,45293005
+train/1/user20_led_interval1.npz,1,right_hand_wave,train,user20_led.aedat,1,52731986,58159600
+train/2/user20_led_interval2.npz,2,left_hand_wave,train,user20_led.aedat,2,59619559,65579629
+train/3/user20_led_interval3.npz,3,right_hand_clockwise,train,user20_led.aedat,3,67760980,73373005
+train/4/user20_led_interval4.npz,4,right_hand_counter_clockwise,train,user20_led.aedat,4,74751609,81038023
+train/5/user20_led_interval5.npz,5,left_hand_clockwise,train,user20_led.aedat,5,82240343,87290085
+train/6/user20_led_interval6.npz,6,left_hand_counter_clockwise,train,user20_led.aedat,6,88853100,94692938
+train/7/user20_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_led.aedat,7,96032665,100793005
+train/7/user20_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user20_led.aedat,8,102783005,108605493
+train/8/user20_led_interval9.npz,8,drums,train,user20_led.aedat,9,109636052,114806026
+train/9/user20_led_interval10.npz,9,guitar,train,user20_led.aedat,10,116231634,121573368
+train/10/user20_led_interval11.npz,10,random_other_gestures,train,user20_led.aedat,11,122603928,126159358
+train/0/user21_fluorescent_interval0.npz,0,hand_clapping,train,user21_fluorescent.aedat,0,65346662,73722826
+train/1/user21_fluorescent_interval1.npz,1,right_hand_wave,train,user21_fluorescent.aedat,1,76044640,85684576
+train/2/user21_fluorescent_interval2.npz,2,left_hand_wave,train,user21_fluorescent.aedat,2,86419327,104876278
+train/3/user21_fluorescent_interval3.npz,3,right_hand_clockwise,train,user21_fluorescent.aedat,3,106110660,117954850
+train/4/user21_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user21_fluorescent.aedat,4,118630821,126860035
+train/5/user21_fluorescent_interval5.npz,5,left_hand_clockwise,train,user21_fluorescent.aedat,5,128505878,137969473
+train/6/user21_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user21_fluorescent.aedat,6,139321416,146727708
+train/7/user21_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_fluorescent.aedat,7,150195734,157131785
+train/7/user21_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_fluorescent.aedat,8,159600550,169828287
+train/8/user21_fluorescent_interval9.npz,8,drums,train,user21_fluorescent.aedat,9,170357308,179262492
+train/9/user21_fluorescent_interval10.npz,9,guitar,train,user21_fluorescent.aedat,10,179909074,189137549
+train/10/user21_fluorescent_interval11.npz,10,random_other_gestures,train,user21_fluorescent.aedat,11,189725350,201657710
+train/0/user21_fluorescent_led_interval0.npz,0,hand_clapping,train,user21_fluorescent_led.aedat,0,78382586,84902900
+train/1/user21_fluorescent_led_interval1.npz,1,right_hand_wave,train,user21_fluorescent_led.aedat,1,86316944,94067999
+train/2/user21_fluorescent_led_interval2.npz,2,left_hand_wave,train,user21_fluorescent_led.aedat,2,94513161,102657007
+train/3/user21_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user21_fluorescent_led.aedat,3,103783005,113655127
+train/4/user21_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user21_fluorescent_led.aedat,4,114283591,122820226
+train/5/user21_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user21_fluorescent_led.aedat,5,124469944,133635044
+train/6/user21_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user21_fluorescent_led.aedat,6,140260102,151651011
+train/7/user21_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_fluorescent_led.aedat,7,152462777,161654063
+train/7/user21_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_fluorescent_led.aedat,8,161942109,171552370
+train/8/user21_fluorescent_led_interval9.npz,8,drums,train,user21_fluorescent_led.aedat,9,172442694,180219936
+train/9/user21_fluorescent_led_interval10.npz,9,guitar,train,user21_fluorescent_led.aedat,10,180953144,190641964
+train/10/user21_fluorescent_led_interval11.npz,10,random_other_gestures,train,user21_fluorescent_led.aedat,11,191244242,206458307
+train/0/user21_lab_interval0.npz,0,hand_clapping,train,user21_lab.aedat,0,204848152,211782063
+train/1/user21_lab_interval1.npz,1,right_hand_wave,train,user21_lab.aedat,1,215067819,223185568
+train/2/user21_lab_interval2.npz,2,left_hand_wave,train,user21_lab.aedat,2,223765408,233864275
+train/3/user21_lab_interval3.npz,3,right_hand_clockwise,train,user21_lab.aedat,3,239348588,249495775
+train/4/user21_lab_interval4.npz,4,right_hand_counter_clockwise,train,user21_lab.aedat,4,251839292,265972874
+train/5/user21_lab_interval5.npz,5,left_hand_clockwise,train,user21_lab.aedat,5,267905671,276144221
+train/6/user21_lab_interval6.npz,6,left_hand_counter_clockwise,train,user21_lab.aedat,6,277617979,283609651
+train/7/user21_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_lab.aedat,7,286001488,293297799
+train/7/user21_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_lab.aedat,8,293950118,301584668
+train/8/user21_lab_interval9.npz,8,drums,train,user21_lab.aedat,9,302357787,310040658
+train/9/user21_lab_interval10.npz,9,guitar,train,user21_lab.aedat,10,310789617,318206727
+train/10/user21_lab_interval11.npz,10,random_other_gestures,train,user21_lab.aedat,11,319366406,325406398
+train/0/user21_natural_interval0.npz,0,hand_clapping,train,user21_natural.aedat,0,140722215,147084937
+train/1/user21_natural_interval1.npz,1,right_hand_wave,train,user21_natural.aedat,1,155384140,166000204
+train/2/user21_natural_interval2.npz,2,left_hand_wave,train,user21_natural.aedat,2,166899285,175475128
+train/3/user21_natural_interval3.npz,3,right_hand_clockwise,train,user21_natural.aedat,3,181526630,190828653
+train/4/user21_natural_interval4.npz,4,right_hand_counter_clockwise,train,user21_natural.aedat,4,196015655,207427059
+train/5/user21_natural_interval5.npz,5,left_hand_clockwise,train,user21_natural.aedat,5,211230860,224578745
+train/6/user21_natural_interval6.npz,6,left_hand_counter_clockwise,train,user21_natural.aedat,6,229696587,232670468
+train/7/user21_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_natural.aedat,7,241142571,256081136
+train/7/user21_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user21_natural.aedat,8,257118537,267285061
+train/8/user21_natural_interval9.npz,8,drums,train,user21_natural.aedat,9,268218721,280079665
+train/9/user21_natural_interval10.npz,9,guitar,train,user21_natural.aedat,10,280771265,292078929
+train/10/user21_natural_interval11.npz,10,random_other_gestures,train,user21_natural.aedat,11,293911670,307190395
+train/0/user22_fluorescent_interval0.npz,0,hand_clapping,train,user22_fluorescent.aedat,0,45856710,51830402
+train/1/user22_fluorescent_interval1.npz,1,right_hand_wave,train,user22_fluorescent.aedat,1,53654583,59708458
+train/2/user22_fluorescent_interval2.npz,2,left_hand_wave,train,user22_fluorescent.aedat,2,60470204,68288123
+train/3/user22_fluorescent_interval3.npz,3,right_hand_clockwise,train,user22_fluorescent.aedat,3,69931891,81558539
+train/4/user22_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user22_fluorescent.aedat,4,85467498,90659398
+train/5/user22_fluorescent_interval5.npz,5,left_hand_clockwise,train,user22_fluorescent.aedat,5,93044866,100722463
+train/6/user22_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user22_fluorescent.aedat,6,102005404,109442449
+train/7/user22_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_fluorescent.aedat,7,110665252,117220276
+train/7/user22_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_fluorescent.aedat,8,117982022,124831191
+train/8/user22_fluorescent_interval9.npz,8,drums,train,user22_fluorescent.aedat,9,125900171,131801191
+train/9/user22_fluorescent_interval10.npz,9,guitar,train,user22_fluorescent.aedat,10,133016481,138411191
+train/10/user22_fluorescent_interval11.npz,10,random_other_gestures,train,user22_fluorescent.aedat,11,139371046,144141191
+train/0/user22_fluorescent_led_interval0.npz,0,hand_clapping,train,user22_fluorescent_led.aedat,0,59328405,63909555
+train/1/user22_fluorescent_led_interval1.npz,1,right_hand_wave,train,user22_fluorescent_led.aedat,1,65373336,71594404
+train/2/user22_fluorescent_led_interval2.npz,2,left_hand_wave,train,user22_fluorescent_led.aedat,2,72343720,81596906
+train/3/user22_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user22_fluorescent_led.aedat,3,84175948,91076629
+train/4/user22_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user22_fluorescent_led.aedat,4,92435854,98047014
+train/5/user22_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user22_fluorescent_led.aedat,5,99963869,106568309
+train/6/user22_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user22_fluorescent_led.aedat,6,107613867,113730379
+train/7/user22_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_fluorescent_led.aedat,7,114985048,120398405
+train/7/user22_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_fluorescent_led.aedat,8,121554636,126798405
+train/8/user22_fluorescent_led_interval9.npz,8,drums,train,user22_fluorescent_led.aedat,9,128054520,133247456
+train/9/user22_fluorescent_led_interval10.npz,9,guitar,train,user22_fluorescent_led.aedat,10,134188458,140479230
+train/10/user22_fluorescent_led_interval11.npz,10,random_other_gestures,train,user22_fluorescent_led.aedat,11,140949731,144504627
+train/0/user22_lab_interval0.npz,0,hand_clapping,train,user22_lab.aedat,0,40578379,45927313
+train/1/user22_lab_interval1.npz,1,right_hand_wave,train,user22_lab.aedat,1,47976712,51727114
+train/2/user22_lab_interval2.npz,2,left_hand_wave,train,user22_lab.aedat,2,56563698,62569384
+train/3/user22_lab_interval3.npz,3,right_hand_clockwise,train,user22_lab.aedat,3,65499081,73819644
+train/4/user22_lab_interval4.npz,4,right_hand_counter_clockwise,train,user22_lab.aedat,4,76504358,82898486
+train/5/user22_lab_interval5.npz,5,left_hand_clockwise,train,user22_lab.aedat,5,85132332,92387207
+train/6/user22_lab_interval6.npz,6,left_hand_counter_clockwise,train,user22_lab.aedat,6,94252161,100810240
+train/7/user22_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_lab.aedat,7,103249026,110329384
+train/7/user22_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_lab.aedat,8,111692553,117861247
+train/8/user22_lab_interval9.npz,8,drums,train,user22_lab.aedat,9,118742489,125526002
+train/9/user22_lab_interval10.npz,9,guitar,train,user22_lab.aedat,10,126694160,133149770
+train/10/user22_lab_interval11.npz,10,random_other_gestures,train,user22_lab.aedat,11,134338422,136838689
+train/0/user22_led_interval0.npz,0,hand_clapping,train,user22_led.aedat,0,36752619,42074560
+train/1/user22_led_interval1.npz,1,right_hand_wave,train,user22_led.aedat,1,43317408,47571774
+train/2/user22_led_interval2.npz,2,left_hand_wave,train,user22_led.aedat,2,48958028,54120629
+train/3/user22_led_interval3.npz,3,right_hand_clockwise,train,user22_led.aedat,3,56176109,61163437
+train/4/user22_led_interval4.npz,4,right_hand_counter_clockwise,train,user22_led.aedat,4,63394191,68269981
+train/5/user22_led_interval5.npz,5,left_hand_clockwise,train,user22_led.aedat,5,70660074,76460033
+train/6/user22_led_interval6.npz,6,left_hand_counter_clockwise,train,user22_led.aedat,6,78180900,82690209
+train/7/user22_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_led.aedat,7,84395143,90428773
+train/7/user22_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_led.aedat,8,91947837,97939004
+train/8/user22_led_interval9.npz,8,drums,train,user22_led.aedat,9,98560428,110590564
+train/9/user22_led_interval10.npz,9,guitar,train,user22_led.aedat,10,104886208,110064743
+train/10/user22_led_interval11.npz,10,random_other_gestures,train,user22_led.aedat,11,111498799,114080100
+train/0/user22_natural_interval0.npz,0,hand_clapping,train,user22_natural.aedat,0,158518728,163998348
+train/1/user22_natural_interval1.npz,1,right_hand_wave,train,user22_natural.aedat,1,166303428,173703949
+train/2/user22_natural_interval2.npz,2,left_hand_wave,train,user22_natural.aedat,2,175099129,181872829
+train/3/user22_natural_interval3.npz,3,right_hand_clockwise,train,user22_natural.aedat,3,185249569,193074710
+train/4/user22_natural_interval4.npz,4,right_hand_counter_clockwise,train,user22_natural.aedat,4,194550770,200293250
+train/5/user22_natural_interval5.npz,5,left_hand_clockwise,train,user22_natural.aedat,5,203407130,210605451
+train/6/user22_natural_interval6.npz,6,left_hand_counter_clockwise,train,user22_natural.aedat,6,212809431,220695231
+train/7/user22_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_natural.aedat,7,221989311,228581032
+train/7/user22_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user22_natural.aedat,8,229652692,235676781
+train/8/user22_natural_interval9.npz,8,drums,train,user22_natural.aedat,9,236851012,242795692
+train/9/user22_natural_interval10.npz,9,guitar,train,user22_natural.aedat,10,244534612,250736781
+train/10/user22_natural_interval11.npz,10,random_other_gestures,train,user22_natural.aedat,11,252946133,256889033
+train/0/user23_fluorescent_interval0.npz,0,hand_clapping,train,user23_fluorescent.aedat,0,40636584,47294807
+train/1/user23_fluorescent_interval1.npz,1,right_hand_wave,train,user23_fluorescent.aedat,1,48100701,55334562
+train/2/user23_fluorescent_interval2.npz,2,left_hand_wave,train,user23_fluorescent.aedat,2,56428276,63508634
+train/3/user23_fluorescent_interval3.npz,3,right_hand_clockwise,train,user23_fluorescent.aedat,3,64947731,74848719
+train/4/user23_fluorescent_interval4.npz,4,right_hand_counter_clockwise,train,user23_fluorescent.aedat,4,75328418,83272234
+train/5/user23_fluorescent_interval5.npz,5,left_hand_clockwise,train,user23_fluorescent.aedat,5,85018338,92194636
+train/6/user23_fluorescent_interval6.npz,6,left_hand_counter_clockwise,train,user23_fluorescent.aedat,6,93038906,99965760
+train/7/user23_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_fluorescent.aedat,7,100886782,107794448
+train/7/user23_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_fluorescent.aedat,8,108024704,115277753
+train/8/user23_fluorescent_interval9.npz,8,drums,train,user23_fluorescent.aedat,9,115738264,122837810
+train/9/user23_fluorescent_interval10.npz,9,guitar,train,user23_fluorescent.aedat,10,123317509,129476844
+train/10/user23_fluorescent_interval11.npz,10,random_other_gestures,train,user23_fluorescent.aedat,11,130321115,136192631
+train/0/user23_fluorescent_led_interval0.npz,0,hand_clapping,train,user23_fluorescent_led.aedat,0,48986505,53912215
+train/1/user23_fluorescent_led_interval1.npz,1,right_hand_wave,train,user23_fluorescent_led.aedat,1,54508754,60354839
+train/2/user23_fluorescent_led_interval2.npz,2,left_hand_wave,train,user23_fluorescent_led.aedat,2,62008105,69354060
+train/3/user23_fluorescent_led_interval3.npz,3,right_hand_clockwise,train,user23_fluorescent_led.aedat,3,70853930,78660072
+train/4/user23_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,train,user23_fluorescent_led.aedat,4,79341832,86142379
+train/5/user23_fluorescent_led_interval5.npz,5,left_hand_clockwise,train,user23_fluorescent_led.aedat,5,87301370,93658774
+train/6/user23_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,train,user23_fluorescent_led.aedat,6,93948522,100749069
+train/7/user23_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_fluorescent_led.aedat,7,101430828,107396221
+train/7/user23_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_fluorescent_led.aedat,8,107958672,113446834
+train/8/user23_fluorescent_led_interval9.npz,8,drums,train,user23_fluorescent_led.aedat,9,114179725,119412226
+train/9/user23_fluorescent_led_interval10.npz,9,guitar,train,user23_fluorescent_led.aedat,10,119906502,125974158
+train/10/user23_fluorescent_led_interval11.npz,10,random_other_gestures,train,user23_fluorescent_led.aedat,11,126911577,134206400
+train/0/user23_lab_interval0.npz,0,hand_clapping,train,user23_lab.aedat,0,815236422,820583140
+train/1/user23_lab_interval1.npz,1,right_hand_wave,train,user23_lab.aedat,1,823177540,829922978
+train/2/user23_lab_interval2.npz,2,left_hand_wave,train,user23_lab.aedat,2,831772897,838495775
+train/3/user23_lab_interval3.npz,3,right_hand_clockwise,train,user23_lab.aedat,3,840932255,849211772
+train/4/user23_lab_interval4.npz,4,right_hand_counter_clockwise,train,user23_lab.aedat,4,852505531,860273291
+train/5/user23_lab_interval5.npz,5,left_hand_clockwise,train,user23_lab.aedat,5,865545208,873238166
+train/6/user23_lab_interval6.npz,6,left_hand_counter_clockwise,train,user23_lab.aedat,6,875381365,882510323
+train/7/user23_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_lab.aedat,7,885871762,892683291
+train/7/user23_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_lab.aedat,8,895166479,901122318
+train/8/user23_lab_interval9.npz,8,drums,train,user23_lab.aedat,9,902724077,909582315
+train/9/user23_lab_interval10.npz,9,guitar,train,user23_lab.aedat,10,912176714,919102633
+train/10/user23_lab_interval11.npz,10,random_other_gestures,train,user23_lab.aedat,11,921651912,925261511
+train/0/user23_led_interval0.npz,0,hand_clapping,train,user23_led.aedat,0,46358816,53018760
+train/1/user23_led_interval1.npz,1,right_hand_wave,train,user23_led.aedat,1,53965217,60367723
+train/2/user23_led_interval2.npz,2,left_hand_wave,train,user23_led.aedat,2,62594682,72950039
+train/3/user23_led_interval3.npz,3,right_hand_clockwise,train,user23_led.aedat,3,75974991,83695115
+train/4/user23_led_interval4.npz,4,right_hand_counter_clockwise,train,user23_led.aedat,4,84251854,91879188
+train/5/user23_led_interval5.npz,5,left_hand_clockwise,train,user23_led.aedat,5,93400943,99951912
+train/6/user23_led_interval6.npz,6,left_hand_counter_clockwise,train,user23_led.aedat,6,100156050,106354418
+train/7/user23_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_led.aedat,7,107003948,114482817
+train/7/user23_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,train,user23_led.aedat,8,115002441,118658365
+train/8/user23_led_interval9.npz,8,drums,train,user23_led.aedat,9,119177988,125079429
+train/9/user23_led_interval10.npz,9,guitar,train,user23_led.aedat,10,125599052,132131464
+train/10/user23_led_interval11.npz,10,random_other_gestures,train,user23_led.aedat,11,132688204,137290585
+test/0/user24_fluorescent_interval0.npz,0,hand_clapping,test,user24_fluorescent.aedat,0,46436573,51005695
+test/1/user24_fluorescent_interval1.npz,1,right_hand_wave,test,user24_fluorescent.aedat,1,52529339,58525008
+test/2/user24_fluorescent_interval2.npz,2,left_hand_wave,test,user24_fluorescent.aedat,2,60928131,66365500
+test/3/user24_fluorescent_interval3.npz,3,right_hand_clockwise,test,user24_fluorescent.aedat,3,67821938,74594374
+test/4/user24_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user24_fluorescent.aedat,4,75541059,81335695
+test/5/user24_fluorescent_interval5.npz,5,left_hand_clockwise,test,user24_fluorescent.aedat,5,83697112,89325695
+test/6/user24_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user24_fluorescent.aedat,6,90323905,96877876
+test/7/user24_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_fluorescent.aedat,7,98237218,103765695
+test/7/user24_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_fluorescent.aedat,8,105885695,110505695
+test/8/user24_fluorescent_interval9.npz,8,drums,test,user24_fluorescent.aedat,9,113287078,123287952
+test/9/user24_fluorescent_interval10.npz,9,guitar,test,user24_fluorescent.aedat,10,128585695,139794249
+test/10/user24_fluorescent_interval11.npz,10,random_other_gestures,test,user24_fluorescent.aedat,11,140473920,148799891
+test/0/user24_fluorescent_led_interval0.npz,0,hand_clapping,test,user24_fluorescent_led.aedat,0,43106542,47303419
+test/1/user24_fluorescent_led_interval1.npz,1,right_hand_wave,test,user24_fluorescent_led.aedat,1,49358009,55268796
+test/2/user24_fluorescent_led_interval2.npz,2,left_hand_wave,test,user24_fluorescent_led.aedat,2,56784819,62116452
+test/3/user24_fluorescent_led_interval3.npz,3,right_hand_clockwise,test,user24_fluorescent_led.aedat,3,63956120,69523419
+test/4/user24_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,test,user24_fluorescent_led.aedat,4,71365897,77123378
+test/5/user24_fluorescent_led_interval5.npz,5,left_hand_clockwise,test,user24_fluorescent_led.aedat,5,79014149,84890868
+test/6/user24_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,test,user24_fluorescent_led.aedat,6,87203419,93612261
+test/7/user24_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_fluorescent_led.aedat,7,94992012,101464920
+test/7/user24_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_fluorescent_led.aedat,8,103463419,108244440
+test/8/user24_fluorescent_led_interval9.npz,8,drums,test,user24_fluorescent_led.aedat,9,113065054,114863419
+test/9/user24_fluorescent_led_interval10.npz,9,guitar,test,user24_fluorescent_led.aedat,10,117272444,122246363
+test/10/user24_fluorescent_led_interval11.npz,10,random_other_gestures,test,user24_fluorescent_led.aedat,11,123263419,128276388
+test/0/user24_led_interval0.npz,0,hand_clapping,test,user24_led.aedat,0,44846461,49752505
+test/1/user24_led_interval1.npz,1,right_hand_wave,test,user24_led.aedat,1,52176595,57873591
+test/2/user24_led_interval2.npz,2,left_hand_wave,test,user24_led.aedat,2,59772589,65022505
+test/3/user24_led_interval3.npz,3,right_hand_clockwise,test,user24_led.aedat,3,67900303,75458316
+test/4/user24_led_interval4.npz,4,right_hand_counter_clockwise,test,user24_led.aedat,4,76711655,83016330
+test/5/user24_led_interval5.npz,5,left_hand_clockwise,test,user24_led.aedat,5,85105229,91941623
+test/6/user24_led_interval6.npz,6,left_hand_counter_clockwise,test,user24_led.aedat,6,93707692,99784487
+test/7/user24_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_led.aedat,7,101683486,106682505
+test/7/user24_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user24_led.aedat,8,110512505,115717084
+test/8/user24_led_interval9.npz,8,drums,test,user24_led.aedat,9,117521133,123152505
+test/9/user24_led_interval10.npz,9,guitar,test,user24_led.aedat,10,125482505,130832505
+test/10/user24_led_interval11.npz,10,random_other_gestures,test,user24_led.aedat,11,132992505,137272505
+test/0/user25_fluorescent_interval0.npz,0,hand_clapping,test,user25_fluorescent.aedat,0,80786392,86198983
+test/1/user25_fluorescent_interval1.npz,1,right_hand_wave,test,user25_fluorescent.aedat,1,87762186,94229939
+test/2/user25_fluorescent_interval2.npz,2,left_hand_wave,test,user25_fluorescent.aedat,2,94679360,100599992
+test/3/user25_fluorescent_interval3.npz,3,right_hand_clockwise,test,user25_fluorescent.aedat,3,102944796,111053912
+test/4/user25_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user25_fluorescent.aedat,4,111386093,118166487
+test/5/user25_fluorescent_interval5.npz,5,left_hand_clockwise,test,user25_fluorescent.aedat,5,118987168,125845722
+test/6/user25_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user25_fluorescent.aedat,6,125923882,132547955
+test/7/user25_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user25_fluorescent.aedat,7,134072078,141673154
+test/7/user25_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user25_fluorescent.aedat,8,141985794,149078828
+test/8/user25_fluorescent_interval9.npz,8,drums,test,user25_fluorescent.aedat,9,149235149,156015542
+test/9/user25_fluorescent_interval10.npz,9,guitar,test,user25_fluorescent.aedat,10,157715526,164202818
+test/10/user25_fluorescent_interval11.npz,10,random_other_gestures,test,user25_fluorescent.aedat,11,165076204,169976204
+test/0/user25_led_interval0.npz,0,hand_clapping,test,user25_led.aedat,0,49786528,54579618
+test/1/user25_led_interval1.npz,1,right_hand_wave,test,user25_led.aedat,1,56527407,61816992
+test/2/user25_led_interval2.npz,2,left_hand_wave,test,user25_led.aedat,2,62790887,68462391
+test/3/user25_led_interval3.npz,3,right_hand_clockwise,test,user25_led.aedat,3,70811196,78755121
+test/4/user25_led_interval4.npz,4,right_hand_counter_clockwise,test,user25_led.aedat,4,79098849,85324136
+test/5/user25_led_interval5.npz,5,left_hand_clockwise,test,user25_led.aedat,5,87252830,93459021
+test/6/user25_led_interval6.npz,6,left_hand_counter_clockwise,test,user25_led.aedat,6,93764557,100123517
+test/7/user25_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user25_led.aedat,7,101765770,107876482
+test/7/user25_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user25_led.aedat,8,108449361,114407305
+test/8/user25_led_interval9.npz,8,drums,test,user25_led.aedat,9,115228432,121797447
+test/9/user25_led_interval10.npz,9,guitar,test,user25_led.aedat,10,122198463,127346377
+test/10/user25_led_interval11.npz,10,random_other_gestures,test,user25_led.aedat,11,129926377,133466377
+test/0/user26_fluorescent_interval0.npz,0,hand_clapping,test,user26_fluorescent.aedat,0,43220487,48130487
+test/1/user26_fluorescent_interval1.npz,1,right_hand_wave,test,user26_fluorescent.aedat,1,50185570,56936744
+test/2/user26_fluorescent_interval2.npz,2,left_hand_wave,test,user26_fluorescent.aedat,2,58221644,64689704
+test/3/user26_fluorescent_interval3.npz,3,right_hand_clockwise,test,user26_fluorescent.aedat,3,68043513,76780487
+test/4/user26_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user26_fluorescent.aedat,4,78322719,88601924
+test/5/user26_fluorescent_interval5.npz,5,left_hand_clockwise,test,user26_fluorescent.aedat,5,89429488,98053567
+test/6/user26_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user26_fluorescent.aedat,6,98445571,106917204
+test/7/user26_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_fluorescent.aedat,7,109356338,116847963
+test/7/user26_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_fluorescent.aedat,8,117065742,125490487
+test/8/user26_fluorescent_interval9.npz,8,drums,test,user26_fluorescent.aedat,9,126931167,134684127
+test/9/user26_fluorescent_interval10.npz,9,guitar,test,user26_fluorescent.aedat,10,135228577,142132196
+test/10/user26_fluorescent_interval11.npz,10,random_other_gestures,test,user26_fluorescent.aedat,11,142741979,147533134
+test/0/user26_fluorescent_led_interval0.npz,0,hand_clapping,test,user26_fluorescent_led.aedat,0,53242424,59407764
+test/1/user26_fluorescent_led_interval1.npz,1,right_hand_wave,test,user26_fluorescent_led.aedat,1,60823997,67682611
+test/2/user26_fluorescent_led_interval2.npz,2,left_hand_wave,test,user26_fluorescent_led.aedat,2,68694206,75512357
+test/4/user26_fluorescent_led_interval3.npz,4,right_hand_counter_clockwise,test,user26_fluorescent_led.aedat,3,77616474,87004076
+test/3/user26_fluorescent_led_interval4.npz,3,right_hand_clockwise,test,user26_fluorescent_led.aedat,4,87469410,95663330
+test/5/user26_fluorescent_led_interval5.npz,5,left_hand_clockwise,test,user26_fluorescent_led.aedat,5,96229823,104970004
+test/6/user26_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,test,user26_fluorescent_led.aedat,6,105576961,114438534
+test/7/user26_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_fluorescent_led.aedat,7,115146650,122146888
+test/7/user26_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_fluorescent_led.aedat,8,122308743,130320576
+test/8/user26_fluorescent_led_interval9.npz,8,drums,test,user26_fluorescent_led.aedat,9,130543127,137765916
+test/9/user26_fluorescent_led_interval10.npz,9,guitar,test,user26_fluorescent_led.aedat,10,138271713,145777748
+test/10/user26_fluorescent_led_interval11.npz,10,random_other_gestures,test,user26_fluorescent_led.aedat,11,148192424,150532245
+test/0/user26_lab_interval0.npz,0,hand_clapping,test,user26_lab.aedat,0,109542028,114642028
+test/1/user26_lab_interval1.npz,1,right_hand_wave,test,user26_lab.aedat,1,117458497,124482028
+test/2/user26_lab_interval2.npz,2,left_hand_wave,test,user26_lab.aedat,2,125859400,132845643
+test/3/user26_lab_interval3.npz,3,right_hand_clockwise,test,user26_lab.aedat,3,136197299,147318701
+test/4/user26_lab_interval4.npz,4,right_hand_counter_clockwise,test,user26_lab.aedat,4,149081585,157417196
+test/5/user26_lab_interval5.npz,5,left_hand_clockwise,test,user26_lab.aedat,5,158440104,166514547
+test/6/user26_lab_interval6.npz,6,left_hand_counter_clockwise,test,user26_lab.aedat,6,166710423,175350730
+test/7/user26_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_lab.aedat,7,176177761,184121620
+test/7/user26_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_lab.aedat,8,184818068,192283119
+test/8/user26_lab_interval9.npz,8,drums,test,user26_lab.aedat,9,194220115,201228122
+test/9/user26_lab_interval10.npz,9,guitar,test,user26_lab.aedat,10,201793986,209041397
+test/10/user26_lab_interval11.npz,10,random_other_gestures,test,user26_lab.aedat,11,209824901,215048260
+test/0/user26_led_interval0.npz,0,hand_clapping,test,user26_led.aedat,0,62496427,67974976
+test/1/user26_led_interval1.npz,1,right_hand_wave,test,user26_led.aedat,1,69612477,77456304
+test/2/user26_led_interval2.npz,2,left_hand_wave,test,user26_led.aedat,2,78709699,85542724
+test/3/user26_led_interval3.npz,3,right_hand_clockwise,test,user26_led.aedat,3,87786705,97025440
+test/4/user26_led_interval4.npz,4,right_hand_counter_clockwise,test,user26_led.aedat,4,97348897,105637477
+test/5/user26_led_interval5.npz,5,left_hand_clockwise,test,user26_led.aedat,5,106506767,115118805
+test/6/user26_led_interval6.npz,6,left_hand_counter_clockwise,test,user26_led.aedat,6,115523126,123933002
+test/7/user26_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_led.aedat,7,125428990,132181151
+test/7/user26_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_led.aedat,8,132706768,139539793
+test/8/user26_led_interval9.npz,8,drums,test,user26_led.aedat,9,140611243,147747509
+test/9/user26_led_interval10.npz,9,guitar,test,user26_led.aedat,10,148293342,155672201
+test/10/user26_led_interval11.npz,10,random_other_gestures,test,user26_led.aedat,11,156015873,161254306
+test/0/user26_natural_interval0.npz,0,hand_clapping,test,user26_natural.aedat,0,55636460,61056877
+test/1/user26_natural_interval1.npz,1,right_hand_wave,test,user26_natural.aedat,1,64917646,75464200
+test/2/user26_natural_interval2.npz,2,left_hand_wave,test,user26_natural.aedat,2,77471537,83582290
+test/3/user26_natural_interval3.npz,3,right_hand_clockwise,test,user26_natural.aedat,3,87596467,98897526
+test/4/user26_natural_interval4.npz,4,right_hand_counter_clockwise,test,user26_natural.aedat,4,100661718,108944200
+test/5/user26_natural_interval5.npz,5,left_hand_clockwise,test,user26_natural.aedat,5,112065049,121499643
+test/6/user26_natural_interval6.npz,6,left_hand_counter_clockwise,test,user26_natural.aedat,6,122011003,130084200
+test/7/user26_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_natural.aedat,7,132749565,141826208
+test/7/user26_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user26_natural.aedat,8,142618816,152053410
+test/8/user26_natural_interval9.npz,8,drums,test,user26_natural.aedat,9,153280674,161871524
+test/9/user26_natural_interval10.npz,9,guitar,test,user26_natural.aedat,10,164019237,170845894
+test/10/user26_natural_interval11.npz,10,random_other_gestures,test,user26_natural.aedat,11,173244200,178644200
+test/0/user27_fluorescent_interval0.npz,0,hand_clapping,test,user27_fluorescent.aedat,0,29976441,35204724
+test/1/user27_fluorescent_interval1.npz,1,right_hand_wave,test,user27_fluorescent.aedat,1,36414113,42088940
+test/2/user27_fluorescent_interval2.npz,2,left_hand_wave,test,user27_fluorescent.aedat,2,42982027,48898732
+test/3/user27_fluorescent_interval3.npz,3,right_hand_clockwise,test,user27_fluorescent.aedat,3,50368605,58722694
+test/4/user27_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user27_fluorescent.aedat,4,59820447,67858234
+test/5/user27_fluorescent_interval5.npz,5,left_hand_clockwise,test,user27_fluorescent.aedat,5,68379202,75970445
+test/6/user27_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user27_fluorescent.aedat,6,76547231,83543083
+test/7/user27_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_fluorescent.aedat,7,84361746,91097114
+test/7/user27_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_fluorescent.aedat,8,91618082,98279026
+test/8/user27_fluorescent_interval9.npz,8,drums,test,user27_fluorescent.aedat,9,98799994,105851663
+test/9/user27_fluorescent_interval10.npz,9,guitar,test,user27_fluorescent.aedat,10,106260995,113219635
+test/10/user27_fluorescent_interval11.npz,10,random_other_gestures,test,user27_fluorescent.aedat,11,114038298,121983056
+test/0/user27_fluorescent_led_interval0.npz,0,hand_clapping,test,user27_fluorescent_led.aedat,0,43470549,49739425
+test/1/user27_fluorescent_led_interval1.npz,1,right_hand_wave,test,user27_fluorescent_led.aedat,1,51351942,56969171
+test/2/user27_fluorescent_led_interval2.npz,2,left_hand_wave,test,user27_fluorescent_led.aedat,2,57642530,63082559
+test/3/user27_fluorescent_led_interval3.npz,3,right_hand_clockwise,test,user27_fluorescent_led.aedat,3,64730516,72155182
+test/4/user27_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,test,user27_fluorescent_led.aedat,4,72580461,79987407
+test/5/user27_fluorescent_led_interval5.npz,5,left_hand_clockwise,test,user27_fluorescent_led.aedat,5,80660765,87748752
+test/6/user27_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,test,user27_fluorescent_led.aedat,6,88085431,94110219
+test/7/user27_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_fluorescent_led.aedat,7,95137977,101800684
+test/7/user27_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_fluorescent_led.aedat,8,101907004,108711471
+test/8/user27_fluorescent_led_interval9.npz,8,drums,test,user27_fluorescent_led.aedat,9,109101310,115888057
+test/9/user27_fluorescent_led_interval10.npz,9,guitar,test,user27_fluorescent_led.aedat,10,116224737,122710244
+test/10/user27_fluorescent_led_interval11.npz,10,random_other_gestures,test,user27_fluorescent_led.aedat,11,123312723,128805912
+test/0/user27_led_interval0.npz,0,hand_clapping,test,user27_led.aedat,0,47966583,52473260
+test/1/user27_led_interval1.npz,1,right_hand_wave,test,user27_led.aedat,1,53800018,59563260
+test/2/user27_led_interval2.npz,2,left_hand_wave,test,user27_led.aedat,2,60560621,66104316
+test/3/user27_led_interval3.npz,3,right_hand_clockwise,test,user27_led.aedat,3,69021033,77732553
+test/4/user27_led_interval4.npz,4,right_hand_counter_clockwise,test,user27_led.aedat,4,78292718,85483260
+test/5/user27_led_interval5.npz,5,left_hand_clockwise,test,user27_led.aedat,5,87351926,95793260
+test/6/user27_led_interval6.npz,6,left_hand_counter_clockwise,test,user27_led.aedat,6,96256607,103616006
+test/7/user27_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_led.aedat,7,104021642,110303260
+test/7/user27_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_led.aedat,8,110878826,118740441
+test/8/user27_led_interval9.npz,8,drums,test,user27_led.aedat,9,119918718,128707502
+test/9/user27_led_interval10.npz,9,guitar,test,user27_led.aedat,10,129441511,135641950
+test/10/user27_led_interval11.npz,10,random_other_gestures,test,user27_led.aedat,11,136897490,142421869
+test/0/user27_natural_interval0.npz,0,hand_clapping,test,user27_natural.aedat,0,139629564,144465884
+test/1/user27_natural_interval1.npz,1,right_hand_wave,test,user27_natural.aedat,1,145845461,151560849
+test/2/user27_natural_interval2.npz,2,left_hand_wave,test,user27_natural.aedat,2,152568159,157911281
+test/3/user27_natural_interval3.npz,3,right_hand_clockwise,test,user27_natural.aedat,3,159794512,175385917
+test/4/user27_natural_interval4.npz,4,right_hand_counter_clockwise,test,user27_natural.aedat,4,175889572,184736381
+test/5/user27_natural_interval5.npz,5,left_hand_clockwise,test,user27_natural.aedat,5,186466326,195794891
+test/6/user27_natural_interval6.npz,6,left_hand_counter_clockwise,test,user27_natural.aedat,6,196386138,203437307
+test/7/user27_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_natural.aedat,7,205232947,212009564
+test/7/user27_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user27_natural.aedat,8,213050547,224984979
+test/8/user27_natural_interval9.npz,8,drums,test,user27_natural.aedat,9,225620022,231689564
+test/9/user27_natural_interval10.npz,9,guitar,test,user27_natural.aedat,10,233174846,239199564
+test/10/user27_natural_interval11.npz,10,random_other_gestures,test,user27_natural.aedat,11,240729670,245963302
+test/0/user28_fluorescent_interval0.npz,0,hand_clapping,test,user28_fluorescent.aedat,0,36837746,40973705
+test/1/user28_fluorescent_interval1.npz,1,right_hand_wave,test,user28_fluorescent.aedat,1,43097755,49839305
+test/2/user28_fluorescent_interval2.npz,2,left_hand_wave,test,user28_fluorescent.aedat,2,51076795,56802496
+test/3/user28_fluorescent_interval3.npz,3,right_hand_clockwise,test,user28_fluorescent.aedat,3,60034746,67127226
+test/4/user28_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user28_fluorescent.aedat,4,67385806,74697746
+test/5/user28_fluorescent_interval5.npz,5,left_hand_clockwise,test,user28_fluorescent.aedat,5,76048236,82877746
+test/6/user28_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user28_fluorescent.aedat,6,83417767,90639537
+test/7/user28_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_fluorescent.aedat,7,92431127,99468197
+test/7/user28_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_fluorescent.aedat,8,100206997,107177746
+test/8/user28_fluorescent_interval9.npz,8,drums,test,user28_fluorescent.aedat,9,108629317,115149228
+test/9/user28_fluorescent_interval10.npz,9,guitar,test,user28_fluorescent.aedat,10,116238958,121946188
+test/10/user28_fluorescent_interval11.npz,10,random_other_gestures,test,user28_fluorescent.aedat,11,122814278,128299868
+test/0/user28_fluorescent_led_interval0.npz,0,hand_clapping,test,user28_fluorescent_led.aedat,0,42889592,47314154
+test/1/user28_fluorescent_led_interval1.npz,1,right_hand_wave,test,user28_fluorescent_led.aedat,1,48967880,55156016
+test/2/user28_fluorescent_led_interval2.npz,2,left_hand_wave,test,user28_fluorescent_led.aedat,2,56347410,62997878
+test/3/user28_fluorescent_led_interval3.npz,3,right_hand_clockwise,test,user28_fluorescent_led.aedat,3,64989462,72280083
+test/4/user28_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,test,user28_fluorescent_led.aedat,4,72617941,79837433
+test/5/user28_fluorescent_led_interval5.npz,5,left_hand_clockwise,test,user28_fluorescent_led.aedat,5,80708751,87892679
+test/6/user28_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,test,user28_fluorescent_led.aedat,6,88194973,94667621
+test/7/user28_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_fluorescent_led.aedat,7,96321347,104607759
+test/7/user28_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_fluorescent_led.aedat,8,105834717,112289584
+test/8/user28_fluorescent_led_interval9.npz,8,drums,test,user28_fluorescent_led.aedat,9,112751916,119491294
+test/9/user28_fluorescent_led_interval10.npz,9,guitar,test,user28_fluorescent_led.aedat,10,120024754,126017288
+test/10/user28_fluorescent_led_interval11.npz,10,random_other_gestures,test,user28_fluorescent_led.aedat,11,126639658,131671964
+test/0/user28_lab_interval0.npz,0,hand_clapping,test,user28_lab.aedat,0,162661397,166040078
+test/1/user28_lab_interval1.npz,1,right_hand_wave,test,user28_lab.aedat,1,169329096,176948258
+test/2/user28_lab_interval2.npz,2,left_hand_wave,test,user28_lab.aedat,2,178013048,184993337
+test/3/user28_lab_interval3.npz,3,right_hand_clockwise,test,user28_lab.aedat,3,188897566,197534195
+test/4/user28_lab_interval4.npz,4,right_hand_counter_clockwise,test,user28_lab.aedat,4,200326310,208347727
+test/5/user28_lab_interval5.npz,5,left_hand_clockwise,test,user28_lab.aedat,5,210264349,221764079
+test/6/user28_lab_interval6.npz,6,left_hand_counter_clockwise,test,user28_lab.aedat,6,221906050,229856481
+test/7/user28_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_lab.aedat,7,231938737,239226631
+test/7/user28_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_lab.aedat,8,241616493,249141008
+test/8/user28_lab_interval9.npz,8,drums,test,user28_lab.aedat,9,250797347,259031722
+test/9/user28_lab_interval10.npz,9,guitar,test,user28_lab.aedat,10,260546090,269511397
+test/10/user28_lab_interval11.npz,10,random_other_gestures,test,user28_lab.aedat,11,270436804,276210331
+test/0/user28_led_interval0.npz,0,hand_clapping,test,user28_led.aedat,0,41696577,46086577
+test/1/user28_led_interval1.npz,1,right_hand_wave,test,user28_led.aedat,1,47991193,54191883
+test/2/user28_led_interval2.npz,2,left_hand_wave,test,user28_led.aedat,2,55469601,62985590
+test/3/user28_led_interval3.npz,3,right_hand_clockwise,test,user28_led.aedat,3,64225728,72624845
+test/4/user28_led_interval4.npz,4,right_hand_counter_clockwise,test,user28_led.aedat,4,72812744,80648162
+test/5/user28_led_interval5.npz,5,left_hand_clockwise,test,user28_led.aedat,5,82207730,89629768
+test/6/user28_led_interval6.npz,6,left_hand_counter_clockwise,test,user28_led.aedat,6,89742508,96939067
+test/7/user28_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_led.aedat,7,97634295,103906577
+test/7/user28_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_led.aedat,8,104736904,112196523
+test/8/user28_led_interval9.npz,8,drums,test,user28_led.aedat,9,112966911,121027809
+test/9/user28_led_interval10.npz,9,guitar,test,user28_led.aedat,10,121403608,128600167
+test/10/user28_led_interval11.npz,10,random_other_gestures,test,user28_led.aedat,11,129069916,135646406
+test/0/user28_natural_interval0.npz,0,hand_clapping,test,user28_natural.aedat,0,33640520,39076847
+test/1/user28_natural_interval1.npz,1,right_hand_wave,test,user28_natural.aedat,1,40742201,46082818
+test/2/user28_natural_interval2.npz,2,left_hand_wave,test,user28_natural.aedat,2,47327048,52361393
+test/3/user28_natural_interval3.npz,3,right_hand_clockwise,test,user28_natural.aedat,3,55500680,63348899
+test/4/user28_natural_interval4.npz,4,right_hand_counter_clockwise,test,user28_natural.aedat,4,63904017,70297444
+test/5/user28_natural_interval5.npz,5,left_hand_clockwise,test,user28_natural.aedat,5,73800429,81993204
+test/6/user28_natural_interval6.npz,6,left_hand_counter_clockwise,test,user28_natural.aedat,6,82433470,90013701
+test/7/user28_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_natural.aedat,7,91545061,98263902
+test/7/user28_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user28_natural.aedat,8,99201860,105250731
+test/8/user28_natural_interval9.npz,8,drums,test,user28_natural.aedat,9,107643480,113730635
+test/9/user28_natural_interval10.npz,9,guitar,test,user28_natural.aedat,10,114955723,120985452
+test/10/user28_natural_interval11.npz,10,random_other_gestures,test,user28_natural.aedat,11,122191398,127991423
+test/0/user29_fluorescent_interval0.npz,0,hand_clapping,test,user29_fluorescent.aedat,0,79466433,88544733
+test/1/user29_fluorescent_interval1.npz,1,right_hand_wave,test,user29_fluorescent.aedat,1,89325048,95263056
+test/2/user29_fluorescent_interval2.npz,2,left_hand_wave,test,user29_fluorescent.aedat,2,96233692,102019443
+test/3/user29_fluorescent_interval3.npz,3,right_hand_clockwise,test,user29_fluorescent.aedat,3,103789426,114009651
+test/4/user29_fluorescent_interval4.npz,4,right_hand_counter_clockwise,test,user29_fluorescent.aedat,4,114085780,121091864
+test/5/user29_fluorescent_interval5.npz,5,left_hand_clockwise,test,user29_fluorescent.aedat,5,122307637,130415301
+test/6/user29_fluorescent_interval6.npz,6,left_hand_counter_clockwise,test,user29_fluorescent.aedat,6,130776910,137704586
+test/7/user29_fluorescent_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_fluorescent.aedat,7,139131992,146154828
+test/7/user29_fluorescent_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_fluorescent.aedat,8,146269020,153101536
+test/8/user29_fluorescent_interval9.npz,8,drums,test,user29_fluorescent.aedat,9,154605070,160961783
+test/9/user29_fluorescent_interval10.npz,9,guitar,test,user29_fluorescent.aedat,10,161494681,167611864
+test/10/user29_fluorescent_interval11.npz,10,random_other_gestures,test,user29_fluorescent.aedat,11,168955255,172133612
+test/0/user29_fluorescent_led_interval0.npz,0,hand_clapping,test,user29_fluorescent_led.aedat,0,97646401,102577229
+test/1/user29_fluorescent_led_interval1.npz,1,right_hand_wave,test,user29_fluorescent_led.aedat,1,105078899,112384501
+test/2/user29_fluorescent_led_interval2.npz,2,left_hand_wave,test,user29_fluorescent_led.aedat,2,113961641,123061920
+test/3/user29_fluorescent_led_interval3.npz,3,right_hand_clockwise,test,user29_fluorescent_led.aedat,3,123732657,131328308
+test/4/user29_fluorescent_led_interval4.npz,4,right_hand_counter_clockwise,test,user29_fluorescent_led.aedat,4,131835893,138543270
+test/5/user29_fluorescent_led_interval5.npz,5,left_hand_clockwise,test,user29_fluorescent_led.aedat,5,138724551,146030153
+test/6/user29_fluorescent_led_interval6.npz,6,left_hand_counter_clockwise,test,user29_fluorescent_led.aedat,6,146247689,153498907
+test/7/user29_fluorescent_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_fluorescent_led.aedat,7,154169645,160840765
+test/7/user29_fluorescent_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_fluorescent_led.aedat,8,161040174,168091983
+test/8/user29_fluorescent_led_interval9.npz,8,drums,test,user29_fluorescent_led.aedat,9,168490800,175669506
+test/9/user29_fluorescent_led_interval10.npz,9,guitar,test,user29_fluorescent_led.aedat,10,176122707,182830084
+test/10/user29_fluorescent_led_interval11.npz,10,random_other_gestures,test,user29_fluorescent_led.aedat,11,182975108,186220028
+test/0/user29_lab_interval0.npz,0,hand_clapping,test,user29_lab.aedat,0,98116562,102177740
+test/1/user29_lab_interval1.npz,1,right_hand_wave,test,user29_lab.aedat,1,104737128,112690268
+test/2/user29_lab_interval2.npz,2,left_hand_wave,test,user29_lab.aedat,2,113430586,119501201
+test/3/user29_lab_interval3.npz,3,right_hand_clockwise,test,user29_lab.aedat,3,121066447,129125346
+test/4/user29_lab_interval4.npz,4,right_hand_counter_clockwise,test,user29_lab.aedat,4,129886817,137063535
+test/5/user29_lab_interval5.npz,5,left_hand_clockwise,test,user29_lab.aedat,5,138347604,147442950
+test/6/user29_lab_interval6.npz,6,left_hand_counter_clockwise,test,user29_lab.aedat,6,147760229,155776825
+test/7/user29_lab_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_lab.aedat,7,156707512,163878029
+test/7/user29_lab_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_lab.aedat,8,165252907,171623535
+test/8/user29_lab_interval9.npz,8,drums,test,user29_lab.aedat,9,172296512,179720852
+test/9/user29_lab_interval10.npz,9,guitar,test,user29_lab.aedat,10,180122740,188583527
+test/10/user29_lab_interval11.npz,10,random_other_gestures,test,user29_lab.aedat,11,189619973,196282843
+test/0/user29_led_interval0.npz,0,hand_clapping,test,user29_led.aedat,0,39473610,45173787
+test/1/user29_led_interval1.npz,1,right_hand_wave,test,user29_led.aedat,1,47073846,52969617
+test/2/user29_led_interval2.npz,2,left_hand_wave,test,user29_led.aedat,2,53640226,60346317
+test/3/user29_led_interval3.npz,3,right_hand_clockwise,test,user29_led.aedat,3,61547825,68868640
+test/4/user29_led_interval4.npz,4,right_hand_counter_clockwise,test,user29_led.aedat,4,71383424,77893921
+test/5/user29_led_interval5.npz,5,left_hand_clockwise,test,user29_led.aedat,5,79179255,86807433
+test/6/user29_led_interval6.npz,6,left_hand_counter_clockwise,test,user29_led.aedat,6,86919201,92675262
+test/7/user29_led_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_led.aedat,7,93960596,101644658
+test/7/user29_led_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_led.aedat,8,101896137,105724197
+test/8/user29_led_interval9.npz,8,drums,test,user29_led.aedat,9,106646284,112737650
+test/9/user29_led_interval10.npz,9,guitar,test,user29_led.aedat,10,112933244,118158406
+test/10/user29_led_interval11.npz,10,random_other_gestures,test,user29_led.aedat,11,119527567,123104148
+test/0/user29_natural_interval0.npz,0,hand_clapping,test,user29_natural.aedat,0,177336588,181965148
+test/1/user29_natural_interval1.npz,1,right_hand_wave,test,user29_natural.aedat,1,186499257,193295148
+test/2/user29_natural_interval2.npz,2,left_hand_wave,test,user29_natural.aedat,2,194544527,200287956
+test/3/user29_natural_interval3.npz,3,right_hand_clockwise,test,user29_natural.aedat,3,202120490,211618379
+test/4/user29_natural_interval4.npz,4,right_hand_counter_clockwise,test,user29_natural.aedat,4,216378497,224985148
+test/5/user29_natural_interval5.npz,5,left_hand_clockwise,test,user29_natural.aedat,5,226993784,234972011
+test/6/user29_natural_interval6.npz,6,left_hand_counter_clockwise,test,user29_natural.aedat,6,235687146,244157028
+test/7/user29_natural_interval7.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_natural.aedat,7,244939207,252448126
+test/7/user29_natural_interval8.npz,7,forearm_roll_forward / forearm_roll_backward,test,user29_natural.aedat,8,252962129,259979393
+test/8/user29_natural_interval9.npz,8,drums,test,user29_natural.aedat,9,260783920,267667096
+test/9/user29_natural_interval10.npz,9,guitar,test,user29_natural.aedat,10,269521977,275622974
+test/10/user29_natural_interval11.npz,10,random_other_gestures,test,user29_natural.aedat,11,283735288,286475148

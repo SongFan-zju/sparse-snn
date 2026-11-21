@@ -1,0 +1,47 @@
+{
+  "papers": [
+    {
+      "id": "ecl_2506.01968v1",
+      "title": "Efficient ANN-SNN Conversion with Error Compensation Learning",
+      "url": "https://arxiv.org/pdf/2506.01968v1",
+      "pdf": "artifacts/papers/ecl_2506.01968v1.pdf",
+      "text": "artifacts/papers/ecl_2506.01968v1.txt",
+      "sha256": "2a96a4d184357606560e8983e5d794c0e807af4f0764cb52b50685f7ac426e95",
+      "bytes": 342858,
+      "pages": 15,
+      "table8_pages": [
+        15
+      ],
+      "downloaded_utc": "2026-11-16T10:11:52Z"
+    },
+    {
+      "id": "qcfs_2303.04347",
+      "title": "Optimal ANN-SNN Conversion for High-accuracy and Ultra-low-latency Spiking Neural Networks",
+      "url": "https://arxiv.org/pdf/2303.04347",
+      "pdf": "artifacts/papers/qcfs_2303.04347.pdf",
+      "text": "artifacts/papers/qcfs_2303.04347.txt",
+      "sha256": "d8dc01bb8da1d32f63a0b82c713075e2de5f2f4f410ad1c67c7f214b9d49dd58",
+      "bytes": 476661,
+      "pages": 32,
+      "table8_pages": [],
+      "downloaded_utc": "2026-11-16T10:11:52Z"
+    },
+    {
+      "id": "ecl_icml2025",
+      "title": "Efficient ANN-SNN Conversion with Error Compensation Learning (ICML proceedings)",
+      "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25bl/liu25bl.pdf",
+      "pdf": "artifacts/papers/ecl_icml2025.pdf",
+      "text": "artifacts/papers/ecl_icml2025.txt",
+      "sha256": "7fbd88573dd255bb03568faf813e2f97669d05f48117fe1e83129eb6f030b4f3",
+      "bytes": 597793,
+      "downloaded_utc": "2026-11-18T07:15:59.073454+00:00"
+    }
+  ],
+  "use": "Read local PDFs/text before web search for these papers.",
+  "_export_metadata": {
+    "original_source_path": "artifacts/papers/index.json",
+    "original_source_sha256": "b992a01bb8f630426aa52fe0960c85c70177b507cc80fa4e3f693d30d8784a38",
+    "transformation": "Only cached local paths normalized to repository-relative paths. Paper URLs/versions/sha256 fields unchanged; those sha256 values identify original cached paper PDFs, not this index JSON or bundled files.",
+    "paper_fulltexts_included": false
+  }
+}

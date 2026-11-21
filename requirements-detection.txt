@@ -1,0 +1,4 @@
+-r requirements.txt
+torchvision>=0.17
+opencv-python-headless==4.10.0.84
+pycocotools==2.0.8

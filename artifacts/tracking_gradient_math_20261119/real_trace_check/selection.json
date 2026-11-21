@@ -1,0 +1,46 @@
+{
+  "seed": 2026100321,
+  "sample_indices": [
+    0,
+    1
+  ],
+  "samples": [
+    {
+      "path": "airplane/cifar10_airplane_0.npz",
+      "source_member": "airplane/cifar10_airplane_0.aedat",
+      "label": "airplane",
+      "split": "train",
+      "event_count": 178165,
+      "nonmonotonic_timestamps": 0,
+      "target": 0
+    },
+    {
+      "path": "airplane/cifar10_airplane_1.npz",
+      "source_member": "airplane/cifar10_airplane_1.aedat",
+      "label": "airplane",
+      "split": "train",
+      "event_count": 234787,
+      "nonmonotonic_timestamps": 0,
+      "target": 0
+    }
+  ],
+  "layer": "source.layer3.2.relu2",
+  "channels": [
+    0,
+    16,
+    32,
+    48
+  ],
+  "spatial_coordinates": [
+    [
+      3,
+      3
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "augmentation": "Original training=True random crop/flip, RNG reset to SEED immediately before reading samples",
+  "numerical_policy": "Real hard forward FP32; tail analysis float64; fixed +1e-7*theta all-input shift selects positive-side derivative at coincident phase boundaries"
+}

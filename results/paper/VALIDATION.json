@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "scope": "Lossless CPU text packing, all record/content/container/raw-source hashes, complete epoch text, unchanged result tables, no model/data/log/script/symlink files",
+  "containers": 17,
+  "records": 890,
+  "source_manifest_entries": 944,
+  "full_epoch_histories": 83,
+  "epoch_records": 13602,
+  "pending_pairs": 0,
+  "original_source_hashes_preserved": true,
+  "result_tables_byte_identical": true,
+  "training_or_GPU_work": false
+}

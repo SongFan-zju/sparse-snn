@@ -82,10 +82,16 @@ class ECLResNet18(nn.Module):
                     DualThresholdSequence(previous.thresh, timesteps, signed))
         self.eval().requires_grad_(False)
 
-    def forward(self, images):
+    def forward(self, images, *, return_prefix_logits=False):
         net = self.source
         x = images.unsqueeze(0).expand(self.timesteps, *images.shape).flatten(0, 1)
         x = net.relu(net.bn1(net.conv1(x)))
         x = net.layer4(net.layer3(net.layer2(net.layer1(x))))
         features = net.avgpool(x).flatten(1).unflatten(0, (self.timesteps, len(images)))
-        return net.fc(features.mean(0))
+        logits = net.fc(features.mean(0))
+        if not return_prefix_logits:
+            return logits
+        if self.timesteps == 1:
+            return logits.unsqueeze(0)
+        prefix_features = torch.stack([features[:step].mean(0) for step in range(1, self.timesteps)])
+        return torch.cat((net.fc(prefix_features), logits.unsqueeze(0)), dim=0)

@@ -1,0 +1,7 @@
+# Preserve byte-level hashes of exported evidence and historical reports.
+results/paper/** -text whitespace=cr-at-eol
+reports/** -text -whitespace
+artifacts/tracking_gradient_math_20261119/** -text -whitespace
+artifacts/papers/** -text
+MATH_*.json -text
+tests/triangular_density_partition_reference.py whitespace=-blank-at-eof

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "branch": "paper",
+  "based_on_remote_main": "0c612d015c7a8d8b3426c898b2db1b6cca5547cb",
+  "date": "2026-11-21",
+  "all_current_experiments_completed_before_publication": true,
+  "tiny_completed_arms": 8,
+  "tiny_epochs_per_arm": 80,
+  "result_rows": 37,
+  "result_evidence_records": 890,
+  "result_evidence_containers": 17,
+  "pending_pairs": 0,
+  "CPU_unit_tests": {
+    "tests": 42,
+    "skipped": 4,
+    "result": "passed",
+    "optional_skips": "CUDA or external-author assets not bundled"
+  },
+  "CPU_mathematical_checks": {
+    "checks": 3,
+    "result": "passed",
+    "CUDA_initialized": false
+  },
+  "exported_code_hashes": "passed",
+  "mathematical_export_hashes": "passed",
+  "result_content_and_container_hashes": "passed",
+  "data_weights_training_logs_and_unrelated_research_included": false,
+  "tracked_payload_files_before_this_record": 130,
+  "tracked_payload_bytes_before_this_record": 8355767
+}

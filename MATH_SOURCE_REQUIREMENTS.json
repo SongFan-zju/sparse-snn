@@ -1,0 +1,106 @@
+{
+  "description": "Local-source fingerprints and separately measured exported-code fingerprints. Local fingerprints are historical provenance at math bundle selection time, NOT a claim that exported frozen code has the same hash. Code compatibility was checked separately.",
+  "files": [
+    {
+      "path": "src/conversion/triangular_density_horizon.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "local_source_bytes": 8912,
+      "exported_code_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "exported_code_bytes": 8912,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/triangular_density_horizon.py"
+    },
+    {
+      "path": "src/conversion/triangular_density_phase.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49",
+      "local_source_bytes": 4109,
+      "exported_code_sha256": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49",
+      "exported_code_bytes": 4109,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/triangular_density_phase.py"
+    },
+    {
+      "path": "src/conversion/general_phase_adjoint.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+      "local_source_bytes": 10008,
+      "exported_code_sha256": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+      "exported_code_bytes": 10008,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/general_phase_adjoint.py"
+    },
+    {
+      "path": "src/conversion/ecl_triangular_surrogate.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+      "local_source_bytes": 3250,
+      "exported_code_sha256": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+      "exported_code_bytes": 3250,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/ecl_triangular_surrogate.py"
+    },
+    {
+      "path": "src/conversion/qcfs_ecl_resnet18.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "e6a82eb40d3dcba8daf31b14ab7ea4842408cf9daa86866ed71d43d10c12e625",
+      "local_source_bytes": 4257,
+      "exported_code_sha256": "9c9e183eb1071584095572945a976edf5eff2dc6e1e1dcdbe46600a3511b54de",
+      "exported_code_bytes": 4105,
+      "local_and_exported_code_byte_identical": false,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/qcfs_ecl_resnet18.py"
+    },
+    {
+      "path": "src/conversion/joint_phase_adjoint.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "57229bf1888756d39d20d1179c043e2df4cc28baf61a1c898e5a414302a43fd6",
+      "local_source_bytes": 3380,
+      "exported_code_sha256": "57229bf1888756d39d20d1179c043e2df4cc28baf61a1c898e5a414302a43fd6",
+      "exported_code_bytes": 3380,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/joint_phase_adjoint.py"
+    },
+    {
+      "path": "src/conversion/bounded_phase.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "4b3d9fac08942918e50600c76e78c4fcea62acfcf33b3675ec623be0e220e5ea",
+      "local_source_bytes": 3419,
+      "exported_code_sha256": "4b3d9fac08942918e50600c76e78c4fcea62acfcf33b3675ec623be0e220e5ea",
+      "exported_code_bytes": 3419,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/conversion/bounded_phase.py"
+    },
+    {
+      "path": "src/tracking_vistream.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "a21aeb43c50f0e98117f91c2f22ad218667795eee095a4612ec3349c61fc383f",
+      "local_source_bytes": 9091,
+      "exported_code_sha256": "a21aeb43c50f0e98117f91c2f22ad218667795eee095a4612ec3349c61fc383f",
+      "exported_code_bytes": 9091,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/tracking_vistream.py"
+    },
+    {
+      "path": "src/tracking_dimp.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "7ee0b165daff83ad1ea55d91d95cbe5f341a5d02f204036afe266b5021aa082c",
+      "local_source_bytes": 9685,
+      "exported_code_sha256": "7ee0b165daff83ad1ea55d91d95cbe5f341a5d02f204036afe266b5021aa082c",
+      "exported_code_bytes": 9685,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/tracking_dimp.py"
+    },
+    {
+      "path": "src/training_dimp.py",
+      "included_in_math_bundle": false,
+      "local_source_sha256": "886a405ad6bfc88b18c7078adce1ed9dace9f6165b43a4147a8d7760c317299a",
+      "local_source_bytes": 6276,
+      "exported_code_sha256": "886a405ad6bfc88b18c7078adce1ed9dace9f6165b43a4147a8d7760c317299a",
+      "exported_code_bytes": 6276,
+      "local_and_exported_code_byte_identical": true,
+      "exported_code_location": "${REPO_ROOT}/src/training_dimp.py"
+    }
+  ],
+  "compatibility_note": "MATH_CODE_COMPATIBILITY_ZH.md"
+}

@@ -1,0 +1,5948 @@
+{
+  "status": "complete_fixed_two_training_samples_no_selection_expansion",
+  "selection": {
+    "seed": 2026100321,
+    "sample_indices": [
+      0,
+      1
+    ],
+    "samples": [
+      {
+        "path": "airplane/cifar10_airplane_0.npz",
+        "source_member": "airplane/cifar10_airplane_0.aedat",
+        "label": "airplane",
+        "split": "train",
+        "event_count": 178165,
+        "nonmonotonic_timestamps": 0,
+        "target": 0
+      },
+      {
+        "path": "airplane/cifar10_airplane_1.npz",
+        "source_member": "airplane/cifar10_airplane_1.aedat",
+        "label": "airplane",
+        "split": "train",
+        "event_count": 234787,
+        "nonmonotonic_timestamps": 0,
+        "target": 0
+      }
+    ],
+    "layer": "source.layer3.2.relu2",
+    "channels": [
+      0,
+      16,
+      32,
+      48
+    ],
+    "spatial_coordinates": [
+      [
+        3,
+        3
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "augmentation": "Original training=True random crop/flip, RNG reset to SEED immediately before reading samples",
+    "numerical_policy": "Real hard forward FP32; tail analysis float64; fixed +1e-7*theta all-input shift selects positive-side derivative at coincident phase boundaries"
+  },
+  "source_sha256": "87e2b6d60ffef5676e84171720abcae9ce43036a225a3e906e7c9f341f06cbd3",
+  "manifest_sha256": "bb45e8fda17e5c89dd3074217f1ccbcaab02372caaa828e935d91a48ec09ad16",
+  "source_strict_load": true,
+  "snapshot_manifest_sha256": "0eddb285b43fce646e11c0c7989295985bc24a3a95f523a724cff70ec4a2176d",
+  "used_snapshot_files_sha256": {
+    "src/dvs_classification.py": "f346a1b2fb2a404b40bbc4b9d9011ecb149b72d82903a66195c995bf1835bac5",
+    "src/models/resnet20_cifar.py": "95ec76fca729fb645db04f5a195c8cba997a838e8455ad5d8807a357c0afe9ce",
+    "src/models/resnet18_cifar.py": "bb9d18082e569d63f3833151f410bb3ba7719e79bb53ea43467e582ce54d0390",
+    "src/conversion/triangular_density_horizon.py": "34eeda38afccfc6a0fddb3ae0e925eb2675cd1712519dea1c1b648b506934c44",
+    "src/conversion/ecl_triangular_surrogate.py": "587e5d660faa0980d9b39f404ad91afdf2b086340e9c4d27502e018aeccffdce",
+    "src/conversion/general_phase_adjoint.py": "6abc32a9f60dc0c54914ffb7519ebc087caa3a0bce1fbe03a1829dcb9f2ef7e7",
+    "src/conversion/triangular_density_phase.py": "555c78ccd51a50daf34aae37bcbed2a05db13fc0c8b2986b6ec1f48bb7c7bf49"
+  },
+  "original_manifest_coverage": [
+    "src/dvs_classification.py"
+  ],
+  "per_sample_hard_CE": [
+    0.10440228490036259,
+    0.4595705318857129
+  ],
+  "logits_fp32_vs_reconstructed_fp64_max_abs_error": 5.115651298126522e-07,
+  "scope": "Conditional last-layer single-neuron phase integration; every other neuron frozen; per-image CE; no parameter updates or endpoint accuracy attribution",
+  "summary": {
+    "traces": 16,
+    "density_closer": 15,
+    "triangle_closer": 1,
+    "equal_within_1e_12": 0,
+    "D_nonzero": 16,
+    "sufficient_condition_holds": 14,
+    "phase_eligibility_changes": 16,
+    "phase_retraction_possible": 12,
+    "hard_replay_matches": 16,
+    "density_error_aggregate_l2": 1.279145760043142e-06,
+    "triangle_error_aggregate_l2": 0.000163771951231836,
+    "mean_J_VJP_error_max": 5.421010862427522e-20,
+    "mean_full_J_error_max": 4.440892098500626e-16,
+    "positive_side_density_change_max": 4.564635064515602e-11
+  },
+  "entries": [
+    {
+      "sample_index": 0,
+      "channel": 0,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        -0.46710482239723206,
+        -0.3583749234676361,
+        -0.968173086643219,
+        -0.9502501487731934
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 0.0,
+      "hard_adjoint": [
+        2.6260612863302526e-05,
+        2.6260612863302526e-05,
+        2.6260612863302526e-05,
+        2.6260612863302526e-05
+      ],
+      "phase_mean": [
+        0.2535699244116262,
+        -0.11560277634219776,
+        -0.13778449179906224,
+        -0.00018265627036621198
+      ],
+      "J_density_VJP": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "J_triangle_VJP": [
+        1.4415994442506846e-05,
+        7.3901196980082025e-06,
+        2.5523794137852213e-07,
+        0.0
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.3723206745555694,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.09768552153227206,
+          0.27463515302329733,
+          0.0,
+          0.0
+        ],
+        [
+          -0.2646423903064745,
+          -0.2646423903064745,
+          0.009992762716822812,
+          0.0
+        ],
+        [
+          -0.009992762716822812,
+          -0.009992762716822812,
+          -0.009992762716822812,
+          0.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.3723206745555694,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.17221123639142505,
+          0.27436181089681466,
+          0.0,
+          0.0
+        ],
+        [
+          0.004426885922984458,
+          0.007052782756306312,
+          0.0097194205903397,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.3723206745555694,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.09768552153227184,
+          0.27463515302329755,
+          0.0,
+          0.0
+        ],
+        [
+          -0.26464239030647496,
+          -0.26464239030647496,
+          0.00999276271682259,
+          0.0
+        ],
+        [
+          -0.00999276271682259,
+          -0.00999276271682259,
+          -0.00999276271682259,
+          0.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        -1.4415994442506846e-05,
+        -7.3901196980082025e-06,
+        -2.5523794137852213e-07,
+        0.0
+      ],
+      "density_error_norm": 0.0,
+      "triangle_error_norm": 1.6201849009418534e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 2.6249991132399634e-10,
+      "decomposition_rhs": 2.624999113239963e-10,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 4.440892098500626e-16,
+      "phase_event_variants": 4,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 1.1274059833179477,
+          "probability": 0.9305868493663673,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1274059833179477,
+          "right": 1.1276793254444306,
+          "probability": 0.00010180828287564836,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1276793254444306,
+          "right": 1.2253648469767024,
+          "probability": 0.031599108712692,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.2253648469767024,
+          "right": 1.2256381891031853,
+          "probability": 7.503199877534339e-05,
+          "events": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.2256381891031853,
+          "right": 1.4900072372831774,
+          "probability": 0.03758727398593242,
+          "events": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.4900072372831774,
+          "right": 1.4902805794096603,
+          "probability": 2.694085051380135e-06,
+          "events": [
+            1,
+            0,
+            0,
+            -1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.4902805794096603,
+          "right": 1.5,
+          "probability": 4.723356830593772e-05,
+          "events": [
+            1,
+            0,
+            0,
+            -1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 0,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        -1.1905832290649414,
+        0.745806097984314,
+        -1.1306524276733398,
+        0.6685646176338196
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 1.0504245151650438e-11,
+      "hard_adjoint": [
+        2.6260612863302526e-05,
+        2.6260612863302526e-05,
+        2.6260612863302526e-05,
+        2.6260612863302526e-05
+      ],
+      "phase_mean": [
+        0.05574046127925633,
+        0.2062107967189984,
+        -0.2530794813445216,
+        0.10739731547427991
+      ],
+      "J_density_VJP": [
+        6.620720897475106e-06,
+        6.620720897475106e-06,
+        6.620720897475106e-06,
+        6.620720897475106e-06
+      ],
+      "J_triangle_VJP": [
+        1.6882951127243133e-05,
+        1.4899760410002815e-05,
+        7.983121236632392e-06,
+        6.620720897475102e-06
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.1745635484126289,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.20386032476687266,
+          0.37842387317950155,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3087814967666893,
+          -0.3087814967666893,
+          0.06964237641281223,
+          0.0
+        ],
+        [
+          0.18247363214870638,
+          0.18247363214870638,
+          0.18247363214870638,
+          0.2521160085615186
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.17456354841262878,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.31236485907323724,
+          0.37842387317950166,
+          0.0,
+          0.0
+        ],
+        [
+          0.03559128089245462,
+          0.043118135652975016,
+          0.06936903428632946,
+          0.0
+        ],
+        [
+          0.12038043033276785,
+          0.1458385198536701,
+          0.234626964519482,
+          0.2521160085615185
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.1745635484126289,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.20386032476687288,
+          0.37842387317950177,
+          0.0,
+          0.0
+        ],
+        [
+          -0.30878149676668953,
+          -0.30878149676668953,
+          0.06964237641281223,
+          0.0
+        ],
+        [
+          0.18247363214870616,
+          0.18247363214870616,
+          0.18247363214870616,
+          0.2521160085615184
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        6.631848407561716e-06,
+        6.631848407561716e-06,
+        6.631848407561716e-06,
+        6.631848407561716e-06
+      ],
+      "R": [
+        1.1127510086610642e-08,
+        1.1127510086610642e-08,
+        1.1127510086610642e-08,
+        1.1127510086610642e-08
+      ],
+      "D": [
+        -1.0262230229768028e-05,
+        -8.27903951252771e-06,
+        -1.362400339157286e-06,
+        3.3881317890172014e-21
+      ],
+      "density_error_norm": 2.2255020173221285e-08,
+      "triangle_error_norm": 1.3238940211725207e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 1.7526904264371173e-10,
+      "decomposition_rhs": 1.752690426437118e-10,
+      "mean_VJP_independent_enumeration_max_abs_error": 6.776263578034403e-21,
+      "mean_J_independent_enumeration_max_abs_error": 2.220446049250313e-16,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 1.1213027846940153,
+          "probability": 0.9282942095597464,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1213027846940153,
+          "right": 1.1215761268204982,
+          "probability": 0.00010347654416575924,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1215761268204982,
+          "right": 1.2476106493119987,
+          "probability": 0.03975212172573239,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.2476106493119987,
+          "right": 1.2478839914384816,
+          "probability": 6.895128385964178e-05,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.2478839914384816,
+          "right": 1.3251631094608882,
+          "probability": 0.016497271739803088,
+          "events": [
+            0,
+            1,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449851869231244
+        },
+        {
+          "left": 1.3251631094608882,
+          "right": 1.3254364515873711,
+          "probability": 4.77529294885537e-05,
+          "events": [
+            0,
+            1,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449851869231244
+        },
+        {
+          "left": 1.3254364515873711,
+          "right": 1.4303576235871878,
+          "probability": 0.012811185920992285,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449851869231244
+        },
+        {
+          "left": 1.4303576235871878,
+          "right": 1.4306309657136707,
+          "probability": 1.8998837302941496e-05,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449851869231244
+        },
+        {
+          "left": 1.4306309657136707,
+          "right": 1.5,
+          "probability": 0.0024060314589089415,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449851869231244
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 16,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        -1.7143175601959229,
+        4.845250606536865,
+        2.1804680824279785,
+        0.8128777146339417
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 1.6940658945086007e-21,
+      "hard_adjoint": [
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05
+      ],
+      "phase_mean": [
+        0.0018040894276795012,
+        2.899346542745442,
+        2.4102515941214673,
+        0.8128780804758311
+      ],
+      "J_density_VJP": [
+        -1.4889691084368525e-05,
+        -1.4889691084368525e-05,
+        -1.4889691084368525e-05,
+        -1.4889691084368525e-05
+      ],
+      "J_triangle_VJP": [
+        -1.4889446983810755e-05,
+        -1.4889439069304736e-05,
+        -1.4888982811004611e-05,
+        -1.2298530427845979e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.031404892629238734,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.644183903237892,
+          0.644183903237892,
+          0.0,
+          0.0
+        ],
+        [
+          0.3244112041328693,
+          0.355816096762108,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.031404892629238734,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.6239533769232221,
+          0.644183903237892,
+          0.0,
+          0.0
+        ],
+        [
+          0.3445475253440639,
+          0.3557188372335822,
+          0.9997266578735172,
+          0.0
+        ],
+        [
+          7.781117317905542e-05,
+          8.03340555686605e-05,
+          0.0002257740903227612,
+          0.8259761977706311
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.031404892629238734,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.644183903237892,
+          0.644183903237892,
+          0.0,
+          0.0
+        ],
+        [
+          0.3244112041328693,
+          0.355816096762108,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -1.4902399352604656e-05,
+        -1.4902399352604656e-05,
+        -1.4902399352604656e-05,
+        -1.4902399352604656e-05
+      ],
+      "R": [
+        -1.2708268236131428e-08,
+        -1.2708268236131428e-08,
+        -1.2708268236131428e-08,
+        -1.2708268236131428e-08
+      ],
+      "D": [
+        -2.44100557770247e-10,
+        -2.5201506378912087e-10,
+        -7.082733639138288e-10,
+        -2.591160656522546e-06
+      ],
+      "density_error_norm": 2.5416536472262855e-08,
+      "triangle_error_norm": 2.6039679555849e-06,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 6.780003113386757e-12,
+      "decomposition_rhs": 6.780003113386758e-12,
+      "mean_VJP_independent_enumeration_max_abs_error": 1.6940658945086007e-21,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 7,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": false,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": -0.4521033212673303,
+          "probability": 0.0011470459168102856,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": -0.4521033212673303,
+          "right": -0.45182997914084755,
+          "probability": 1.3129537975305541e-05,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": -0.45182997914084755,
+          "right": 0.14391056111140918,
+          "probability": 0.20615022990061935,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": 0.14391056111140918,
+          "right": 0.14418390323789199,
+          "probability": 0.00017604523999795174,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": 0.14418390323789199,
+          "right": 0.32570285564414825,
+          "probability": 0.13340615231404768,
+          "events": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": 0.32570285564414825,
+          "right": 0.325976197770631,
+          "probability": 0.00022573673236375713,
+          "events": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10445682893946534
+        },
+        {
+          "left": 0.325976197770631,
+          "right": 0.5478966787326697,
+          "probability": 0.2056312931740451,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.5478966787326697,
+          "right": 0.5481700208591525,
+          "probability": 0.0002602125885073914,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.5481700208591525,
+          "right": 1.143910561111409,
+          "probability": 0.3895903103516374,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.143910561111409,
+          "right": 1.144183903237892,
+          "probability": 9.729688648485446e-05,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.144183903237892,
+          "right": 1.3257028556441481,
+          "probability": 0.04811280009220864,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.3257028556441481,
+          "right": 1.325976197770631,
+          "probability": 4.760539411907683e-05,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.325976197770631,
+          "right": 1.4683217652442784,
+          "probability": 0.014640386592563948,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.4683217652442784,
+          "right": 1.4685951073707613,
+          "probability": 8.621638092232153e-06,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.4685951073707613,
+          "right": 1.5,
+          "probability": 0.0004931336405270548,
+          "events": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10434788348397984
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 16,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        3.3379909992218018,
+        -4.777745723724365,
+        -0.37976524233818054,
+        1.4469701051712036
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 5.955876430604502e-12,
+      "hard_adjoint": [
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05,
+        -1.4889691084368523e-05
+      ],
+      "phase_mean": [
+        3.0268702301376726,
+        -3.0060339801001152,
+        -0.020820630113682282,
+        0.28998143510322805
+      ],
+      "J_density_VJP": [
+        -5.9285810777533834e-06,
+        -5.9285810777533834e-06,
+        -5.9285810777533834e-06,
+        -5.9285810777533834e-06
+      ],
+      "J_triangle_VJP": [
+        -1.1597184122969407e-05,
+        -6.906184965529724e-06,
+        -5.952317652035815e-06,
+        -5.928581077753387e-06
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.5875863420922621,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.48085841797496964,
+          0.10672792411729248,
+          0.0,
+          0.0
+        ],
+        [
+          -0.10380573890497469,
+          -0.10380573890497469,
+          0.002922185212317796,
+          0.0
+        ],
+        [
+          0.3952446433780563,
+          0.3952446433780563,
+          0.3952446433780563,
+          0.3981668285903741
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.5875863420922622,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.044016053586111964,
+          0.10672792411729226,
+          0.0,
+          0.0
+        ],
+        [
+          0.0009758274470454821,
+          0.0023661375619713045,
+          0.0026488430858349066,
+          0.0
+        ],
+        [
+          0.14629516365319178,
+          0.3547291920334993,
+          0.3971121471394539,
+          0.39816682859037433
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.5875863420922621,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.48085841797496964,
+          0.10672792411729248,
+          0.0,
+          0.0
+        ],
+        [
+          -0.10380573890497469,
+          -0.10380573890497469,
+          0.002922185212317796,
+          0.0
+        ],
+        [
+          0.39524464337805654,
+          0.39524464337805654,
+          0.39524464337805654,
+          0.39816682859037433
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -5.9208199117290904e-06,
+        -5.9208199117290904e-06,
+        -5.9208199117290904e-06,
+        -5.9208199117290904e-06
+      ],
+      "R": [
+        7.761166024293017e-09,
+        7.761166024293017e-09,
+        7.761166024293017e-09,
+        7.761166024293017e-09
+      ],
+      "D": [
+        5.668603045216023e-06,
+        9.776038877763404e-07,
+        2.3736574282431476e-08,
+        3.3881317890172014e-21
+      ],
+      "density_error_norm": 1.5522332048586033e-08,
+      "triangle_error_norm": 5.761345961773508e-06,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 3.3192866348451685e-11,
+      "decomposition_rhs": 3.319286634845168e-11,
+      "mean_VJP_independent_enumeration_max_abs_error": 4.235164736271502e-21,
+      "mean_J_independent_enumeration_max_abs_error": 2.220446049250313e-16,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.08731299996577932,
+          "probability": 0.17246827996440176,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.08731299996577932,
+          "right": 0.08758634209226213,
+          "probability": 0.00016057474228070578,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.08758634209226213,
+          "right": 1.0873129999657791,
+          "probability": 0.7422158652946951,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.0873129999657791,
+          "right": 1.087586342092262,
+          "probability": 0.00011276738420218368,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.087586342092262,
+          "right": 1.1015598292831428,
+          "probability": 0.0056652277939811535,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1015598292831428,
+          "right": 1.1018331714096257,
+          "probability": 0.00010887312558083284,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 1.1018331714096257,
+          "right": 1.3932720758827075,
+          "probability": 0.07357298680166502,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.3932720758827075,
+          "right": 1.3935454180091904,
+          "probability": 2.9135879774266904e-05,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.3935454180091904,
+          "right": 1.4970778147876822,
+          "probability": 0.005662019430211496,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.4970778147876822,
+          "right": 1.497351156914165,
+          "probability": 7.613983608045771e-07,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10434788348397984
+        },
+        {
+          "left": 1.497351156914165,
+          "right": 1.5,
+          "probability": 3.50818484673443e-06,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10434788348397984
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 32,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        0.4057277739048004,
+        3.9736907482147217,
+        2.007885694503784,
+        2.212371826171875
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 0.0,
+      "hard_adjoint": [
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05
+      ],
+      "phase_mean": [
+        0.6826645828725928,
+        3.4905694189488856,
+        2.214071312327495,
+        2.2123721920137642
+      ],
+      "J_density_VJP": [
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05
+      ],
+      "J_triangle_VJP": [
+        -2.5434423202457206e-05,
+        -2.5433695114240645e-05,
+        -2.5433177200027325e-05,
+        -2.5427934511904718e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.6109025924922713,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3029202284056831,
+          0.3029202284056831,
+          0.0,
+          0.0
+        ],
+        [
+          0.08617717910204559,
+          0.6970797715943169,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.6109025924922713,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.11786547555430033,
+          0.3029202284056831,
+          0.0,
+          0.0
+        ],
+        [
+          0.20453067911180994,
+          0.5256541811005188,
+          0.7540803829356225,
+          0.0
+        ],
+        [
+          0.06668302057932761,
+          0.171378732658359,
+          0.2458523968733053,
+          0.9997266578735172
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.6109025924922713,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3029202284056831,
+          0.3029202284056831,
+          0.0,
+          0.0
+        ],
+        [
+          0.08617717910204559,
+          0.6970797715943169,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -2.5416447727277587e-05,
+        -2.5416447727277587e-05,
+        -2.5416447727277587e-05,
+        -2.5416447727277587e-05
+      ],
+      "R": [
+        1.843921070960973e-08,
+        1.843921070960973e-08,
+        1.843921070960973e-08,
+        1.843921070960973e-08
+      ],
+      "D": [
+        -4.6373552999072693e-10,
+        -1.1918237465525735e-09,
+        -1.709737959872538e-09,
+        -6.952426082479097e-09
+      ],
+      "density_error_norm": 3.687842141921946e-08,
+      "triangle_error_norm": 3.213116158094533e-08,
+      "density_strictly_closer": false,
+      "triangle_strictly_closer": true,
+      "sufficient_condition_D_gt_2R": false,
+      "squared_error_gain": -3.2760642183272767e-16,
+      "decomposition_rhs": -3.2760642183272797e-16,
+      "mean_VJP_independent_enumeration_max_abs_error": 1.0164395367051604e-20,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 7,
+      "phase_eligibility_variants": 3,
+      "phase_has_retraction": false,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": -0.3509274787273188,
+          "probability": 0.011111308299296999,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449543243886529
+        },
+        {
+          "left": -0.3509274787273188,
+          "right": -0.350654136600836,
+          "probability": 4.0785157923878615e-05,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10449543243886529
+        },
+        {
+          "left": -0.350654136600836,
+          "right": -0.1973531137207997,
+          "probability": 0.03464547543002673,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": -0.1973531137207997,
+          "right": -0.1970797715943169,
+          "probability": 8.276350142800287e-05,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": -0.1970797715943169,
+          "right": 0.25380704080913985,
+          "probability": 0.2382321949980405,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.25380704080913985,
+          "right": 0.25408038293562263,
+          "probability": 0.0002060845774515263,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.25408038293562263,
+          "right": 0.6490725212726812,
+          "probability": 0.35364260100921663,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.6490725212726812,
+          "right": 0.649345863399164,
+          "probability": 0.00023255696855883912,
+          "events": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.649345863399164,
+          "right": 0.8026468862792003,
+          "probability": 0.11865554745000961,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 0.8026468862792003,
+          "right": 0.8029202284056831,
+          "probability": 0.0001905786250547825,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 0.8029202284056831,
+          "right": 0.8888240653812459,
+          "probability": 0.05619209245443879,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 0.8888240653812459,
+          "right": 0.8890974075077287,
+          "probability": 0.00016702277166469326,
+          "events": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 0.8890974075077287,
+          "right": 1.2538070408091397,
+          "probability": 0.15629550217931276,
+          "events": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.2538070408091397,
+          "right": 1.2540803829356226,
+          "probability": 6.725754903125214e-05,
+          "events": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.2540803829356226,
+          "right": 1.5,
+          "probability": 0.030238229028545005,
+          "events": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.10430932959736026
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 32,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        2.57536244392395,
+        -3.8121917247772217,
+        0.3478142321109772,
+        1.3940578699111938
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 1.0173954777606409e-11,
+      "hard_adjoint": [
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05,
+        -2.5434886937987197e-05
+      ],
+      "phase_mean": [
+        2.4992719004051214,
+        -2.451149897427937,
+        0.07269078470156119,
+        0.6238723674262394
+      ],
+      "J_density_VJP": [
+        -1.6228726525611832e-05,
+        -1.6228726525611832e-05,
+        -1.6228726525611832e-05,
+        -1.6228726525611832e-05
+      ],
+      "J_triangle_VJP": [
+        -2.4266067692534318e-05,
+        -1.97041208195645e-05,
+        -1.8594664053147084e-05,
+        -1.6228726525611832e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.7960448531138835,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6338488567120277,
+          0.16219599640185578,
+          0.0,
+          0.0
+        ],
+        [
+          0.09479903969971426,
+          0.09479903969971426,
+          0.25699503610157004,
+          0.0
+        ],
+        [
+          0.38105484260161004,
+          0.38105484260161004,
+          0.38105484260161004,
+          0.6380498787031801
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.7960448531138835,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.033080708270480486,
+          0.16219599640185567,
+          0.0,
+          0.0
+        ],
+        [
+          0.04391388252086087,
+          0.21531147015074492,
+          0.25699503610156993,
+          0.0
+        ],
+        [
+          0.08100716741635955,
+          0.3971812854597485,
+          0.474074227091254,
+          0.6380498787031801
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.7960448531138835,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6338488567120277,
+          0.16219599640185578,
+          0.0,
+          0.0
+        ],
+        [
+          0.09479903969971426,
+          0.09479903969971426,
+          0.25699503610157004,
+          0.0
+        ],
+        [
+          0.38105484260161004,
+          0.38105484260161004,
+          0.38105484260161004,
+          0.6380498787031801
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -1.6211954269571465e-05,
+        -1.6211954269571465e-05,
+        -1.6211954269571465e-05,
+        -1.6211954269571465e-05
+      ],
+      "R": [
+        1.6772256040366773e-08,
+        1.6772256040366773e-08,
+        1.6772256040366773e-08,
+        1.6772256040366773e-08
+      ],
+      "D": [
+        8.037341166922486e-06,
+        3.4753942939526683e-06,
+        2.365937527535252e-06,
+        0.0
+      ],
+      "density_error_norm": 3.3544512080733546e-08,
+      "triangle_error_norm": 9.096238643756017e-06,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 8.274043222986957e-11,
+      "decomposition_rhs": 8.27404322298696e-11,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.29577151098740073,
+          "probability": 0.3166261488495854,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.29577151098740073,
+          "right": 0.2960448531138835,
+          "probability": 0.00021755523496680418,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.2960448531138835,
+          "right": 0.8616767791703371,
+          "probability": 0.4794280287902706,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.8616767791703371,
+          "right": 0.8619501212968199,
+          "probability": 0.00017444326860582837,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.8619501212968199,
+          "right": 1.242731621771947,
+          "probability": 0.17046031463852518,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.242731621771947,
+          "right": 1.24300496389843,
+          "probability": 7.02849276226214e-05,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.24300496389843,
+          "right": 1.2957715109874006,
+          "probability": 0.012168586428238926,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.2957715109874006,
+          "right": 1.2960448531138835,
+          "probability": 5.578689151597427e-05,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.2960448531138835,
+          "right": 1.3378040035981442,
+          "probability": 0.007645080346273314,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.3378040035981442,
+          "right": 1.338077345724627,
+          "probability": 4.429764060442931e-05,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        },
+        {
+          "left": 1.338077345724627,
+          "right": 1.5,
+          "probability": 0.013109472983790948,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10430932959736026
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 48,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        -3.0160109996795654,
+        2.564389705657959,
+        1.7721400260925293,
+        -0.04091694951057434
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 4.063789449805337e-11,
+      "hard_adjoint": [
+        0.00010159473629947396,
+        0.00010159473629947396,
+        0.00010159473629947396,
+        0.00010159473629947396
+      ],
+      "phase_mean": [
+        0.0,
+        0.25936766537280737,
+        1.096517869227794,
+        -0.03414856772815559
+      ],
+      "J_density_VJP": [
+        8.635987557453805e-05,
+        8.635987557453805e-05,
+        8.635987557453805e-05,
+        8.635987557453805e-05
+      ],
+      "J_triangle_VJP": [
+        0.00010027164952121968,
+        0.00010027164952121968,
+        9.947252392586368e-05,
+        8.633210545327849e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3765530751272197,
+          0.3765530751272197,
+          0.0,
+          0.0
+        ],
+        [
+          0.4844006231574187,
+          0.4844006231574187,
+          0.8609536982846384,
+          0.0
+        ],
+        [
+          -0.010910883861926957,
+          -0.010910883861926957,
+          -0.010910883861926957,
+          0.8500428144227115
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3765530751272196,
+          0.3765530751272196,
+          0.0,
+          0.0
+        ],
+        [
+          0.5367589356534055,
+          0.5367589356534055,
+          0.8609536982846384,
+          0.0
+        ],
+        [
+          0.0736648068533694,
+          0.0736648068533694,
+          0.11815730243340494,
+          0.8497694722962286
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3765530751272197,
+          0.3765530751272197,
+          0.0,
+          0.0
+        ],
+        [
+          0.4844006231574187,
+          0.4844006231574187,
+          0.8609536982846384,
+          0.0
+        ],
+        [
+          -0.010910883861926957,
+          -0.010910883861926957,
+          -0.010910883861926957,
+          0.8500428144227115
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        8.655279796354849e-05,
+        8.655279796354849e-05,
+        8.655279796354849e-05,
+        8.655279796354849e-05
+      ],
+      "R": [
+        1.9292238901044147e-07,
+        1.9292238901044147e-07,
+        1.9292238901044147e-07,
+        1.9292238901044147e-07
+      ],
+      "D": [
+        -1.3911773946681627e-05,
+        -1.3911773946681627e-05,
+        -1.3112648351325636e-05,
+        2.7770121259560864e-08
+      ],
+      "density_error_norm": 3.8584477802088295e-07,
+      "triangle_error_norm": 2.3310551264357624e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 5.432329240555188e-10,
+      "decomposition_rhs": 5.432329240555188e-10,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 4,
+      "phase_eligibility_variants": 3,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.6387729595888788,
+          "probability": 0.6291439924323505,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.6387729595888788,
+          "right": 0.6390463017153616,
+          "probability": 0.0002353722726513574,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.6390463017153616,
+          "right": 0.6499571855772885,
+          "probability": 0.009334242119156011,
+          "events": [
+            0,
+            0,
+            1,
+            -1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.6499571855772885,
+          "right": 0.6502305277037713,
+          "probability": 0.00023231515253663293,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.6502305277037713,
+          "right": 1.1231735827462974,
+          "probability": 0.2900550036531747,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 1.1231735827462974,
+          "right": 1.1234469248727803,
+          "probability": 0.00010296517624797108,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 1.1234469248727803,
+          "right": 1.5,
+          "probability": 0.07089610919388278,
+          "events": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        }
+      ]
+    },
+    {
+      "sample_index": 0,
+      "channel": 48,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        0.2657964825630188,
+        -0.2494250386953354,
+        0.3915325999259949,
+        0.02729213982820511
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 4.0637894525158424e-11,
+      "hard_adjoint": [
+        0.00010159473629947396,
+        0.00010159473629947396,
+        0.00010159473629947396,
+        0.00010159473629947396
+      ],
+      "phase_mean": [
+        0.5998563183699419,
+        -0.13382662256786698,
+        0.21796547070518324,
+        0.016791106978089075
+      ],
+      "J_density_VJP": [
+        6.288285957850793e-05,
+        6.288285957850793e-05,
+        6.288285957850793e-05,
+        6.288285957850793e-05
+      ],
+      "J_triangle_VJP": [
+        9.840992699934253e-05,
+        9.414221447128957e-05,
+        8.655508155848103e-05,
+        6.288285957850793e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.5726534757554244,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0679049283485551,
+          0.5047485474068693,
+          0.0,
+          0.0
+        ],
+        [
+          0.1067491113246285,
+          0.1067491113246285,
+          0.6114976587314978,
+          0.0
+        ],
+        [
+          0.007460191536907579,
+          0.007460191536907579,
+          0.007460191536907579,
+          0.6189578502684053
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.5726534757554242,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.21558572554414196,
+          0.5044752052803864,
+          0.0,
+          0.0
+        ],
+        [
+          0.12949123261642725,
+          0.3030122518144498,
+          0.6114976587314978,
+          0.0
+        ],
+        [
+          0.050921393765871195,
+          0.11915714970628437,
+          0.24046657397579452,
+          0.6189578502684052
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.5726534757554244,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.06790492834855522,
+          0.5047485474068691,
+          0.0,
+          0.0
+        ],
+        [
+          0.10674911132462861,
+          0.10674911132462861,
+          0.6114976587314978,
+          0.0
+        ],
+        [
+          0.007460191536907468,
+          0.007460191536907468,
+          0.007460191536907468,
+          0.6189578502684052
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        6.302333582881657e-05,
+        6.302333582881657e-05,
+        6.302333582881657e-05,
+        6.302333582881657e-05
+      ],
+      "R": [
+        1.4047625030864843e-07,
+        1.4047625030864843e-07,
+        1.4047625030864843e-07,
+        1.4047625030864843e-07
+      ],
+      "D": [
+        -3.552706742083461e-05,
+        -3.1259354892781646e-05,
+        -2.36722219799731e-05,
+        0.0
+      ],
+      "density_error_norm": 2.8095250061729686e-07,
+      "triangle_error_norm": 5.2672177032066835e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 2.7742792989897857e-09,
+      "decomposition_rhs": 2.774279298989787e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 1.1102230246251565e-16,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.880768807605112,
+          "probability": 0.8082763651826026,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.880768807605112,
+          "right": 0.8810421497315948,
+          "probability": 0.00016922461295465485,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.10440228490036259
+        },
+        {
+          "left": 0.8810421497315948,
+          "right": 0.8882289991420195,
+          "probability": 0.0044225314590551346,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.8882289991420195,
+          "right": 0.8885023412685022,
+          "probability": 0.00016718542833593641,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.8885023412685022,
+          "right": 0.9270731821180929,
+          "probability": 0.022842123992907748,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.9270731821180929,
+          "right": 0.9273465242445756,
+          "probability": 0.0001565676767597557,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.9273465242445756,
+          "right": 0.9952514525931309,
+          "probability": 0.036580453592712,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.9952514525931309,
+          "right": 0.9955247947196136,
+          "probability": 0.00013793168332820738,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        },
+        {
+          "left": 0.9955247947196136,
+          "right": 1.5,
+          "probability": 0.12724761637134396,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.10477479130358107
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 0,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        -0.6733044981956482,
+        -0.2948591411113739,
+        3.6069159507751465,
+        2.7154061794281006
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 6.776263578034403e-21,
+      "hard_adjoint": [
+        3.301360197232155e-05,
+        3.301360197232155e-05,
+        3.301360197232155e-05,
+        3.301360197232155e-05
+      ],
+      "phase_mean": [
+        0.18260854415437888,
+        -0.08104496471467838,
+        2.537189829554092,
+        2.7154065452699894
+      ],
+      "J_density_VJP": [
+        3.3013601972321556e-05,
+        3.3013601972321556e-05,
+        3.3013601972321556e-05,
+        3.3013601972321556e-05
+      ],
+      "J_triangle_VJP": [
+        3.30125575254699e-05,
+        3.301207509785128e-05,
+        3.3011605117522624e-05,
+        3.300457796415558e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.315957616692766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.08032398251779238,
+          0.23563363417497363,
+          0.0,
+          0.0
+        ],
+        [
+          0.7643663658250264,
+          0.7643663658250264,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.315957616692766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.16099641510873622,
+          0.2353602920484907,
+          0.0,
+          0.0
+        ],
+        [
+          0.40730506543723255,
+          0.5954383461854785,
+          0.7787175319218959,
+          0.0
+        ],
+        [
+          0.11570926589678332,
+          0.16915511190600177,
+          0.22122198225772627,
+          0.9997266578735172
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.315957616692766,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.08032398251779238,
+          0.23563363417497363,
+          0.0,
+          0.0
+        ],
+        [
+          0.7643663658250264,
+          0.7643663658250264,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        3.304370629012363e-05,
+        3.304370629012363e-05,
+        3.304370629012363e-05,
+        3.304370629012363e-05
+      ],
+      "R": [
+        3.010431780207522e-08,
+        3.010431780207522e-08,
+        3.010431780207522e-08,
+        3.010431780207522e-08
+      ],
+      "D": [
+        1.0444468516579018e-09,
+        1.5268744702766931e-09,
+        1.9968547989316016e-09,
+        9.024008165978744e-09
+      ],
+      "density_error_norm": 6.020863560415044e-08,
+      "triangle_error_norm": 6.732227743805215e-08,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": false,
+      "squared_error_gain": 9.072092381326946e-16,
+      "decomposition_rhs": 9.072092381326946e-16,
+      "mean_VJP_independent_enumeration_max_abs_error": 6.776263578034403e-21,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 7,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": -0.46379080955400276,
+          "probability": 0.000655552736377249,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.45944987259502945
+        },
+        {
+          "left": -0.46379080955400276,
+          "right": -0.46351746742752,
+          "probability": 9.934855073783768e-06,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.45944987259502945
+        },
+        {
+          "left": -0.46351746742752,
+          "right": 0.2784441897954131,
+          "probability": 0.30232219072166755,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.2784441897954131,
+          "right": 0.27871753192189586,
+          "probability": 0.00021281894814589863,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.27871753192189586,
+          "right": 0.5362091904459972,
+          "probability": 0.23235314044835548,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5362091904459972,
+          "right": 0.53648253257248,
+          "probability": 0.0002634072714090552,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.53648253257248,
+          "right": 1.183769041180751,
+          "probability": 0.4141819453611003,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.183769041180751,
+          "right": 1.184042383307234,
+          "probability": 8.640188478425959e-05,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.184042383307234,
+          "right": 1.2643663658250264,
+          "probability": 0.02215300299583378,
+          "events": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.2643663658250264,
+          "right": 1.2646397079515093,
+          "probability": 6.437124067726341e-05,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.2646397079515093,
+          "right": 1.2784441897954129,
+          "probability": 0.0031537450188698912,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.2784441897954129,
+          "right": 1.2787175319218957,
+          "probability": 6.05231783368243e-05,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        },
+        {
+          "left": 1.2787175319218957,
+          "right": 1.5,
+          "probability": 0.024482965339368667,
+          "events": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.45969142825432974
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 0,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        -0.38153424859046936,
+        0.5716106295585632,
+        -1.4244897365570068,
+        -3.486571788787842
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 0.0,
+      "hard_adjoint": [
+        3.301360197232155e-05,
+        3.301360197232155e-05,
+        3.301360197232155e-05,
+        3.301360197232155e-05
+      ],
+      "phase_mean": [
+        0.2864303678571626,
+        0.2708483812371306,
+        -0.5087640354246273,
+        -0.04851471366966584
+      ],
+      "J_density_VJP": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "J_triangle_VJP": [
+        2.5528459078475433e-05,
+        2.0626913830640914e-05,
+        5.367454689223141e-06,
+        0.0
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.3957107171642633,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.15624536500371056,
+          0.5519560821679739,
+          0.0,
+          0.0
+        ],
+        [
+          -0.38909961161693474,
+          -0.38909961161693474,
+          0.16285647055103913,
+          0.0
+        ],
+        [
+          -0.16285647055103913,
+          -0.16285647055103913,
+          -0.16285647055103913,
+          0.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.3957107171642633,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3335411450501079,
+          0.5519560821679739,
+          0.0,
+          0.0
+        ],
+        [
+          0.044019079256310364,
+          0.07284438183272568,
+          0.16258312842455636,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.39571071716426326,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1562453650037106,
+          0.5519560821679739,
+          0.0,
+          0.0
+        ],
+        [
+          -0.38909961161693474,
+          -0.38909961161693474,
+          0.16285647055103916,
+          0.0
+        ],
+        [
+          -0.16285647055103916,
+          -0.16285647055103916,
+          -0.16285647055103916,
+          0.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        -2.5528459078475433e-05,
+        -2.0626913830640914e-05,
+        -5.367454689223141e-06,
+        0.0
+      ],
+      "density_error_norm": 0.0,
+      "triangle_error_norm": 3.3256298154469085e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 1.105981366938944e-09,
+      "decomposition_rhs": 1.1059813669389437e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 5.551115123125783e-17,
+      "phase_event_variants": 4,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.9477705757055433,
+          "probability": 0.8475213314717065,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.9477705757055433,
+          "right": 0.9480439178320261,
+          "probability": 0.00015091020718394077,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.9480439178320261,
+          "right": 1.1040159407092538,
+          "probability": 0.07392607071492097,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.1040159407092538,
+          "right": 1.1042892828357367,
+          "probability": 0.00010820176686077154,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.1042892828357367,
+          "right": 1.3371435294489609,
+          "probability": 0.06503237083915714,
+          "events": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.3371435294489609,
+          "right": 1.3374168715754438,
+          "probability": 4.4478176012829884e-05,
+          "events": [
+            1,
+            0,
+            0,
+            -1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.3374168715754438,
+          "right": 1.5,
+          "probability": 0.013216636824157857,
+          "events": [
+            1,
+            0,
+            0,
+            -1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 16,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        1.8483612537384033,
+        -2.656029462814331,
+        2.5289409160614014,
+        1.1796075105667114
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        1.0,
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 0.0,
+      "hard_adjoint": [
+        -0.00011411587662554344,
+        -0.00011411587662554344,
+        -0.00011411587662554344,
+        -0.00011411587662554344
+      ],
+      "phase_mean": [
+        1.8483114878527962,
+        -1.70540930664176,
+        1.5799638552502397,
+        1.178015644458466
+      ],
+      "J_density_VJP": [
+        -0.00011411587662554342,
+        -0.00011411587662554342,
+        -0.00011411587662554342,
+        -0.00011411587662554342
+      ],
+      "J_triangle_VJP": [
+        -0.0001141121566303242,
+        -0.00011340528879683409,
+        -0.00011312962877978874,
+        -8.06875514421156e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.9947649043947282,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7152611080296152,
+          0.279503796365113,
+          0.0,
+          0.0
+        ],
+        [
+          0.6909928456191039,
+          0.6909928456191039,
+          0.9704966419842169,
+          0.0
+        ],
+        [
+          0.029503358015782966,
+          0.029503358015782966,
+          0.029503358015782966,
+          0.9999999999999999
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.9947649043947282,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0014632290960077676,
+          0.2795037963651129,
+          0.0,
+          0.0
+        ],
+        [
+          0.003660583781253446,
+          0.6992391461900345,
+          0.9704966419842169,
+          0.0
+        ],
+        [
+          7.868432602445644e-05,
+          0.015030160279254577,
+          0.020860845905124492,
+          0.7070668326623948
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.9947649043947282,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.7152611080296152,
+          0.279503796365113,
+          0.0,
+          0.0
+        ],
+        [
+          0.6909928456191039,
+          0.6909928456191039,
+          0.9704966419842169,
+          0.0
+        ],
+        [
+          0.029503358015782966,
+          0.029503358015782966,
+          0.029503358015782966,
+          0.9999999999999999
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -0.00011415292738697787,
+        -0.00011415292738697787,
+        -0.00011415292738697787,
+        -0.00011415292738697787
+      ],
+      "R": [
+        -3.705076143444366e-08,
+        -3.705076143444366e-08,
+        -3.705076143444366e-08,
+        -3.705076143444366e-08
+      ],
+      "D": [
+        -3.719995219226809e-09,
+        -7.105878287093316e-07,
+        -9.862478457546824e-07,
+        -3.3428325183427825e-05
+      ],
+      "density_error_norm": 7.410152286888732e-08,
+      "triangle_error_norm": 3.348938866098502e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 1.1215336618508205e-09,
+      "decomposition_rhs": 1.1215336618508203e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 1.3552527156068805e-20,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 6,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.20679349053591187,
+          "probability": 0.24977851913196908,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4599883426784272
+        },
+        {
+          "left": 0.20679349053591187,
+          "right": 0.20706683266239467,
+          "probability": 0.0001932337936463302,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4599883426784272
+        },
+        {
+          "left": 0.20706683266239467,
+          "right": 0.4944915622682454,
+          "probability": 0.2445349807857523,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.4944915622682454,
+          "right": 0.4947649043947282,
+          "probability": 0.00027187379635862374,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.4947649043947282,
+          "right": 0.5292300158893003,
+          "probability": 0.034024211467129584,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5292300158893003,
+          "right": 0.5295033580157831,
+          "probability": 0.0002653149738234273,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5295033580157831,
+          "right": 1.206793490535912,
+          "probability": 0.4279468374552634,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.206793490535912,
+          "right": 1.2070668326623948,
+          "probability": 8.010833283655927e-05,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.2070668326623948,
+          "right": 1.220496203634887,
+          "probability": 0.003843734171965374,
+          "events": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 1.220496203634887,
+          "right": 1.2207695457613699,
+          "probability": 7.636280409939467e-05,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 1.2207695457613699,
+          "right": 1.4944915622682453,
+          "probability": 0.03896965184403356,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 1.4944915622682453,
+          "right": 1.4947649043947282,
+          "probability": 1.4683301241547042e-06,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 1.4947649043947282,
+          "right": 1.5,
+          "probability": 1.370311299819793e-05,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4591533750523276
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 16,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        0.3524022102355957,
+        1.3166286945343018,
+        -3.645963191986084,
+        2.6400647163391113
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 4.564635064515602e-11,
+      "hard_adjoint": [
+        -0.00011411587662554344,
+        -0.00011411587662554344,
+        -0.00011411587662554344,
+        -0.00011411587662554344
+      ],
+      "phase_mean": [
+        0.650476497767687,
+        1.0220616987200277,
+        -1.6725381964877148,
+        0.8489699377977897
+      ],
+      "J_density_VJP": [
+        -7.77428592193457e-05,
+        -7.77428592193457e-05,
+        -7.77428592193457e-05,
+        -7.77428592193457e-05
+      ],
+      "J_triangle_VJP": [
+        -0.00011347301348603124,
+        -0.00011252334431669322,
+        -7.774285921934569e-05,
+        -7.774285921934569e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.5963264695230369,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3598901871522806,
+          0.9562166566753175,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9562166566753175,
+          -0.9562166566753175,
+          0.0,
+          0.0
+        ],
+        [
+          0.6812624283161657,
+          0.6812624283161657,
+          0.6812624283161657,
+          0.6812624283161657
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.5963264695230368,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3859993537010036,
+          0.9562166566753174,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.012040752588879391,
+          0.029827946793173576,
+          0.6812624283161656,
+          0.6812624283161656
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.5963264695230369,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3598901871522807,
+          0.9562166566753176,
+          0.0,
+          0.0
+        ],
+        [
+          -0.9562166566753176,
+          -0.9562166566753176,
+          0.0,
+          0.0
+        ],
+        [
+          0.6812624283161657,
+          0.6812624283161657,
+          0.6812624283161657,
+          0.6812624283161657
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -7.768199474949688e-05,
+        -7.768199474949688e-05,
+        -7.768199474949688e-05,
+        -7.768199474949688e-05
+      ],
+      "R": [
+        6.086446984882303e-08,
+        6.086446984882303e-08,
+        6.086446984882303e-08,
+        6.086446984882303e-08
+      ],
+      "D": [
+        3.573015426668554e-05,
+        3.478048509734752e-05,
+        -1.3552527156068805e-20,
+        -1.3552527156068805e-20
+      ],
+      "density_error_norm": 1.2172893969764607e-07,
+      "triangle_error_norm": 4.9949214917052564e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 2.4949092528951464e-09,
+      "decomposition_rhs": 2.494909252895147e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 1.1102230246251565e-16,
+      "phase_event_variants": 4,
+      "phase_eligibility_variants": 3,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.5435100011981996,
+          "probability": 0.5425634410960659,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5435100011981996,
+          "right": 0.5437833433246824,
+          "probability": 0.00026141165227289154,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5437833433246824,
+          "right": 0.8184642295573515,
+          "probability": 0.22492964405523397,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.8184642295573515,
+          "right": 0.8187375716838343,
+          "probability": 0.00018625507880787318,
+          "events": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.8187375716838343,
+          "right": 0.9034001883504803,
+          "probability": 0.05409358048749813,
+          "events": [
+            0,
+            1,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 0.9034001883504803,
+          "right": 0.9036735304769631,
+          "probability": 0.00016303850321652824,
+          "events": [
+            0,
+            1,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591533750523276
+        },
+        {
+          "left": 0.9036735304769631,
+          "right": 1.5,
+          "probability": 0.1778026291269047,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591533750523276
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 32,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        2.571600914001465,
+        -3.7160398960113525,
+        0.8577118515968323,
+        0.12300101667642593
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 4.4800914185600706e-11,
+      "hard_adjoint": [
+        -0.00011200228546868576,
+        -0.00011200228546868576,
+        -0.00011200228546868576,
+        -0.00011200228546868576
+      ],
+      "phase_mean": [
+        2.496275620096947,
+        -2.4320016608115256,
+        0.26090136256587654,
+        0.05392828656671726
+      ],
+      "J_density_VJP": [
+        -5.098872191509116e-05,
+        -5.098872191509116e-05,
+        -5.098872191509116e-05,
+        -5.098872191509116e-05
+      ],
+      "J_triangle_VJP": [
+        -0.00010618359646686067,
+        -8.332847625218355e-05,
+        -7.671360814142946e-05,
+        -5.098872191509115e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.7970730377017243,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6096228805476365,
+          0.18745015715408786,
+          0.0,
+          0.0
+        ],
+        [
+          0.23417553929849588,
+          0.23417553929849588,
+          0.42162569645258374,
+          0.0
+        ],
+        [
+          0.033621459457880976,
+          0.033621459457880976,
+          0.033621459457880976,
+          0.4552471559104647
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.7970730377017243,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0380386909736134,
+          0.18745015715408764,
+          0.0,
+          0.0
+        ],
+        [
+          0.06952113223412332,
+          0.34259189339234536,
+          0.42162569645258385,
+          0.0
+        ],
+        [
+          0.043415618838285513,
+          0.21394701988625026,
+          0.26330325674165694,
+          0.4552471559104646
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.7970730377017243,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.6096228805476365,
+          0.18745015715408786,
+          0.0,
+          0.0
+        ],
+        [
+          0.23417553929849588,
+          0.23417553929849588,
+          0.42162569645258374,
+          0.0
+        ],
+        [
+          0.033621459457880976,
+          0.033621459457880976,
+          0.033621459457880976,
+          0.4552471559104647
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -5.0953715380156173e-05,
+        -5.0953715380156173e-05,
+        -5.0953715380156173e-05,
+        -5.0953715380156173e-05
+      ],
+      "R": [
+        3.500653493498956e-08,
+        3.500653493498956e-08,
+        3.500653493498956e-08,
+        3.500653493498956e-08
+      ],
+      "D": [
+        5.5194874551769504e-05,
+        3.2339754337092387e-05,
+        2.57248862263383e-05,
+        -1.3552527156068805e-20
+      ],
+      "density_error_norm": 7.001306986997911e-08,
+      "triangle_error_norm": 6.900752282832837e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 4.7620333050723085e-09,
+      "decomposition_rhs": 4.762033305072309e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 0.0,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.29679969557524155,
+          "probability": 0.3174448774343988,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.29679969557524155,
+          "right": 0.29707303770172433,
+          "probability": 0.00021783628112842512,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.29707303770172433,
+          "right": 1.0444795019630524,
+          "probability": 0.5785878242185584,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.0444795019630524,
+          "right": 1.0447528440895353,
+          "probability": 0.00012447558363093414,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.0447528440895353,
+          "right": 1.0781009614209334,
+          "probability": 0.014625587105313032,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.0781009614209334,
+          "right": 1.0783743035474163,
+          "probability": 0.00011528542240735185,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.0783743035474163,
+          "right": 1.2967996955752414,
+          "probability": 0.06823893209540577,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.2967996955752414,
+          "right": 1.2970730377017243,
+          "probability": 5.5505845354408834e-05,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.2970730377017243,
+          "right": 1.3125498428459121,
+          "probability": 0.0030208953052568432,
+          "events": [
+            1,
+            -1,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.3125498428459121,
+          "right": 1.312823184972395,
+          "probability": 5.1200666606909806e-05,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.312823184972395,
+          "right": 1.5,
+          "probability": 0.01751758004193915,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 32,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        2.9005587100982666,
+        -1.7770220041275024,
+        -0.7406247854232788,
+        1.108280062675476
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 4.4800914185600706e-11,
+      "hard_adjoint": [
+        -0.00011200228546868576,
+        -0.00011200228546868576,
+        -0.00011200228546868576,
+        -0.00011200228546868576
+      ],
+      "phase_mean": [
+        2.743689392486171,
+        -1.5512862107715946,
+        -0.5230004715326236,
+        0.8374060636559693
+      ],
+      "J_density_VJP": [
+        -0.0001016539449261501,
+        -0.0001016539449261501,
+        -0.0001016539449261501,
+        -0.0001016539449261501
+      ],
+      "J_triangle_VJP": [
+        -0.00011177152257483563,
+        -0.00011121428190012666,
+        -0.00010791123728491075,
+        -0.00010165394492615009
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.7071550141935288,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.10022844032448441,
+          0.8073834545180132,
+          0.0,
+          0.0
+        ],
+        [
+          -0.2024438537734673,
+          -0.2024438537734673,
+          0.6049396007445459,
+          0.0
+        ],
+        [
+          0.30266638694372405,
+          0.30266638694372405,
+          0.30266638694372405,
+          0.9076059876882699
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.7071550141935288,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.23643819627870732,
+          0.8073834545180133,
+          0.0,
+          0.0
+        ],
+        [
+          0.03410728238440955,
+          0.11646872590452889,
+          0.6046662586180629,
+          0.0
+        ],
+        [
+          0.02023916620580577,
+          0.06911221699790682,
+          0.3588072708134521,
+          0.9076059876882698
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.7071550141935288,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.10022844032448452,
+          0.8073834545180133,
+          0.0,
+          0.0
+        ],
+        [
+          -0.2024438537734674,
+          -0.2024438537734674,
+          0.6049396007445459,
+          0.0
+        ],
+        [
+          0.30266638694372405,
+          0.30266638694372405,
+          0.30266638694372405,
+          0.9076059876882699
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        -0.0001015841539559006,
+        -0.0001015841539559006,
+        -0.0001015841539559006,
+        -0.0001015841539559006
+      ],
+      "R": [
+        6.979097024950522e-08,
+        6.979097024950522e-08,
+        6.979097024950522e-08,
+        6.979097024950522e-08
+      ],
+      "D": [
+        1.0117577648685529e-05,
+        9.560336973976565e-06,
+        6.2572923587606456e-06,
+        -1.3552527156068805e-20
+      ],
+      "density_error_norm": 1.3958194049901044e-07,
+      "triangle_error_norm": 1.5380464811961722e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 2.365392147138792e-10,
+      "decomposition_rhs": 2.365392147138792e-10,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 1.1102230246251565e-16,
+      "phase_event_variants": 5,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": true,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": 0.20688167206704597,
+          "probability": 0.24984084915215138,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.20688167206704597,
+          "right": 0.20715501419352877,
+          "probability": 0.00019325789737356658,
+          "events": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.20715501419352877,
+          "right": 0.5921206701852473,
+          "probability": 0.3378434541980328,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5921206701852473,
+          "right": 0.5923940123117301,
+          "probability": 0.0002481243086422946,
+          "events": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 0,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.5923940123117301,
+          "right": 0.6926165454819867,
+          "probability": 0.08594029312907958,
+          "events": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 0.6926165454819867,
+          "right": 0.6928898876084695,
+          "probability": 0.00022065455238584608,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 0.6928898876084695,
+          "right": 0.8950603992554541,
+          "probability": 0.14273740648784927,
+          "events": [
+            1,
+            0,
+            -1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 0.8950603992554541,
+          "right": 0.8953337413819369,
+          "probability": 0.00016531811890208026,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 0.8953337413819369,
+          "right": 1.2068816720670459,
+          "probability": 0.13985146507047774,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.2068816720670459,
+          "right": 1.2071550141935288,
+          "probability": 8.008422910932289e-05,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        },
+        {
+          "left": 1.2071550141935288,
+          "right": 1.5,
+          "probability": 0.042879092855996115,
+          "events": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.4591610619249748
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 48,
+      "spatial": [
+        3,
+        3
+      ],
+      "currents": [
+        0.9815154075622559,
+        1.3355348110198975,
+        1.705199956893921,
+        2.25309419631958
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 1.0842021724855044e-19,
+      "hard_adjoint": [
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.00045118361615902974
+      ],
+      "phase_mean": [
+        1.0797254898081183,
+        1.237325460457814,
+        1.7052003227358106,
+        2.253094562161469
+      ],
+      "J_density_VJP": [
+        0.0004511836161590297,
+        0.0004511836161590297,
+        0.0004511836161590297,
+        0.0004511836161590297
+      ],
+      "J_triangle_VJP": [
+        0.00045118279567945565,
+        0.0004511800751889013,
+        0.00045115706173114444,
+        0.00035403639546895165
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.7682896086787003,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.23171039132129945,
+          0.9999999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          2.220446049250313e-16,
+          2.220446049250313e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.7682896086787003,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.20081235888515858,
+          0.8666523660853148,
+          0.0,
+          0.0
+        ],
+        [
+          0.03088958670225088,
+          0.13331118438886946,
+          0.9997266578735172,
+          0.0
+        ],
+        [
+          6.6272290847842296e-06,
+          2.8601346046645907e-05,
+          0.00021448709067417582,
+          0.7846836250014975
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.7682896086787003,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.23171039132129967,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        0.0004507670904636142,
+        0.0004507670904636142,
+        0.0004507670904636142,
+        0.0004507670904636142
+      ],
+      "R": [
+        -4.1652569541546615e-07,
+        -4.1652569541546615e-07,
+        -4.1652569541546615e-07,
+        -4.1652569541546615e-07
+      ],
+      "D": [
+        8.204795740388016e-10,
+        3.540970128386705e-09,
+        2.6554427885250916e-08,
+        9.714722069007804e-05
+      ],
+      "density_error_norm": 8.330513908309323e-07,
+      "triangle_error_norm": 9.673325591000096e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 9.35662882432997e-09,
+      "decomposition_rhs": 9.35662882432997e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 5.421010862427522e-20,
+      "mean_J_independent_enumeration_max_abs_error": 2.220446049250313e-16,
+      "phase_event_variants": 8,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": false,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": -0.09972405833693357,
+          "probability": 0.0801104147371273,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.09972405833693357,
+          "right": -0.09945071621045076,
+          "probability": 0.00010944963503313476,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.09945071621045076,
+          "right": 0.28441028287501446,
+          "probability": 0.22742988156786964,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": 0.28441028287501446,
+          "right": 0.28468362500149724,
+          "probability": 0.00021444973271511625,
+          "events": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": 0.28468362500149724,
+          "right": 0.36637902395883193,
+          "probability": 0.06744211090518393,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.36637902395883193,
+          "right": 0.3666523660853147,
+          "probability": 0.00023685524270805614,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.3666523660853147,
+          "right": 0.7314370491948169,
+          "probability": 0.3291123335041777,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.7314370491948169,
+          "right": 0.7317103913212997,
+          "probability": 0.00021004327334994688,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.7317103913212997,
+          "right": 0.9002759416630665,
+          "probability": 0.11529998832777433,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.9002759416630665,
+          "right": 0.9005492837895492,
+          "probability": 0.00016389249144965756,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.9005492837895492,
+          "right": 1.2844102828750144,
+          "probability": 0.15643111751759553,
+          "events": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.2844102828750144,
+          "right": 1.2846836250014972,
+          "probability": 5.889239376777322e-05,
+          "events": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 1.2846836250014972,
+          "right": 1.3663790239588318,
+          "probability": 0.014253288052150648,
+          "events": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        },
+        {
+          "left": 1.3663790239588318,
+          "right": 1.3666523660853147,
+          "probability": 3.648688377477782e-05,
+          "events": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        },
+        {
+          "left": 1.3666523660853147,
+          "right": 1.5,
+          "probability": 0.008890795735322476,
+          "events": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "channel": 48,
+      "spatial": [
+        6,
+        6
+      ],
+      "currents": [
+        1.3943442106246948,
+        3.0306894779205322,
+        0.40605777502059937,
+        3.8109347820281982
+      ],
+      "theta": 3.658418893814087,
+      "hard_events": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "hard_replay_fp64_equal_source_fp32": true,
+      "original_vs_positive_side_density_max_abs_difference": 0.0,
+      "hard_adjoint": [
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.00045118361615902974
+      ],
+      "phase_mean": [
+        1.4201900934825489,
+        3.004844326746457,
+        0.4060581408624885,
+        3.6584188938140865
+      ],
+      "J_density_VJP": [
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.00045118361615902974,
+        0.0
+      ],
+      "J_triangle_VJP": [
+        0.00045117464753115786,
+        0.000451108165139901,
+        0.00045107727946962467,
+        6.215946253382428e-05
+      ],
+      "J_density_rows_outputs_columns_inputs": [
+        [
+          0.8811331115811369,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.11886688841886306,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "J_triangle_rows_outputs_columns_inputs": [
+        [
+          0.8811331115811369,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.03452508765337642,
+          0.290451681815014,
+          0.0,
+          0.0
+        ],
+        [
+          0.08431874659831406,
+          0.709354368738851,
+          0.9997266578735172,
+          0.0
+        ],
+        [
+          3.176167283764523e-06,
+          2.6720370374063702e-05,
+          3.765828159865703e-05,
+          0.13776976890915027
+        ]
+      ],
+      "J_independent_phase_enumeration": [
+        [
+          0.881133111581137,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.11886688841886295,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "exact_phase_expected_CE_gradient": [
+        0.0004516534538174199,
+        0.0004516534538174199,
+        0.0004516534538174199,
+        0.0
+      ],
+      "R": [
+        4.698376583901461e-07,
+        4.698376583901461e-07,
+        4.698376583901461e-07,
+        0.0
+      ],
+      "D": [
+        8.96862787188495e-09,
+        7.545101912871666e-08,
+        1.0633668940507714e-07,
+        -6.215946253382428e-05
+      ],
+      "density_error_norm": 8.137826956409228e-07,
+      "triangle_error_norm": 6.216636835600545e-05,
+      "density_strictly_closer": true,
+      "triangle_strictly_closer": false,
+      "sufficient_condition_D_gt_2R": true,
+      "squared_error_gain": 3.863995112298831e-09,
+      "decomposition_rhs": 3.8639951122988315e-09,
+      "mean_VJP_independent_enumeration_max_abs_error": 0.0,
+      "mean_J_independent_enumeration_max_abs_error": 1.1102230246251565e-16,
+      "phase_event_variants": 6,
+      "phase_eligibility_variants": 4,
+      "phase_has_retraction": false,
+      "phase_cells": [
+        {
+          "left": -0.5,
+          "right": -0.3625035732173326,
+          "probability": 0.009452633689000706,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.3625035732173326,
+          "right": -0.36223023109084984,
+          "probability": 3.762092363961307e-05,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.36223023109084984,
+          "right": -0.3208144560104743,
+          "probability": 0.006563474974770804,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.3208144560104743,
+          "right": -0.32054111388399154,
+          "probability": 4.9016315588124026e-05,
+          "events": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "terminal_count": 1,
+          "CE": 0.45792259067278057
+        },
+        {
+          "left": -0.32054111388399154,
+          "right": -0.2098216603114688,
+          "probability": 0.025998988509197067,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": -0.2098216603114688,
+          "right": -0.20954831818498598,
+          "probability": 7.935532238875775e-05,
+          "events": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": -0.20954831818498598,
+          "right": 0.6185935462923802,
+          "probability": 0.5693802419466936,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.6185935462923802,
+          "right": 0.618866888418863,
+          "probability": 0.00024088815639311534,
+          "events": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.618866888418863,
+          "right": 0.6374964267826674,
+          "probability": 0.016241573255994846,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.6374964267826674,
+          "right": 0.6377697689091502,
+          "probability": 0.00023572120284320874,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.6377697689091502,
+          "right": 0.6791855439895257,
+          "probability": 0.034852300105604694,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.6791855439895257,
+          "right": 0.6794588861160085,
+          "probability": 0.00022432581089470993,
+          "events": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 2,
+          "CE": 0.4595705318857129
+        },
+        {
+          "left": 0.6794588861160085,
+          "right": 0.7901783396885312,
+          "probability": 0.08472046506332565,
+          "events": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        },
+        {
+          "left": 0.7901783396885312,
+          "right": 0.790451681815014,
+          "probability": 0.00019398680409399294,
+          "events": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        },
+        {
+          "left": 0.790451681815014,
+          "right": 1.5,
+          "probability": 0.2517294079195711,
+          "events": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "eligible": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "terminal_count": 3,
+          "CE": 0.46122383092398184
+        }
+      ]
+    }
+  ],
+  "seconds": 1.0817913603968918,
+  "threads": 2,
+  "cuda_initialized": false
+}

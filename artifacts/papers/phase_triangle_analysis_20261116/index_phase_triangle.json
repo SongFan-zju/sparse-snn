@@ -1,0 +1,45 @@
+{
+  "papers": [
+    {
+      "id": "a2sg_icml2026",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kang26g/kang26g.pdf",
+      "pdf": "artifacts/papers/phase_triangle_analysis_20261116/a2sg_icml2026.pdf",
+      "text": "artifacts/papers/phase_triangle_analysis_20261116/a2sg_icml2026.txt",
+      "sha256": "cdc2bac375c9044a2c5622c73ced032aed58e2602ca307bd6613624d1fdaba3a",
+      "bytes": 9267415
+    },
+    {
+      "id": "gygax_zenke_2024v3",
+      "url": "https://arxiv.org/pdf/2404.14964v3",
+      "pdf": "artifacts/papers/phase_triangle_analysis_20261116/gygax_zenke_2024v3.pdf",
+      "text": "artifacts/papers/phase_triangle_analysis_20261116/gygax_zenke_2024v3.txt",
+      "sha256": "a262199aaaf9efaf0b242690408d6800cc94463ea5d6c1eefebe681ffac12a9c",
+      "bytes": 4353961
+    },
+    {
+      "id": "adaptive_sg_neurips2025",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/d94b46ec30adee2bbb134f813fc9dde0-Paper-Conference.pdf",
+      "pdf": "artifacts/papers/phase_triangle_analysis_20261116/adaptive_sg_neurips2025.pdf",
+      "text": "artifacts/papers/phase_triangle_analysis_20261116/adaptive_sg_neurips2025.txt",
+      "sha256": "1259b72a3b6dac8fc9393252fe83f128edacf072e1ac93a53cab47a79f871434",
+      "bytes": 3484303
+    },
+    {
+      "id": "ma_noisy_snn_patterns2023",
+      "title": "Exploiting noise as a resource for computation and learning in spiking neural networks",
+      "doi": "10.1016/j.patter.2023.100831",
+      "url": "https://arxiv.org/pdf/2305.16044",
+      "formal_url": "https://www.cell.com/patterns/fulltext/S2666-3899(23)00200-3",
+      "pdf": "artifacts/papers/phase_triangle_analysis_20261116/ma_noisy_snn_patterns2023_arxiv.pdf",
+      "text": "artifacts/papers/phase_triangle_analysis_20261116/ma_noisy_snn_patterns2023_arxiv.txt",
+      "sha256": "5d79c881feb326193bb33633d91da3c218f7981d7e638d15059f65c73ef0834b",
+      "bytes": 3175475
+    }
+  ],
+  "checked_date": "2026-11-16",
+  "notes": "analysis_notes.md",
+  "cpu_script": "cpu_checks.py",
+  "cpu_results": "cpu_checks.json",
+  "scope": "local frozen code/results analysis and primary-source short literature check; no GPU training or experiment mutations",
+  "original_index_untouched": "artifacts/papers/index.json"
+}

@@ -1,0 +1,204 @@
+{
+  "scope": "Native DiMP two-step analytic optimizer + LBHinge, synthetic two-feature slice, fixed initializer; no ROI/initializer network/backbone/IoU head/data/training.",
+  "seed": 2026100321,
+  "T": 4,
+  "currents": [
+    [
+      0.18,
+      0.7
+    ],
+    [
+      0.42,
+      -0.55
+    ],
+    [
+      -0.15,
+      0.34
+    ],
+    [
+      0.37,
+      0.12
+    ]
+  ],
+  "step_current_l2": 0.001,
+  "branches": {
+    "template": {
+      "hard_decoded_features": [
+        0.25,
+        0.25
+      ],
+      "mean_decoded_features": [
+        0.20499999999999996,
+        0.15249999999999997
+      ],
+      "hard_adjoint": [
+        0.006803060401699222,
+        0.0002326158256367292
+      ],
+      "frozen_adjoint_mean_reference_gradient": [
+        [
+          0.001700765100424805,
+          5.81539564091823e-05
+        ],
+        [
+          0.001700765100424805,
+          5.81539564091823e-05
+        ],
+        [
+          0.001700765100424805,
+          5.81539564091823e-05
+        ],
+        [
+          0.001700765100424805,
+          5.81539564091823e-05
+        ]
+      ],
+      "hard_forward_equal": true,
+      "hard_loss": 0.08598573932257121,
+      "linearized_mean_objective_before": 0.0014301012957579416,
+      "F_mean_loss_before_secondary": 0.08557348456134224,
+      "arms": {
+        "tri": {
+          "gradient": [
+            [
+              0.0016999117245280165,
+              5.8149491348409207e-05
+            ],
+            [
+              0.0016980983007473395,
+              5.813163110531682e-05
+            ],
+            [
+              0.0016740971036501445,
+              5.80899870571322e-05
+            ],
+            [
+              0.001156520268288868,
+              5.1757021204172254e-05
+            ]
+          ],
+          "cosine_to_frozen_hard_adjoint_mean_reference": 0.989136152494799,
+          "relative_error_to_frozen_hard_adjoint_mean_reference": 0.1601115495779934,
+          "linearized_mean_objective_change": -3.366542766535365e-06,
+          "F_mean_objective_change_secondary": -3.6697007168573492e-06,
+          "cosine_to_F_mean_gradient_secondary": 0.9716000031840836
+        },
+        "density": {
+          "gradient": [
+            [
+              0.001700765100424805,
+              5.81539564091823e-05
+            ],
+            [
+              0.001700765100424805,
+              5.81539564091823e-05
+            ],
+            [
+              0.001700765100424805,
+              5.81539564091823e-05
+            ],
+            [
+              0.001700765100424805,
+              5.81539564091823e-05
+            ]
+          ],
+          "cosine_to_frozen_hard_adjoint_mean_reference": 1.0,
+          "relative_error_to_frozen_hard_adjoint_mean_reference": 0.0,
+          "linearized_mean_objective_change": -3.403518067805148e-06,
+          "F_mean_objective_change_secondary": -3.7085123947289134e-06,
+          "cosine_to_F_mean_gradient_secondary": 0.981871451701069
+        }
+      }
+    },
+    "search": {
+      "hard_decoded_features": [
+        0.25,
+        0.25
+      ],
+      "mean_decoded_features": [
+        0.20499999999999996,
+        0.15249999999999997
+      ],
+      "hard_adjoint": [
+        -0.016264052198330086,
+        0.005082019648153781
+      ],
+      "frozen_adjoint_mean_reference_gradient": [
+        [
+          -0.004066013049582521,
+          0.0012705049120384452
+        ],
+        [
+          -0.004066013049582521,
+          0.0012705049120384452
+        ],
+        [
+          -0.004066013049582521,
+          0.0012705049120384452
+        ],
+        [
+          -0.004066013049582521,
+          0.0012705049120384452
+        ]
+      ],
+      "hard_forward_equal": true,
+      "hard_loss": 0.09161546668752779,
+      "linearized_mean_objective_before": -0.002559122704314216,
+      "F_mean_loss_before_secondary": 0.09188848287629081,
+      "arms": {
+        "tri": {
+          "gradient": [
+            [
+              -0.004063972886874763,
+              0.001270407362671299
+            ],
+            [
+              -0.004059637541120776,
+              0.0012700171652027137
+            ],
+            [
+              -0.0040022579649650674,
+              0.001269107356635203
+            ],
+            [
+              -0.002764888873716115,
+              0.0011307493717142164
+            ]
+          ],
+          "cosine_to_frozen_hard_adjoint_mean_reference": 0.9899224320861768,
+          "relative_error_to_frozen_hard_adjoint_mean_reference": 0.15378085506429107,
+          "linearized_mean_objective_change": -8.433917164573854e-06,
+          "F_mean_objective_change_secondary": -8.499343865001063e-06,
+          "cosine_to_F_mean_gradient_secondary": 0.9884997823581162
+        },
+        "density": {
+          "gradient": [
+            [
+              -0.004066013049582521,
+              0.0012705049120384452
+            ],
+            [
+              -0.004066013049582521,
+              0.0012705049120384452
+            ],
+            [
+              -0.004066013049582521,
+              0.0012705049120384452
+            ],
+            [
+              -0.004066013049582521,
+              0.0012705049120384452
+            ]
+          ],
+          "cosine_to_frozen_hard_adjoint_mean_reference": 1.0,
+          "relative_error_to_frozen_hard_adjoint_mean_reference": 0.0,
+          "linearized_mean_objective_change": -8.51977578364329e-06,
+          "F_mean_objective_change_secondary": -8.591707003791083e-06,
+          "cosine_to_F_mean_gradient_secondary": 0.9992430866178789
+        }
+      }
+    }
+  },
+  "cuda_initialized_before": false,
+  "cuda_initialized_after": false
+}

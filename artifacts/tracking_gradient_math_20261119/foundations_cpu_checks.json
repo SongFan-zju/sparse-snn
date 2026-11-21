@@ -1,0 +1,196 @@
+{
+  "seed": 2026100321,
+  "device": "cpu",
+  "threads": 2,
+  "cuda_initialized": false,
+  "positive_mechanism": {
+    "T": 2,
+    "L": 7,
+    "q0": 0.5,
+    "c0": 0,
+    "currents": [
+      0.4,
+      -0.6
+    ],
+    "phase_mean": [
+      0.405,
+      -0.36
+    ],
+    "cumulative_mean": 0.04500000000000004,
+    "cumulative_exact_gradient": [
+      0.30000000000000004,
+      0.30000000000000004
+    ],
+    "cumulative_triangular_gradient": [
+      0.9299999999999999,
+      0.30000000000000004
+    ],
+    "total_current_preserving_direction": [
+      1.0,
+      -1.0
+    ],
+    "exact_cumulative_directional_derivative": 0.0,
+    "triangular_cumulative_directional_derivative": 0.6299999999999999,
+    "actual_cumulative_change_under_time_redistribution": 0.0,
+    "linear_time_readout": [
+      0.3,
+      1.0
+    ],
+    "step": 0.001,
+    "readout_before": -0.2385,
+    "readout_after_density_gradient_step": -0.23869893766500005,
+    "readout_after_triangular_gradient_step": -0.2384908515,
+    "density_descent_directional_derivative": -0.1989,
+    "triangular_descent_directional_derivative": 0.008999999999999966,
+    "t1_shape_matched_cases": 45,
+    "t1_max_difference": 1.1102230246251565e-16
+  },
+  "local_integrability": {
+    "triangular": {
+      "field_derivative": [
+        [
+          0.8000000000230045,
+          0.10000000000287557
+        ],
+        [
+          1.0000000000287557,
+          1.0000000000287557
+        ]
+      ],
+      "cross_partial_0_by_1": 0.10000000000287557,
+      "cross_partial_1_by_0": 1.0000000000287557,
+      "cross_partial_difference": -0.9000000000258801
+    },
+    "density": {
+      "field_derivative": [
+        [
+          0.9999999999177334,
+          1.0000000000287557
+        ],
+        [
+          0.9999999999177334,
+          1.0000000000287557
+        ]
+      ],
+      "cross_partial_0_by_1": 1.0000000000287557,
+      "cross_partial_1_by_0": 0.9999999999177334,
+      "cross_partial_difference": 1.1102230246251565e-10
+    }
+  },
+  "exact_local_mean_check": {
+    "cases": 40,
+    "T": 4,
+    "L": 7,
+    "theta": 1,
+    "integration": "Exact triangular-CDF phase cell masses",
+    "largest_absolute_vjp_fd_error": 2.220446049250313e-10
+  },
+  "downstream_loss_counterexample": {
+    "T": 1,
+    "L": 7,
+    "q0": 0.5,
+    "c0": 0,
+    "current": 0,
+    "hard_y": 0.0,
+    "loss": ".5*(y-.25)^2",
+    "phase_mean": 0.125,
+    "expected_loss": 0.0625,
+    "hard_loss": 0.03125,
+    "exact_expected_loss_derivative": 0.12499999998971667,
+    "actual_bounded_surrogate_derivative": -0.125,
+    "expected_loss_gradient_sign_is_opposite": true,
+    "note": "T1 triangular SG is identical here: counterexample diagnoses both SGs, not their performance difference."
+  },
+  "temporal_coupling": {
+    "T": 2,
+    "L": 7,
+    "q0": 0.5,
+    "c0": 0,
+    "currents": [
+      0.4,
+      -0.6
+    ],
+    "hard_forward": [
+      0.0,
+      0.0
+    ],
+    "density_jacobian": [
+      [
+        0.9,
+        0.0
+      ],
+      [
+        -0.6,
+        0.30000000000000004
+      ]
+    ],
+    "triangular_jacobian": [
+      [
+        0.9,
+        0.0
+      ],
+      [
+        0.02999999999999997,
+        0.30000000000000004
+      ]
+    ],
+    "density_singular_values": [
+      1.0950844619618656,
+      0.2465563245380084
+    ],
+    "triangular_singular_values": [
+      0.9005622366297884,
+      0.29981270479476496
+    ],
+    "density_condition_number": 4.441518440112254,
+    "triangular_condition_number": 3.00374941497647,
+    "vjps": [
+      {
+        "output_adjoint": [
+          1.0,
+          1.0
+        ],
+        "density": [
+          0.30000000000000004,
+          0.30000000000000004
+        ],
+        "triangular": [
+          0.9299999999999999,
+          0.30000000000000004
+        ],
+        "cosine": 0.8900433648586652
+      },
+      {
+        "output_adjoint": [
+          1.0,
+          -1.0
+        ],
+        "density": [
+          1.5,
+          -0.30000000000000004
+        ],
+        "triangular": [
+          0.8700000000000001,
+          -0.30000000000000004
+        ],
+        "cosine": 0.9909465100066871
+      },
+      {
+        "output_adjoint": [
+          0.3,
+          1.0
+        ],
+        "density": [
+          -0.32999999999999996,
+          0.30000000000000004
+        ],
+        "triangular": [
+          0.3,
+          0.30000000000000004
+        ],
+        "cosine": -0.047565149415449225
+      }
+    ]
+  },
+  "scope": "Local exact phase integral and synthetic loss only; no model, dataset, GPU, update, or tracking accuracy test."
+}

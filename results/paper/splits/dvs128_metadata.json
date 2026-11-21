@@ -1,0 +1,99 @@
+{
+  "dataset": "DVS128 Gesture",
+  "T": 4,
+  "split_by": "number",
+  "resolution": [
+    128,
+    128
+  ],
+  "official_split": true,
+  "split": "original trials_to_train.txt and trials_to_test.txt",
+  "seed": 2026100321,
+  "classes": [
+    "hand_clapping",
+    "right_hand_wave",
+    "left_hand_wave",
+    "right_hand_clockwise",
+    "right_hand_counter_clockwise",
+    "left_hand_clockwise",
+    "left_hand_counter_clockwise",
+    "forearm_roll_forward / forearm_roll_backward",
+    "drums",
+    "guitar",
+    "random_other_gestures"
+  ],
+  "resources": [
+    {
+      "name": "DvsGesture.tar.gz",
+      "official_page": "https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/folder/50167556794",
+      "url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=3hiq58ww1pbbjrinh367ykfdf60xsfm8&file_id=f_211521748942",
+      "md5": "8a5c71fb11e24e5ca5b11866ca6c00a1"
+    },
+    {
+      "name": "gesture_mapping.csv",
+      "official_page": "https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/folder/50167556794",
+      "url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=3hiq58ww1pbbjrinh367ykfdf60xsfm8&file_id=f_199380292206",
+      "md5": "109b2ae64a0e1f3ef535b18ad7367fd1"
+    },
+    {
+      "name": "LICENSE.txt",
+      "official_page": "https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/folder/50167556794",
+      "url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=3hiq58ww1pbbjrinh367ykfdf60xsfm8&file_id=f_199380302705",
+      "md5": "065e10099753156f18f51941e6e44b66"
+    },
+    {
+      "name": "README.txt",
+      "official_page": "https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/folder/50167556794",
+      "url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=3hiq58ww1pbbjrinh367ykfdf60xsfm8&file_id=f_211519208560",
+      "md5": "a0663d3b1d8307c329a43d949ee32d19"
+    }
+  ],
+  "parser_path": "${EXTERNAL_ROOT}/dvs128_gesture.py",
+  "parser_sha256": "356c4612e62a9f1ce0610fc36cda09432035eaf55f210cac776d5aedc9a428ff",
+  "split_lists_sha256": {
+    "train": "beb42fd63cb7f454d063dabfe48e7cb1fd12b9634201b9a20e7c40eca60d4ea7",
+    "test": "a9da4391fab36a572d27388b616804f92ac1c3e9919fe11c4617db0de852466b"
+  },
+  "subjects": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "test": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "label_segmentation": "Independent original[start,end) intervals; preserve repeated labels",
+  "horizontal_flip": false,
+  "status": "complete",
+  "train_count": 1176,
+  "test_count": 288,
+  "original_manifest_sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093",
+  "original_manifest_path": "data/dvs128_gesture/frames_number_4/manifest.json"
+}

@@ -17,7 +17,7 @@ from src.conversion.qcfs_ecl_resnet18 import AuthorQCFS
 MIN_THRESHOLD = 1.e-6
 
 
-def install_channel_qcfs(source, units):
+def install_channel_qcfs(source, units, levels=2):
     names = [name for name, _ in activation_sites(source)]
     if set(names) != set(units):
         raise ValueError('Calibration must supply each activation exactly once')
@@ -25,7 +25,7 @@ def install_channel_qcfs(source, units):
         threshold = units[name].detach().clone().reshape(1,-1,1,1)
         if not bool(torch.isfinite(threshold).all() and (threshold > 0).all()):
             raise ValueError('QCFS thresholds must be finite and positive')
-        node = AuthorQCFS(T=0,L=2,thresh=1.).to(source.conv1.weight)
+        node = AuthorQCFS(T=0,L=levels,thresh=1.).to(source.conv1.weight)
         node.thresh = nn.Parameter(threshold.to(source.conv1.weight).clamp_min(MIN_THRESHOLD))
         parent,_,child = name.rpartition('.')
         setattr(source.get_submodule(parent),child,node)

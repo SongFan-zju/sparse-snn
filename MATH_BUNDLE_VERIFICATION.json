@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_date": "2026-11-21",
+  "scope": "Only staged copies of three small CPU mathematical scripts were rerun. Original experiment outputs, source code and checkpoints were not edited. Full real-trace extraction and historical DiMP synthetic checks were not rerun.",
+  "python": "${PYTHON} (project environment with PyTorch)",
+  "source_import_root": "${ORIGINAL_REPO_ROOT} (first run); ${CODE_BUNDLE_ROOT} (compatibility run)",
+  "env": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "PYTHONDONTWRITEBYTECODE": "1 in compatibility rerun"
+  },
+  "checks": [
+    {
+      "script": "artifacts/tracking_gradient_math_20261119/check_unified_count_boundary_cpu.py",
+      "output": "artifacts/tracking_gradient_math_20261119/unified_count_boundary_checks.json",
+      "exit_code": 0,
+      "cuda_initialized": false,
+      "output_byte_identical_to_original": true,
+      "exported_code_rerun_exit_code": 0
+    },
+    {
+      "script": "artifacts/tracking_gradient_math_20261119/check_positive_mechanism.py",
+      "output": "artifacts/tracking_gradient_math_20261119/mechanism_checks.json",
+      "exit_code": 0,
+      "cuda_initialized": false,
+      "output_byte_identical_to_original": true,
+      "exported_code_rerun_exit_code": 0
+    },
+    {
+      "script": "artifacts/tracking_gradient_math_20261119/check_foundations_cpu.py",
+      "output": "artifacts/tracking_gradient_math_20261119/foundations_cpu_checks.json",
+      "exit_code": 0,
+      "cuda_initialized": false,
+      "output_byte_identical_to_original": true,
+      "exported_code_rerun_exit_code": 0
+    }
+  ],
+  "no_training_or_gpu": true,
+  "exported_code_compatibility": {
+    "status": "passed",
+    "source_import_root": "${CODE_BUNDLE_ROOT}",
+    "working_directory": "${CODE_BUNDLE_ROOT}",
+    "PYTHONPATH": "${CODE_BUNDLE_ROOT}",
+    "cpu_scripts_rerun": 3,
+    "bytecode_writes_disabled": true,
+    "all_exit_codes_zero": true,
+    "all_cuda_initialized_false": true,
+    "all_output_byte_identical_to_original": true,
+    "changed_dependency_path": "src/conversion/qcfs_ecl_resnet18.py",
+    "details": "MATH_CODE_COMPATIBILITY_ZH.md"
+  }
+}

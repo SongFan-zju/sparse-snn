@@ -1,0 +1,94 @@
+{
+  "scope": "Actual classification/DVS signed-ECL Torch operators; CPU scalar currents only; no network accuracy claim",
+  "single_tick_equivalence": [
+    {
+      "input": -1.1,
+      "density": 0.0,
+      "triangle": 0.0
+    },
+    {
+      "input": -0.2,
+      "density": 0.30000000000000004,
+      "triangle": 0.30000000000000004
+    },
+    {
+      "input": 0.17,
+      "density": 0.67,
+      "triangle": 0.67
+    },
+    {
+      "input": 0.8,
+      "density": 0.7,
+      "triangle": 0.7
+    },
+    {
+      "input": 1.7,
+      "density": 0.0,
+      "triangle": 0.0
+    }
+  ],
+  "nonlinear_terminal_readout": {
+    "inputs": [
+      0.28,
+      -0.43,
+      0.36,
+      0.11
+    ],
+    "hard_events": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "phase_mean_events": [
+      0.3042,
+      -0.24259950000000008,
+      0.19044950000000005,
+      0.08415000000000006
+    ],
+    "loss": "softplus(-sum(events)/T)",
+    "hard_output_adjoint": [
+      -0.125,
+      -0.125,
+      -0.125,
+      -0.125
+    ],
+    "density_VJP": [
+      -0.10250000000000001,
+      -0.10250000000000001,
+      -0.10250000000000001,
+      -0.10250000000000001
+    ],
+    "triangle_VJP": [
+      -0.124066925,
+      -0.12075875,
+      -0.118475,
+      -0.1025
+    ],
+    "exact_phase_expected_loss_gradient": [
+      -0.09611036377865645,
+      -0.09611036377865645,
+      -0.09611036377865645,
+      -0.0961103637231453
+    ],
+    "R_task_nonlinearity": [
+      0.006389636221343559,
+      0.006389636221343559,
+      0.006389636221343559,
+      0.00638963627685471
+    ],
+    "D_trajectory_Jacobian_error": [
+      0.021566924999999987,
+      0.01825874999999999,
+      0.01597499999999999,
+      -1.3877787807814457e-17
+    ],
+    "density_error_norm": 0.012779272470442693,
+    "triangle_error_norm": 0.04393309303591972,
+    "squared_error_improvement": 0.001766806858828963,
+    "decomposition_rhs": 0.0017668068588289631,
+    "phase_mean_VJP_finite_difference_max_abs_error": 1.5596690605690355e-12
+  },
+  "cuda_initialized": false,
+  "status": "passed"
+}

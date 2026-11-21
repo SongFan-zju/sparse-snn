@@ -1,0 +1,23 @@
+{
+  "standard_CIFAR100_ResNet18": {
+    "status": "unverified_not_in_main_table",
+    "reason": "Historical R18 scripts/configuration found, but an explicit matched same-L/T standard signed binary pair with actual official10000test metrics has not been verified; no Fast-SNN or M3 substitution",
+    "search_leads": [
+      "configs/experiments.json",
+      "results/teacher_phase_t2_20261104",
+      "results/warm_channel_ecl_triangular_control_20261104",
+      "results/diagonal_phase_t2_20261104"
+    ],
+    "known_issue": "These legacy summaries state official_test_read=false and show development/confirmation only."
+  },
+  "excluded": [
+    "T15 all new paper material",
+    "retired ResNet50 classification",
+    "Transformer research",
+    "checkpoints and data bytes",
+    "large logs and per-frame/per-track predictions"
+  ],
+  "historical_negative_exception": "ViStream uses a truncated ResNet50; retained explicitly as a historical supplementary negative result, not a revived R50 experiment or main classification backbone.",
+  "private_paths": "Machine absolute paths rewritten to repository-relative identifiers or ${EXTERNAL_ROOT}/basename; original source hashes retained.",
+  "single_seed": 2026100321
+}
