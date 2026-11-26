@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "7cf06a2b55604559e8430faee8d9b1c19b02ab98f0fd25da4ed2b1e0a308ebed",
-      "bytes": 3152
+      "sha256": "abbe7826f858a93e1973ace4963e18147c0d11bca08945e7f40129dc17e5cba5",
+      "bytes": 4924
     },
     {
       "path": "RESULTS_TABLE.csv",
@@ -45,6 +45,16 @@
       "path": "VALIDATION.json",
       "sha256": "8514aabfe8adbb0ea13ceb55895307a7231703bc3b8f43e1a9b3b6b2522516da",
       "bytes": 466
+    },
+    {
+      "path": "ablations/column_sum/evidence.json",
+      "sha256": "8a6870884f6a5e8f67f972b111bf1099eeab9c9c4e8a8727bb89b8faeb1d80d8",
+      "bytes": 5464
+    },
+    {
+      "path": "ablations/column_sum/results.csv",
+      "sha256": "cd71d9177000e400b520e974a5c2023f924f5a8ccc752e3c0ff66aa7e004baf8",
+      "bytes": 278
     },
     {
       "path": "evidence_packed/cifar10dvs_resnet_20261118.jsonl",

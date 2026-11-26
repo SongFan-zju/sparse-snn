@@ -1,0 +1,140 @@
+{
+  "method": "M = diag(J^T 1)",
+  "epoch_policy": "Fixed final epoch 160 for both methods in both datasets",
+  "implementation": {
+    "repository_path": "src/conversion/column_sum_control.py",
+    "executed_sha256": "93c06b84120ca53756629e1b292afd31230e6dc813294dd1618813f2b1f1bca6"
+  },
+  "cases": [
+    {
+      "dataset": "CIFAR100",
+      "backbone": "ResNet18",
+      "L": 2,
+      "T": 2,
+      "test_split": "official test",
+      "test_count": 10000,
+      "source_QCFS_ANN": 77.47,
+      "direct_ECL": 75.05,
+      "triangular": null,
+      "M": 75.58,
+      "full_J": 77.23,
+      "J_minus_M_pp": 1.65,
+      "fixed_seed": 2026100321,
+      "source_sha256": "4f2a8237ae3c84ef20de490955cbccfc109763718066f09e6bd87a101ac1fe36",
+      "split_sha256": "b5d698b1f76d601f95444f3f972813957776ef3543ca9b4235573cc57ae57ba6",
+      "comparison_record": "results/cifar100_r18_column_sum_20261125/comparison.json",
+      "comparison_record_sha256": "4af6104226e8feeb1ad0a8b68ab19a83bd41239649286f01a195bc066f744f7b",
+      "arms": {
+        "density": {
+          "top1": 77.23,
+          "correct": 7723,
+          "count": 10000,
+          "epochs": 160,
+          "training_images": 6720000,
+          "batch": 2048,
+          "updates": 3360,
+          "physical_gpu": 2,
+          "checkpoint_sha256": "8f3c27c76688a8fe56eab48c9a78153a9d7c6f8b5744184c35e469800aa57812",
+          "endpoint_record": "results/r18_jacobian_20261125/L2_T2/snn/test_epoch160.json",
+          "endpoint_record_sha256": "d3b72b2460ea07e576dd1ad8cfd94b1ee819bc44f1cf2ad6e6792602494367e3"
+        },
+        "column_sum": {
+          "top1": 75.58,
+          "correct": 7558,
+          "count": 10000,
+          "epochs": 160,
+          "training_images": 6720000,
+          "batch": 2048,
+          "updates": 3360,
+          "physical_gpu": 2,
+          "checkpoint_sha256": "8f75b78999293afb91324a86a7fc7d6cd263e441905a6487713d46408a0fbae0",
+          "endpoint_record": "results/cifar100_r18_column_sum_20261125/M/test_epoch160.json",
+          "endpoint_record_sha256": "dd77cbaa1b565d03af5f61b7024c5cb534bb95a1bd51cd8a5b2c58e74d156c14"
+        }
+      }
+    },
+    {
+      "dataset": "CIFAR10-DVS",
+      "backbone": "ResNet20",
+      "L": 2,
+      "T": 4,
+      "test_split": "fixed local test (9000/1000 train/test)",
+      "test_count": 1000,
+      "source_QCFS_ANN": 72.4,
+      "direct_ECL": 65.0,
+      "triangular": 72.5,
+      "M": 62.0,
+      "full_J": 76.2,
+      "J_minus_M_pp": 14.2,
+      "fixed_seed": 2026100321,
+      "source_sha256": "c2c70fcccb47ea2dd8b38cede9b12f724ad0eb66c235d3c022ffc653105ec294",
+      "manifest_sha256": "bb45e8fda17e5c89dd3074217f1ccbcaab02372caaa828e935d91a48ec09ad16",
+      "comparison_record": "results/dvs_core_controls_20261125/comparison.json",
+      "comparison_record_sha256": "75bdd1f0def35df6249351c9c49b0104f544d7cbe3be48cedf60af47860d3cee",
+      "arms": {
+        "density": {
+          "top1": 76.2,
+          "correct": 762,
+          "count": 1000,
+          "epochs": 160,
+          "training_images": 1440000,
+          "batch": 128,
+          "updates": 11360,
+          "physical_gpu": 2,
+          "checkpoint_sha256": "8a8c505cc6c9366b3bec4b0f1419a5c3cbca3466fb1cde6e7f621d03e8e292e9",
+          "endpoint_record": "results/dvs_l2_t4_20261119/cifar10dvs/resnet20/snn_density/density/test_epoch160.json",
+          "endpoint_record_sha256": "91c12c39f197ae2ad345c3cd6ed8ac061ed33463aed5eeb24ed4de2e8bd78e0a"
+        },
+        "column_sum": {
+          "top1": 62.0,
+          "correct": 620,
+          "count": 1000,
+          "epochs": 160,
+          "training_images": 1440000,
+          "batch": 128,
+          "updates": 11360,
+          "physical_gpu": 2,
+          "checkpoint_sha256": "aa85cf825815d25d34c412dc187c69b5aa06215028eacd8df266ce5e8522328a",
+          "endpoint_record": "results/dvs_core_controls_20261125/column_sum/column_sum/test_epoch160.json",
+          "endpoint_record_sha256": "1159fc44de94ca09f9252ab57272dd7c1c791bb4f91a216e78c7a252838c7b7c"
+        },
+        "triangular": {
+          "top1": 72.5,
+          "correct": 725,
+          "count": 1000,
+          "epochs": 160,
+          "training_images": 1440000,
+          "batch": 128,
+          "updates": 11360,
+          "physical_gpu": 3,
+          "checkpoint_sha256": "014deb89fb332fe3b0a29dcb1780f27d8d1702001a625fcafa05f7e8f952d6ec",
+          "endpoint_record": "results/dvs_l2_t4_20261119/cifar10dvs/resnet20/snn_triangular/triangular/test_epoch160.json",
+          "endpoint_record_sha256": "23c029b54e62b5440b64f4bc38959f80919fc758e66835144b52a4bf872482f3"
+        }
+      }
+    }
+  ],
+  "dvs_M_late_decline": {
+    "epoch_140": {
+      "correct": 733,
+      "total": 1000,
+      "accuracy": 73.3,
+      "ce": 0.9077549133300781,
+      "split": "fixed local 1000-sample held-out test",
+      "official_split": false,
+      "batch_size": 128
+    },
+    "epoch_140_record_sha256": "1637184cc3c150f6cc1401374ab4b8bb6ac90106898725237b279a7c58851dee",
+    "independent_final_test": {
+      "correct": 620,
+      "total": 1000,
+      "accuracy": 62.0,
+      "ce": 1.1869926376342774
+    },
+    "checkpoint_reused": true,
+    "checked_activation_sites": 19,
+    "maximum_sampled_backward_error": 0.0,
+    "verification_record_sha256": "7aa0b19384cb23315ea71f5cab51c639573d33f8b8728c33d0c673330fb266a5"
+  },
+  "cifar100_full_J_recording": "Observational; recorded checks showed forward, parameter gradients and RNG unchanged."
+}

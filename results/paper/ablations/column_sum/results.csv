@@ -1,0 +1,3 @@
+dataset,backbone,L,T,test_split,test_count,source_QCFS_ANN,direct_ECL,triangular,M,full_J,J_minus_M_pp
+CIFAR100,ResNet18,2,2,official test,10000,77.47,75.05,,75.58,77.23,1.65
+CIFAR10-DVS,ResNet20,2,4,fixed local test (9000/1000 train/test),1000,72.4,65.0,72.5,62.0,76.2,14.2
