@@ -1,0 +1,8 @@
+recipe,dataset,architecture,L,T,result_role,J_epoch,control_epoch,control,correct_J,correct_control,test_count,top1_J,top1_control,delta_pp
+adaptive_bn_ce,DVS128 Gesture official test,ResNet18,2,4,fixed_final,160,160,triangular,261,261,288,90.625,90.625,0.0
+adaptive_bn_ce,DVS128 Gesture official test,ResNet18,4,4,fixed_final,160,160,atan,262,264,288,90.9722,91.6667,-0.6944
+adaptive_bn_ce_kd,DVS128 Gesture official test,ResNet18,4,4,fixed_final,160,160,atan,264,266,288,91.6667,92.3611,-0.6944
+adaptive_bn_ce_kd_rerun,DVS128 Gesture official test,ResNet18,4,4,intermediate,80,80,atan,266,264,288,92.3611,91.6667,0.6944
+adaptive_bn_ce_kd_rerun,DVS128 Gesture official test,ResNet18,4,4,intermediate,100,100,atan,266,266,288,92.3611,92.3611,0.0
+adaptive_bn_ce_kd_rerun,DVS128 Gesture official test,ResNet18,4,4,unaveraged_final,160,160,atan,266,266,288,92.3611,92.3611,0.0
+adaptive_bn_ce_kd_rerun,DVS128 Gesture official test,ResNet18,4,4,predeclared_average,160,160,atan,264,266,288,91.6667,92.3611,-0.6944

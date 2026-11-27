@@ -6,7 +6,7 @@ All currently included experiment rows have their recorded final endpoints. No p
 
 CIFAR100 uses official 10000-image test metrics; CIFAR10-DVS uses fixed local9000/1000 membership; DVS128 Gesture uses official trials_to_train/test. Tiny-ImageNet-200 uses official labeled10000-image validation, not ImageNet-1K test. VOC2007 uses official4952-image test and11pointAP50. Both tracking tasks use local MOT16 held-out protocols: ViStream HOTA and DiMP AO are separate metrics and cannot be compared directly. ViStream's truncated ResNet50 is a preserved historical supplementary negative result. T15 and retired R50 classification/Transformer experiments are excluded from the new main results.
 
-`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All 113 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
+`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All 120 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
 
 To retrieve a file, find its entry in `FILE_MANIFEST.json`, read the JSONL container at `bundle_path`, and select the line whose `path` equals `record_path`. Decode `text` as UTF-8. Its SHA256 must equal `content_sha256`; the container SHA256 must equal `bundle_sha256`. Each manifest entry also preserves the original raw `source_sha256`, source identifier, category and prior text-normalization details. Repeated identical exported files can share one record. Packing changes no numeric evidence or raw source hashes.
 
@@ -40,6 +40,22 @@ The ATan baseline uses the standard slope $1/(1+\pi^2 z^2)$ for the threshold-no
 On DVS128 Gesture / ResNet18 at L=4 and T=4, ATan classified 258/288 samples correctly (89.58%) and full J classified 256/288 correctly (88.89%).
 
 [All 20 ATan results](ablations/atan/results.csv) · [Training and evaluation evidence](evidence_packed/atan_comparison_20261126.jsonl)
+
+## DVS128 Gesture ResNet18 retraining
+
+The follow-up updates student BN statistics on event inputs and, where indicated, uses the common QCFS ANN as a frozen teacher. The runs use T=4, the original QCFS source for each L, 160 epochs over the same 1,176 training samples, and the official 288-sample test split. The original 20 ATan comparisons retain their original recipes and endpoints.
+
+| L | Recipe and endpoint | Full J | Control |
+|---|---|---:|---:|
+| 2 | Adaptive BN, CE, epoch 160 | 90.63% (261/288) | Triangular 90.63% (261/288) |
+| 4 | Adaptive BN, CE, epoch 160 | 90.97% (262/288) | ATan 91.67% (264/288) |
+| 4 | Adaptive BN, CE+KD, epoch 160 | 91.67% (264/288) | ATan 92.36% (266/288) |
+| 4 | CE+KD rerun, unaveraged epoch 160 | 92.36% (266/288) | ATan 92.36% (266/288) |
+| 4 | CE+KD rerun, predeclared epoch 101–160 weight average | 91.67% (264/288) | ATan 92.36% (266/288) |
+
+In the rerun, unaveraged J reached 92.36% at epoch 80 versus 91.67% for ATan at the same epoch. This is an intermediate comparison. At epoch 100 and at the unaveraged epoch 160 endpoint, both scored 92.36%. The predeclared average uses a single model and scored two samples below the ATan endpoint. The saved epoch 80, 100 and 160 checkpoints and the averaged model were independently re-evaluated.
+
+[Endpoint and intermediate results](supplements/dvs128_r18_retraining/results.csv) · [Training histories and checkpoint re-evaluations](evidence_packed/dvs128_r18_retraining_20261127.jsonl)
 
 ## ResNet18 CE+KD on CIFAR100
 

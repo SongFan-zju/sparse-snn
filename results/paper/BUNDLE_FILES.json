@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "FILE_MANIFEST.json",
-      "sha256": "058914e57f64bc5b395cd170198ef3dda21f68f01f94d43e95044a24a340b417",
-      "bytes": 996724
+      "sha256": "877a49db8d3d39269c89d5c6d978fe2525dd3d2a7a47ad2287c0edd2f9ea5d33",
+      "bytes": 1034946
     },
     {
       "path": "HASH_EVIDENCE.json",
-      "sha256": "78b7e90df07057f044cb29ea8d8218e1980799fccc5ff96feede4e37c7c54fcb",
-      "bytes": 462225
+      "sha256": "3ece44fe441615610bd8efb8345b3876d09dbb4c19de6dd41a3e4f51a941dbe4",
+      "bytes": 467222
     },
     {
       "path": "IMPLEMENTATION_VARIANTS.json",
@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "ba5682c731b6bd0b9bc25e3cae818633b7bf2bb995b6fee7758bf3d2a971458d",
-      "bytes": 7794
+      "sha256": "74601aa5467032350e35d911404ca9abe358b10110eb4fe77e700df6c355e66d",
+      "bytes": 9279
     },
     {
       "path": "RESULTS_TABLE.csv",
@@ -43,8 +43,8 @@
     },
     {
       "path": "VALIDATION.json",
-      "sha256": "03152bc5a6b930f143128295339abdfd03f6e90887b063a4a15c2f36e5609548",
-      "bytes": 1265
+      "sha256": "666eae468ecbf2cfbaa7e6400e62fc6d837382e8da0c35ac600b7cc0d3f8602e",
+      "bytes": 1588
     },
     {
       "path": "ablations/atan/results.csv",
@@ -75,6 +75,11 @@
       "path": "evidence_packed/dimp18_tracking_full_20261119.jsonl",
       "sha256": "9efa29cc7d1c93e284a99b4d02d140ae29cdc4c7ca5b5a6346b408b651d2da04",
       "bytes": 149505
+    },
+    {
+      "path": "evidence_packed/dvs128_r18_retraining_20261127.jsonl",
+      "sha256": "784855402c6c162860188e75f348ef3bb592d49d900abc1ec308156db5073c5f",
+      "bytes": 413002
     },
     {
       "path": "evidence_packed/dvs128_resnet_20261118.jsonl",
@@ -185,6 +190,11 @@
       "path": "splits/tiny_imagenet_metadata.json",
       "sha256": "ebf9b415f77cd36e3bc9551c16db9af6fd09da13bd1d82c8b9d46a31e161edd6",
       "bytes": 8260
+    },
+    {
+      "path": "supplements/dvs128_r18_retraining/results.csv",
+      "sha256": "0521f451051611570cd8bf00584bf218c131c943bc5b3c41c1a96d635db75b52",
+      "bytes": 1017
     },
     {
       "path": "supplements/r18_ce_kd/results.csv",

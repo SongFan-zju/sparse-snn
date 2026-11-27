@@ -10215,6 +10215,116 @@
       "evidence": "results/r18_kd50k_20261127/candidate/summary.json",
       "field": "/checkpoint_sha256",
       "sha256": "63ac10dc182676f0dcbe6579edd54f283e08c390400b3b9836d2b1b0346f5836"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_density_adaptive_bn.json",
+      "field": "/source_sha256",
+      "sha256": "4eaaeeba1f4759bb8b661c3d5cae130aa4988c1531dfaecf375a6bec9b5ab4e9"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_density_adaptive_bn.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_density_adaptive_bn.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "0893eec06becd5a6feac9554d6690a86b78d8ef7aac383fd3b6028f47d362d19"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_triangular_adaptive_bn.json",
+      "field": "/source_sha256",
+      "sha256": "4eaaeeba1f4759bb8b661c3d5cae130aa4988c1531dfaecf375a6bec9b5ab4e9"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_triangular_adaptive_bn.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L2_T4_triangular_adaptive_bn.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "8b3318a62b3b11bf08139bc644a9afdd54e9608474f845383baf067743a55a07"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_density_adaptive_bn.json",
+      "field": "/source_sha256",
+      "sha256": "0936d7d279302cebd813ee2728ccd0daa9f7a8d11994d5b447ab51f0840d0ef3"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_density_adaptive_bn.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_density_adaptive_bn.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "02902ae1023e92ef199a142aa78ddcc8edebf19c9ffbd593438a12c5285b6c5a"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_atan_adaptive_bn.json",
+      "field": "/source_sha256",
+      "sha256": "0936d7d279302cebd813ee2728ccd0daa9f7a8d11994d5b447ab51f0840d0ef3"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_atan_adaptive_bn.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_bn_retrain_20261127/metrics/L4_T4_atan_adaptive_bn.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "a223108fd277b2e2467c2ab3504b0b55eb1e3ee6ac6950ebea00f1fda9adae39"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_density_adaptive_bn_kd.json",
+      "field": "/source_sha256",
+      "sha256": "0936d7d279302cebd813ee2728ccd0daa9f7a8d11994d5b447ab51f0840d0ef3"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_density_adaptive_bn_kd.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_density_adaptive_bn_kd.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "b8061b4d683dac72e5cd3fa4996ffccffd62e6cc0ba172d3c0b754c382c6652c"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_atan_adaptive_bn_kd.json",
+      "field": "/source_sha256",
+      "sha256": "0936d7d279302cebd813ee2728ccd0daa9f7a8d11994d5b447ab51f0840d0ef3"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_atan_adaptive_bn_kd.json",
+      "field": "/manifest_sha256",
+      "sha256": "74b61f78fdf63050b2aab734b56f138270149621df3a01b7e32c09b27cfda093"
+    },
+    {
+      "evidence": "results/dvs128_r18_kd_retrain_20261127/metrics/L4_T4_atan_adaptive_bn_kd.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "bed48e7990863e1f2799ef6b0bfb9ac9669ce53a71f3bb02c93d71c6659b9708"
+    },
+    {
+      "evidence": "results/dvs128_r18_j_average_20261127/checkpoint_reevaluation.json",
+      "field": "/0/sha256",
+      "sha256": "1b450802105fe40415be26107dcbf78e44189c441fd6b37cac112aaaad989c5e"
+    },
+    {
+      "evidence": "results/dvs128_r18_j_average_20261127/checkpoint_reevaluation.json",
+      "field": "/1/sha256",
+      "sha256": "d0386a2545bb55a2dd6ce7c30369e3a63b8a4ba5082470f3c7f9ea52956ce79b"
+    },
+    {
+      "evidence": "results/dvs128_r18_j_average_20261127/checkpoint_reevaluation.json",
+      "field": "/2/sha256",
+      "sha256": "bcfee0f3c4f23a2cea7de7ca51571356a5a1980606a5f50121b0d05422d2dc65"
+    },
+    {
+      "evidence": "results/dvs128_r18_j_average_20261127/checkpoint_reevaluation.json",
+      "field": "/3/sha256",
+      "sha256": "3e60688a520ae0b586d028bd978db8c20aa6bf6c5804c691226f1a40a30b0374"
     }
   ]
 }
