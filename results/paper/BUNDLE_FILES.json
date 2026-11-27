@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a4b631dfd9ac37ecf53e87590c30a73a5be19d769d6a27e649c350e361bda751",
-      "bytes": 9279
+      "sha256": "ea841eb6c6cb1fdb713e9e25d4dbb86cd85bb3acbbb82716814c5ca020f3bd10",
+      "bytes": 10983
     },
     {
       "path": "RESULTS_TABLE.csv",
@@ -60,6 +60,26 @@
       "path": "ablations/column_sum/results.csv",
       "sha256": "cd71d9177000e400b520e974a5c2023f924f5a8ccc752e3c0ff66aa7e004baf8",
       "bytes": 278
+    },
+    {
+      "path": "ablations/temporal_credit/accuracy.csv",
+      "sha256": "f29fda3b99f209e15bb7d0c1fa8e1f86e05d885a3d4ced0d88d0e71902d6df02",
+      "bytes": 2532
+    },
+    {
+      "path": "ablations/temporal_credit/evidence.json",
+      "sha256": "7264fffffec1aa50343e8d6e927c5238824f34d9262e2e7e9ef53b38084e9f4b",
+      "bytes": 36867
+    },
+    {
+      "path": "ablations/temporal_credit/gradient_alignment.csv",
+      "sha256": "56eea1fde94194a0a0355825b2824e2b0692419bc80d06d24e4ed64c0dba6f63",
+      "bytes": 1254
+    },
+    {
+      "path": "ablations/temporal_credit/weight_updates.csv",
+      "sha256": "780fe933c0b1e5fd31b8a9bedaa0aefaaba8cfe5b09525f7f27e81dda06edd65",
+      "bytes": 5435
     },
     {
       "path": "evidence_packed/atan_comparison_20261126.jsonl",

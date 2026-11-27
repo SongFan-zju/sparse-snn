@@ -1,0 +1,13 @@
+checkpoint,weight,pair,inner_product,cosine
+full_J,source.layer1.0.conv1.weight,full_J_vs_diagonal_M,0.013668057668022895,0.9792999368552291
+full_J,source.layer1.0.conv1.weight,full_J_vs_triangular,0.013633686574659284,0.9859746124944443
+full_J,source.layer1.0.conv1.weight,diagonal_M_vs_triangular,0.014200318033012395,0.9519615156663067
+full_J,source.layer3.2.conv1.weight,full_J_vs_diagonal_M,0.06118809059479832,0.9981389635521993
+full_J,source.layer3.2.conv1.weight,full_J_vs_triangular,0.08038915471404176,0.9696386392782269
+full_J,source.layer3.2.conv1.weight,diagonal_M_vs_triangular,0.08120938323780212,0.9622744579622141
+triangular,source.layer1.0.conv1.weight,full_J_vs_diagonal_M,0.009402586803922891,0.9381438033175012
+triangular,source.layer1.0.conv1.weight,full_J_vs_triangular,0.009175000278548718,0.9777694361865608
+triangular,source.layer1.0.conv1.weight,diagonal_M_vs_triangular,0.009673808585587019,0.9083009322134009
+triangular,source.layer3.2.conv1.weight,full_J_vs_diagonal_M,0.10996012713134856,0.997410033217096
+triangular,source.layer3.2.conv1.weight,full_J_vs_triangular,0.13749838892399782,0.9556173715319117
+triangular,source.layer3.2.conv1.weight,diagonal_M_vs_triangular,0.13827318077068237,0.9445646922947846

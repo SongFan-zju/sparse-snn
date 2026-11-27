@@ -84,3 +84,23 @@ Accuracy is Top-1 in percent after 160 fine-tuning epochs. Each pair shares the 
 CIFAR10-DVS M reached 73.30% at epoch 140 and finished at 62.00% at the fixed epoch 160 endpoint. An independent full test reproduced 62.00%, and checks on sampled currents from 19 activation sites matched the explicit column sums and the implemented backward. The cause of the late decline remains undetermined. The two endpoint gaps measure the effect of replacing J with this control under the recorded recipes.
 
 [Results CSV](ablations/column_sum/results.csv) · [Train and test binding evidence](ablations/column_sum/evidence.json)
+
+## Temporal credit ablations at T=4
+
+The temporal-window and sign ablations use signed ECL inference and preserve the column sums of the local Jacobian. The temporal window keeps entries up to the named number of subsequent steps. The sign ablation removes only negative cross-time entries. Both place removed entries on the diagonal of their original input column.
+
+| Method | CIFAR-100 / ResNet18 | CIFAR10-DVS / ResNet20 |
+|---|---:|---:|
+| Diagonal M | 1.00 | 62.00 |
+| Next one step | 77.27 | 75.70 |
+| Next two steps | 78.27 | 74.70 |
+| Full J | 78.40 | 76.20 |
+| Negative cross-time terms removed | 78.86 | 74.70 |
+| Triangular BPTT | — | 72.50 |
+
+Accuracy is Top-1 (%) after 160 epochs with a shared source within each dataset. CIFAR-100 uses the official 10,000-image test set. CIFAR10-DVS uses the fixed 1,000-sample held-out split. The direct CIFAR-100 ECL conversion from the same source scored 78.96%.
+The CIFAR-100 diagonal M run fell to 2.10% at epoch 20 and reached 1.00% at the fixed endpoint. An independent check matched the source, training order, hard forward and diagonal backward.
+
+The weight-direction probe uses one early and one late convolution in each of the two final CIFAR10-DVS checkpoints. It fixes the downstream gradient and measures the hard-forward cross-entropy on the held-out split after each normalized one-layer update. Complete training results are reported above.
+
+[Accuracy and checkpoint hashes](ablations/temporal_credit/accuracy.csv) · [Weight-gradient alignment](ablations/temporal_credit/gradient_alignment.csv) · [Single-update results](ablations/temporal_credit/weight_updates.csv) · [Evaluation evidence](ablations/temporal_credit/evidence.json)
