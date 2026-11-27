@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-27T01:40:40.322904+00:00",
+  "generated_utc": "2026-11-27T12:48:54.219413+00:00",
   "policy": "fixed final endpoints only; paper references stay in raw comparisons; negative/flat results retained",
   "rows": [
     {
@@ -394,14 +394,14 @@
       "QCFS_direct": null,
       "ECL_direct": 73.87,
       "triangular": 75.18,
-      "new_gradient": 75.54,
-      "delta_vs_triangular": 0.35999999999999943,
-      "delta_vs_direct_ECL": 1.6700000000000017,
+      "new_gradient": 76.93,
+      "delta_vs_triangular": null,
+      "delta_vs_direct_ECL": 3.06,
       "epochs": 160,
       "endpoint": "fixed_final_epoch",
       "source_sha256": "cee1de56b51cf92037480bdeb346dc593fb90f448e681d3d1471e97e691b3634",
-      "evidence": "results/vgg16_binary_phase_20261117/all_comparison.json",
-      "notes": "",
+      "evidence": "results/vgg16_c100_l2t2_kd_20261127/candidate/test_epoch160.json",
+      "notes": "Full J uses all 50000 CIFAR100 training images and CE+KD with a frozen ResNet18 teacher. The triangular score is from the earlier 42000-image CE recipe.",
       "actual_new_gradient_method": "phase_triangular_density",
       "implementation_variant": "closed_form_triangular_density_phase_T2",
       "forward_definition": "standard signed binary ECL; positive >theta; negative <=-0.001 only when cumulative_count>0; q0=0.5; one signed event per tick",

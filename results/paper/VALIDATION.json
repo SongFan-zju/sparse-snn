@@ -1,10 +1,10 @@
 {
   "status": "passed",
   "containers": 21,
-  "records": 1101,
-  "source_manifest_entries": 1155,
-  "full_epoch_histories": 120,
-  "epoch_records": 19482,
+  "records": 1105,
+  "source_manifest_entries": 1159,
+  "full_epoch_histories": 121,
+  "epoch_records": 19642,
   "pending_pairs": 0,
   "original_source_hashes_preserved": true,
   "training_or_GPU_work": false,
@@ -41,5 +41,13 @@
       80,
       100
     ]
+  },
+  "vgg16_l2_t2_kd_update": {
+    "checked_utc": "2026-11-27T12:48:54.219413+00:00",
+    "rows_updated": 1,
+    "official_test_count": 10000,
+    "epoch": 160,
+    "training_images": 8000000,
+    "checkpoint_hash_verified": true
   }
 }

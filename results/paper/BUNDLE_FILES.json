@@ -3,13 +3,13 @@
   "files": [
     {
       "path": "FILE_MANIFEST.json",
-      "sha256": "877a49db8d3d39269c89d5c6d978fe2525dd3d2a7a47ad2287c0edd2f9ea5d33",
-      "bytes": 1034946
+      "sha256": "b26de1f0725004293d1e7029e838f155a6c8b8380a80244d69c09b03cbe0b2a8",
+      "bytes": 1037974
     },
     {
       "path": "HASH_EVIDENCE.json",
-      "sha256": "3ece44fe441615610bd8efb8345b3876d09dbb4c19de6dd41a3e4f51a941dbe4",
-      "bytes": 467222
+      "sha256": "0cfef62fb65c226e5642c24e5197c7e0fb5434ce38fe270ba4a9a269ee390977",
+      "bytes": 468086
     },
     {
       "path": "IMPLEMENTATION_VARIANTS.json",
@@ -23,18 +23,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "74601aa5467032350e35d911404ca9abe358b10110eb4fe77e700df6c355e66d",
+      "sha256": "a4b631dfd9ac37ecf53e87590c30a73a5be19d769d6a27e649c350e361bda751",
       "bytes": 9279
     },
     {
       "path": "RESULTS_TABLE.csv",
-      "sha256": "887797e78ce7796b8b7b1f1b0a0340f18aef8a5e9421a17fc10ab887038148e0",
-      "bytes": 28569
+      "sha256": "81b4613c9727eb886f3882e474d59db06ee640d365547ac5f4ec7d842ac1e22a",
+      "bytes": 28697
     },
     {
       "path": "RESULTS_TABLE.json",
-      "sha256": "87dd9e2fb5c14930d7879d388662018b6af7269525b75e31ab347cd904cdb46a",
-      "bytes": 53332
+      "sha256": "55eb030ace47c4c63a460e56450be1bda2cae0b15bccc17a52afa004999ec7f4",
+      "bytes": 53464
     },
     {
       "path": "SCOPE_AND_GAPS.json",
@@ -43,8 +43,8 @@
     },
     {
       "path": "VALIDATION.json",
-      "sha256": "666eae468ecbf2cfbaa7e6400e62fc6d837382e8da0c35ac600b7cc0d3f8602e",
-      "bytes": 1588
+      "sha256": "0e991bf0af74c882d949bf450bc45883cd12c58f3a3a0f1ce31da94c4ea9a348",
+      "bytes": 1821
     },
     {
       "path": "ablations/atan/results.csv",
@@ -148,8 +148,8 @@
     },
     {
       "path": "evidence_packed/vgg16_binary_phase_20261117.jsonl",
-      "sha256": "16a7120cdae3c9c20d36a3f09434873b049cb9d3475d37ea503665cea8fef9a8",
-      "bytes": 321399
+      "sha256": "5d437ac89846aa51d082b62a1ffffaf6285b216871fa1794bf02fdde30af4126",
+      "bytes": 377351
     },
     {
       "path": "evidence_packed/vistream_context_grad_20261118.jsonl",

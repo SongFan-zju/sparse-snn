@@ -10325,6 +10325,26 @@
       "evidence": "results/dvs128_r18_j_average_20261127/checkpoint_reevaluation.json",
       "field": "/3/sha256",
       "sha256": "3e60688a520ae0b586d028bd978db8c20aa6bf6c5804c691226f1a40a30b0374"
+    },
+    {
+      "evidence": "results/vgg16_c100_l2t2_kd_20261127/candidate/config.json",
+      "field": "/inputs/teacher_sha256",
+      "sha256": "7bd716f9db1ed59c8dae012aaa91135b0e51a68a084d63a39865429cd96962fe"
+    },
+    {
+      "evidence": "results/vgg16_c100_l2t2_kd_20261127/candidate/config.json",
+      "field": "/inputs/source_sha256",
+      "sha256": "cee1de56b51cf92037480bdeb346dc593fb90f448e681d3d1471e97e691b3634"
+    },
+    {
+      "evidence": "results/vgg16_c100_l2t2_kd_20261127/candidate/config.json",
+      "field": "/inputs/split_sha256",
+      "sha256": "b5d698b1f76d601f95444f3f972813957776ef3543ca9b4235573cc57ae57ba6"
+    },
+    {
+      "evidence": "results/vgg16_c100_l2t2_kd_20261127/candidate/test_epoch160.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "3f10ccaa7efe868d25f6efed2076117d4409f2134a087cad751c4a9674482e7d"
     }
   ]
 }
