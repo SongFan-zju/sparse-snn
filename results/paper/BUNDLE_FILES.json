@@ -3,18 +3,18 @@
   "files": [
     {
       "path": "FILE_MANIFEST.json",
-      "sha256": "0f0074f26f02dead6ae6f76c1e175fc606d70a5b79297471565a40568772c544",
-      "bytes": 862583
+      "sha256": "658b22f2994e20e1de29429c47ab67794116b3b77cc565c022a69cf16f95eecd",
+      "bytes": 900155
     },
     {
       "path": "HASH_EVIDENCE.json",
-      "sha256": "6942d08b1546d6430be3f494204c3fe6e48eab460a966d3455157b736062790c",
-      "bytes": 448551
+      "sha256": "f665c0bbdd6089c6f2aca9f307912e3fe022351efa221d00190e85a96d3f653a",
+      "bytes": 452211
     },
     {
       "path": "IMPLEMENTATION_VARIANTS.json",
-      "sha256": "f61b7d98783863a21bc6ca209f6dbf338f034c3f6978e427ee0711d894ec2121",
-      "bytes": 25870
+      "sha256": "9376138b7dd6d6b1c4dd3fd887f598d0ebcb90cfd0622918b107029671c31f85",
+      "bytes": 26170
     },
     {
       "path": "PENDING.json",
@@ -23,18 +23,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "abbe7826f858a93e1973ace4963e18147c0d11bca08945e7f40129dc17e5cba5",
-      "bytes": 4924
+      "sha256": "34320084ffc6db5b2709de306610f702127c816f59d0e968b959aeef00c10954",
+      "bytes": 5629
     },
     {
       "path": "RESULTS_TABLE.csv",
-      "sha256": "6ff743c1c1ec8929a1d1b87ab2e69981420f3176e40fed1d8bce438994b471a0",
-      "bytes": 27366
+      "sha256": "887797e78ce7796b8b7b1f1b0a0340f18aef8a5e9421a17fc10ab887038148e0",
+      "bytes": 28569
     },
     {
       "path": "RESULTS_TABLE.json",
-      "sha256": "c7739812b48bb7e1e94ed33aac54544ad3832027fdf84a7fdfa2814777769a8e",
-      "bytes": 52213
+      "sha256": "87dd9e2fb5c14930d7879d388662018b6af7269525b75e31ab347cd904cdb46a",
+      "bytes": 53332
     },
     {
       "path": "SCOPE_AND_GAPS.json",
@@ -43,8 +43,8 @@
     },
     {
       "path": "VALIDATION.json",
-      "sha256": "8514aabfe8adbb0ea13ceb55895307a7231703bc3b8f43e1a9b3b6b2522516da",
-      "bytes": 466
+      "sha256": "cd2ab6f3aa9a504f0ea4900c70a061ba33007512b86b5b4ddf277a47643e0bc6",
+      "bytes": 947
     },
     {
       "path": "ablations/column_sum/evidence.json",
@@ -110,6 +110,11 @@
       "path": "evidence_packed/shared_configs.jsonl",
       "sha256": "1984a10c4ffd2fd38680bd9b515a36e0d16d495278cce67cac9f252497e64fde",
       "bytes": 289095
+    },
+    {
+      "path": "evidence_packed/table1_completion_20261126.jsonl",
+      "sha256": "47b36d0111cbbfd278719576b7b561fc9e1e6f0a31c7d7817e2c947b1e900358",
+      "bytes": 456973
     },
     {
       "path": "evidence_packed/tiny_imagenet_ecl_20261119.jsonl",

@@ -6,13 +6,26 @@ All currently included experiment rows have their recorded final endpoints. No p
 
 CIFAR100 uses official 10000-image test metrics; CIFAR10-DVS uses fixed local9000/1000 membership; DVS128 Gesture uses official trials_to_train/test. Tiny-ImageNet-200 uses official labeled10000-image validation, not ImageNet-1K test. VOC2007 uses official4952-image test and11pointAP50. Both tracking tasks use local MOT16 held-out protocols: ViStream HOTA and DiMP AO are separate metrics and cannot be compared directly. ViStream's truncated ResNet50 is a preserved historical supplementary negative result. T15 and retired R50 classification/Transformer experiments are excluded from the new main results.
 
-`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All83 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
+`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All 91 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
 
 To retrieve a file, find its entry in `FILE_MANIFEST.json`, read the JSONL container at `bundle_path`, and select the line whose `path` equals `record_path`. Decode `text` as UTF-8. Its SHA256 must equal `content_sha256`; the container SHA256 must equal `bundle_sha256`. Each manifest entry also preserves the original raw `source_sha256`, source identifier, category and prior text-normalization details. Repeated identical exported files can share one record. Packing changes no numeric evidence or raw source hashes.
 
 `IMPLEMENTATION_VARIANTS.json` records actual closed-formT2, horizon-recurrence, nativeFast-SNN and bounded historical variants, forward definitions and code SHA evidence. Coincident-boundary tie conventions can differ; uniform-phase and M3 variants are not relabeled as the current method. `HASH_EVIDENCE.json` preserves recorded source/checkpoint/split hashes. `splits/` preserves all DVS membership and interval labels plus original manifest hashes; Tiny uses official split metadata and its full-manifest hash. Model/data bytes and per-frame predictions are excluded.
 
 `VALIDATION.json` records the CPU packing checks. `BUNDLE_FILES.json` records hashes of all public files except itself. This handoff contains result evidence and does not require the original workstation directory to read.
+
+## CIFAR100 T=4 table supplement
+
+Each pair uses the same QCFS source, the fixed training split of 42,000 images and 160 fine-tuning epochs. Accuracy is Top-1 (%) on the official 10,000-image test set at epoch 160.
+
+| Backbone | L | Direct ECL | Triangular BPTT | Full J | J − triangular (pp) |
+|---|---:|---:|---:|---:|---:|
+| ResNet34 | 2 | 77.62 | 79.23 | **80.31** | +1.08 |
+| ResNet34 | 4 | 78.03 | 79.05 | **80.50** | +1.45 |
+| VGG16 | 2 | 76.24 | 76.33 | **77.29** | +0.96 |
+| VGG16 | 4 | 76.56 | 76.63 | **77.47** | +0.84 |
+
+[Updated results table](RESULTS_TABLE.csv) · [Configurations, checkpoint hashes, endpoint tests and epoch histories](evidence_packed/table1_completion_20261126.jsonl)
 
 ## Column-sum ablation
 

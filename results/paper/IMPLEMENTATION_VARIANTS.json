@@ -66,12 +66,12 @@
       "architecture": "vgg16",
       "L": 2,
       "T": 4,
-      "actual_new_gradient_method": "hard_direct",
-      "implementation_variant": "direct_conversion_no_surrogate_training",
+      "actual_new_gradient_method": "phase_triangular_density",
+      "implementation_variant": "triangular_density_horizon_origin_recurrence",
       "forward_definition": "standard signed binary ECL; positive >theta; negative <=-0.001 only when cumulative_count>0; q0=0.5; one signed event per tick",
       "implementation_code": "src/conversion/triangular_density_horizon.py",
-      "implementation_sha256": null,
-      "implementation_evidence": "see saved chain check; frozen implementation hash not yet located"
+      "implementation_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "implementation_evidence": "results/table1_completion_20261126/executed_code_hashes.json"
     },
     {
       "dataset": "CIFAR100",
@@ -90,12 +90,12 @@
       "architecture": "vgg16",
       "L": 4,
       "T": 4,
-      "actual_new_gradient_method": "hard_direct",
-      "implementation_variant": "direct_conversion_no_surrogate_training",
+      "actual_new_gradient_method": "phase_triangular_density",
+      "implementation_variant": "triangular_density_horizon_origin_recurrence",
       "forward_definition": "standard signed binary ECL; positive >theta; negative <=-0.001 only when cumulative_count>0; q0=0.5; one signed event per tick",
       "implementation_code": "src/conversion/triangular_density_horizon.py",
-      "implementation_sha256": null,
-      "implementation_evidence": "see saved chain check; frozen implementation hash not yet located"
+      "implementation_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "implementation_evidence": "results/table1_completion_20261126/executed_code_hashes.json"
     },
     {
       "dataset": "CIFAR100",
@@ -114,12 +114,12 @@
       "architecture": "resnet34",
       "L": 2,
       "T": 4,
-      "actual_new_gradient_method": "hard_direct",
-      "implementation_variant": "direct_conversion_no_surrogate_training",
+      "actual_new_gradient_method": "phase_triangular_density",
+      "implementation_variant": "triangular_density_horizon_origin_recurrence",
       "forward_definition": "standard signed binary ECL; positive >theta; negative <=-0.001 only when cumulative_count>0; q0=0.5; one signed event per tick",
       "implementation_code": "src/conversion/triangular_density_horizon.py",
-      "implementation_sha256": null,
-      "implementation_evidence": "see saved chain check; frozen implementation hash not yet located"
+      "implementation_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "implementation_evidence": "results/table1_completion_20261126/executed_code_hashes.json"
     },
     {
       "dataset": "CIFAR100",
@@ -138,12 +138,12 @@
       "architecture": "resnet34",
       "L": 4,
       "T": 4,
-      "actual_new_gradient_method": "hard_direct",
-      "implementation_variant": "direct_conversion_no_surrogate_training",
+      "actual_new_gradient_method": "phase_triangular_density",
+      "implementation_variant": "triangular_density_horizon_origin_recurrence",
       "forward_definition": "standard signed binary ECL; positive >theta; negative <=-0.001 only when cumulative_count>0; q0=0.5; one signed event per tick",
       "implementation_code": "src/conversion/triangular_density_horizon.py",
-      "implementation_sha256": null,
-      "implementation_evidence": "see saved chain check; frozen implementation hash not yet located"
+      "implementation_sha256": "acd80cd12adabb9f279a61504fd5e32b601e6ba63ea3386b0e39f08ce5f17b01",
+      "implementation_evidence": "results/table1_completion_20261126/executed_code_hashes.json"
     },
     {
       "dataset": "CIFAR10-DVS",

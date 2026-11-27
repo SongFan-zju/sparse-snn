@@ -1,13 +1,25 @@
 {
   "status": "passed",
-  "scope": "Lossless CPU text packing, all record/content/container/raw-source hashes, complete epoch text, unchanged result tables, no model/data/log/script/symlink files",
-  "containers": 17,
-  "records": 890,
-  "source_manifest_entries": 944,
-  "full_epoch_histories": 83,
-  "epoch_records": 13602,
+  "containers": 18,
+  "records": 935,
+  "source_manifest_entries": 989,
+  "full_epoch_histories": 91,
+  "epoch_records": 14882,
   "pending_pairs": 0,
   "original_source_hashes_preserved": true,
-  "result_tables_byte_identical": true,
-  "training_or_GPU_work": false
+  "training_or_GPU_work": false,
+  "initial_packaging_scope": "Lossless CPU text packing, all record/content/container/raw-source hashes, complete epoch text, unchanged result tables, no model/data/log/script/symlink files",
+  "initial_result_tables_byte_identical": true,
+  "scope": "Historical packing verification plus the four CIFAR100 T4 checkpoint-bound endpoints",
+  "cifar100_t4_supplement": {
+    "checked_utc": "2026-11-27T01:40:40.322904+00:00",
+    "matched_pairs": 4,
+    "training_histories": 8,
+    "epochs_each": 160,
+    "official_test_images": 10000,
+    "checkpoint_hashes_verified": 8,
+    "completed_rows_updated": 4,
+    "csv_and_json_use_same_endpoint_values": true,
+    "added_evidence_records": 45
+  }
 }
