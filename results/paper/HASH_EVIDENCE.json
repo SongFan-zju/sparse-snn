@@ -9985,6 +9985,236 @@
       "evidence": "results/table1_completion_20261126/cases/cifar100_vgg16_L4_T4_density/test_epoch160.json",
       "field": "/checkpoint_sha256",
       "sha256": "5e34ace94434e65c4b7a8a2f95d632d49b4323a412c2f936428de296f4fde1a2"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet18_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "b0b4fa1d300cc05a3a46185dae0be8346b0f4ba9a65fa76e517e672a09b2c359"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet18_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "570bee855f580324f4893c22399442c817372edff688f1f2f1ef69bf1e92661d"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet18_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "f5af9ca3b7c3045bcda3cbc42a9ab4fd6e5adc2596db3a1336cf022480480414"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet18_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "a2ae4e46b83c9b454dd37ab353c312015f5861749aab5743496fb2819e1f923e"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet20_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "c2c70fcccb47ea2dd8b38cede9b12f724ad0eb66c235d3c022ffc653105ec294"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet20_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "1d6f63aaa728ae5eba768c32f732d28cf2946131d7f84c1ae43f338d194dad80"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet20_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "87e2b6d60ffef5676e84171720abcae9ce43036a225a3e906e7c9f341f06cbd3"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar10dvs_resnet20_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "58e99988018bc785fd6cb64a1cc1bb776882d110857c7210cae6816305ae0232"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L2_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "dd5d12a3993c68c58850705db9154351291c659a079f713b13e78a9f0b26a799"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L2_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "fdc06bc36429d750b5f15f9a787171c69d2527e0203b68e99b42b487166ba161"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "dd5d12a3993c68c58850705db9154351291c659a079f713b13e78a9f0b26a799"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "e0e5de93b0c3403ac0a17e12aafe8e9669b6e9bd6ca3c49237c657eff6717d85"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L4_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "82a4a1890a4f54209f2cc9b1c311b991e6afdcf46f3155628586ea8405c8bd7e"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L4_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "53c503c0ac8d6d729ef729c75b39f87c922a953c33ae88c23d87dc9e3e991bf9"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "82a4a1890a4f54209f2cc9b1c311b991e6afdcf46f3155628586ea8405c8bd7e"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet20_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "fdcdf579ccc34679d8f5bf903833dc1ae02493f19a6db268ccc408f74d1c364f"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L2_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "4d12a8141b5c808ec629439013cc602ce738624a2b29a68428c88d926830dec9"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L2_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "27fa118ded8adcfbd51570e6f62180f7854e40767ce3da1fcf83227d80244afc"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "4d12a8141b5c808ec629439013cc602ce738624a2b29a68428c88d926830dec9"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "de26c9579e4de99b03da6f120cec0c59d2f6b70bdc1eff14baba263828b576e5"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L4_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "89170e9f588cf2eea692b438311c569aa73714a74eece95bcaa94e983549195a"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L4_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "223429a8ba6476c3f4d56b6f79cb27daa09e5bfda80f22224c04428cc25820ee"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "89170e9f588cf2eea692b438311c569aa73714a74eece95bcaa94e983549195a"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_resnet34_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "bf5a24bf2a8b0af64107b560bb0b53b608c38171b3f29c74fbb6548307b87b3e"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L2_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "cee1de56b51cf92037480bdeb346dc593fb90f448e681d3d1471e97e691b3634"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L2_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "a64e23648c1682b07b30aea3432349e8f2841b62a77d96a8503fe1aaf41726c4"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "cee1de56b51cf92037480bdeb346dc593fb90f448e681d3d1471e97e691b3634"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "71bfb7e1fa6329a1be4f2e9f0fb4843ef54d707c2ad0ccb86daff4dcca44041b"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L4_T2_atan.json",
+      "field": "/source_sha256",
+      "sha256": "a23cbde15a4086af163d8b726c77fd80a157af36706e704fed8d2ce8357bbb57"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L4_T2_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "4340de90b1a03cd9194cb15ec38e9f5b7d29bcd8ffc1238bc4f00147a3f04385"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "a23cbde15a4086af163d8b726c77fd80a157af36706e704fed8d2ce8357bbb57"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/cifar100_vgg16_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "c35120e7f6145e736798f08389ca4813f5cf7ad002f2e7181ca03a17d1717d9b"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet18_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "4eaaeeba1f4759bb8b661c3d5cae130aa4988c1531dfaecf375a6bec9b5ab4e9"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet18_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "ba69ea00ee3adbdfdb59615e3c49a689b26fc8b7e74fd8308b3d6465db44bc63"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet18_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "0936d7d279302cebd813ee2728ccd0daa9f7a8d11994d5b447ab51f0840d0ef3"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet18_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "dbdb2d42e43ab1bd16b552d28c542309e636bc1c84373c82b9e886c69324ee81"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet20_L2_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "2d6cf5cfa6e447449fe1ee0ff264a8b23abd3da67822cc15e2455808bdc69a6a"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet20_L2_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "6fe418a832ae90460538316fd88ecad5d6b4bfa3223f18e517d86d5d391d43e1"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet20_L4_T4_atan.json",
+      "field": "/source_sha256",
+      "sha256": "0bc6a3e3bcd81de8c99f24a896823008e5a64a4806bf2a7867ab6366936301ef"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/metrics/dvs128_resnet20_L4_T4_atan.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "386308eca4b91ecf44071b2c4f37221e08142a82d2cd860cef569f84b76e840b"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/cases/cifar100_resnet18_L2_T2_ce_kd/config.json",
+      "field": "/source_sha256",
+      "sha256": "4f2a8237ae3c84ef20de490955cbccfc109763718066f09e6bd87a101ac1fe36"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/cases/cifar100_resnet18_L2_T2_ce_kd/config.json",
+      "field": "/teacher_sha256",
+      "sha256": "7bd716f9db1ed59c8dae012aaa91135b0e51a68a084d63a39865429cd96962fe"
+    },
+    {
+      "evidence": "results/atan_kd_20261126/cases/cifar100_resnet18_L2_T2_ce_kd/summary.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "a8ff6ff03aa422d38088ffda7f437a532f46400835a3d3cd6c7082de12466bd8"
+    },
+    {
+      "evidence": "results/r18_kd50k_20261127/candidate/config.json",
+      "field": "/source_sha256",
+      "sha256": "4f2a8237ae3c84ef20de490955cbccfc109763718066f09e6bd87a101ac1fe36"
+    },
+    {
+      "evidence": "results/r18_kd50k_20261127/candidate/config.json",
+      "field": "/teacher_sha256",
+      "sha256": "7bd716f9db1ed59c8dae012aaa91135b0e51a68a084d63a39865429cd96962fe"
+    },
+    {
+      "evidence": "results/r18_kd50k_20261127/candidate/summary.json",
+      "field": "/checkpoint_sha256",
+      "sha256": "63ac10dc182676f0dcbe6579edd54f283e08c390400b3b9836d2b1b0346f5836"
     }
   ]
 }

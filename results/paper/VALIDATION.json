@@ -1,16 +1,16 @@
 {
   "status": "passed",
-  "containers": 18,
-  "records": 935,
-  "source_manifest_entries": 989,
-  "full_epoch_histories": 91,
-  "epoch_records": 14882,
+  "containers": 20,
+  "records": 1055,
+  "source_manifest_entries": 1109,
+  "full_epoch_histories": 113,
+  "epoch_records": 18362,
   "pending_pairs": 0,
   "original_source_hashes_preserved": true,
   "training_or_GPU_work": false,
   "initial_packaging_scope": "Lossless CPU text packing, all record/content/container/raw-source hashes, complete epoch text, unchanged result tables, no model/data/log/script/symlink files",
   "initial_result_tables_byte_identical": true,
-  "scope": "Historical packing verification plus the four CIFAR100 T4 checkpoint-bound endpoints",
+  "scope": "Historical packing verification plus the CIFAR100 T4 pairs, 20 ATan endpoints and two ResNet18 CE+KD endpoints",
   "cifar100_t4_supplement": {
     "checked_utc": "2026-11-27T01:40:40.322904+00:00",
     "matched_pairs": 4,
@@ -21,5 +21,14 @@
     "completed_rows_updated": 4,
     "csv_and_json_use_same_endpoint_values": true,
     "added_evidence_records": 45
+  },
+  "atan_and_r18_kd_supplement": {
+    "checked_utc": "2026-11-27T08:13:59.066671+00:00",
+    "atan_pairs": 20,
+    "full_J_wins": 19,
+    "ce_kd_stages": 2,
+    "actual_checkpoint_hashes_verified": 22,
+    "reported_epoch_100_is_intermediate": true,
+    "added_evidence_records": 120
   }
 }

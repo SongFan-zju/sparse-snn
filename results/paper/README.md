@@ -6,7 +6,7 @@ All currently included experiment rows have their recorded final endpoints. No p
 
 CIFAR100 uses official 10000-image test metrics; CIFAR10-DVS uses fixed local9000/1000 membership; DVS128 Gesture uses official trials_to_train/test. Tiny-ImageNet-200 uses official labeled10000-image validation, not ImageNet-1K test. VOC2007 uses official4952-image test and11pointAP50. Both tracking tasks use local MOT16 held-out protocols: ViStream HOTA and DiMP AO are separate metrics and cannot be compared directly. ViStream's truncated ResNet50 is a preserved historical supplementary negative result. T15 and retired R50 classification/Transformer experiments are excluded from the new main results.
 
-`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All 91 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
+`evidence_packed/` contains one UTF-8 JSONL file per logical experiment group, plus shared configs and independent checks. Each line is an object with `path` (the original logical exported filename), `sha256` (SHA256 of the exact UTF-8 `text` bytes), and `text` (the complete exported file). All 113 epoch histories are preserved as full JSONL text inside their records, including intermediate results. Historical protocol status text can reflect an earlier time; the endpoint tables and final assessments define completion.
 
 To retrieve a file, find its entry in `FILE_MANIFEST.json`, read the JSONL container at `bundle_path`, and select the line whose `path` equals `record_path`. Decode `text` as UTF-8. Its SHA256 must equal `content_sha256`; the container SHA256 must equal `bundle_sha256`. Each manifest entry also preserves the original raw `source_sha256`, source identifier, category and prior text-normalization details. Repeated identical exported files can share one record. Packing changes no numeric evidence or raw source hashes.
 
@@ -26,6 +26,33 @@ Each pair uses the same QCFS source, the fixed training split of 42,000 images a
 | VGG16 | 4 | 76.56 | 76.63 | **77.47** | +0.84 |
 
 [Updated results table](RESULTS_TABLE.csv) · [Configurations, checkpoint hashes, endpoint tests and epoch histories](evidence_packed/table1_completion_20261126.jsonl)
+
+## ATan comparison
+
+The ATan baseline uses the standard slope $1/(1+\pi^2 z^2)$ for the threshold-normalized margin $z$, with $\alpha=2$. It uses the same signed hard forward, QCFS source, training images, fixed seed and 160 epochs as the corresponding comparison. The CSV records the actual batch and test split. [ATan definition](https://spikingjelly.readthedocs.io/zh-cn/latest/APIs/spikingjelly.activation_based.surrogate.html#spikingjelly.activation_based.surrogate.ATan)
+
+| Dataset | Test images per configuration | Full J wins over ATan | Full J − ATan (pp) |
+|---|---:|---:|---:|
+| CIFAR100, official test | 10,000 | 12/12 | +0.51 to +10.96 |
+| CIFAR10-DVS, fixed local test | 1,000 | 4/4 | +1.00 to +3.90 |
+| DVS128 Gesture, official test | 288 | 3/4 | −0.69 to +2.43 |
+
+On DVS128 Gesture / ResNet18 at L=4 and T=4, ATan classified 258/288 samples correctly (89.58%) and full J classified 256/288 correctly (88.89%).
+
+[All 20 ATan results](ablations/atan/results.csv) · [Training and evaluation evidence](evidence_packed/atan_comparison_20261126.jsonl)
+
+## ResNet18 CE+KD on CIFAR100
+
+Both stages use full J and standard signed ECL at L=2 and T=2, with a frozen ReLU teacher during training and updated student BN statistics. The original 42k CE recipe reached 77.23%. The first CE+KD recipe also changed the training batch and BN policy. The second stage continued from the first stage's SNN weights on all 50,000 official training images with a fresh optimizer.
+
+| Stage | Training images per epoch | Epochs in stage | Official test Top-1 | Difference from Xia Table 4 (pp) |
+|---|---:|---:|---:|---:|
+| CE+KD from QCFS | 42,000 | 160 | 77.94% | −0.58 |
+| CE+KD continuation | 50,000 | 120 | 78.13% | −0.39 |
+
+The continuation reached 78.56% at epoch 100 and finished at 78.13% at the fixed epoch 120 endpoint. Xia et al. reported 78.52% for ResNet18 at T=2 under their own training and conversion protocol. [Xia et al., Table 4](https://doi.org/10.1016/j.neucom.2026.132604)
+
+[Two fixed endpoints](supplements/r18_ce_kd/results.csv) · [Stage configurations, epoch histories and evaluation evidence](evidence_packed/r18_ce_kd_20261127.jsonl)
 
 ## Column-sum ablation
 
